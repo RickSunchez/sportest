@@ -1,0 +1,550 @@
+includes:
+	- shop.extra.php
+
+extensions:
+	shop: Shop\Core\Bridges\ShopExtension
+
+
+constants:
+	SHOP_CONFIG: true
+	SHOP_CODE_PREFIX: 'DF-'
+	SYSTEM_CURRENCY: RUB
+	ORDER_STATUS_NEW: 1
+	ORDER_STATUS_CONFIRMED: 2
+	ORDER_STATUS_PAID: 3
+	ORDER_STATUS_SEND: 4
+	ORDER_STATUS_MADE: 5
+	ORDER_STATUS_RETURN: 6
+	ORDER_STATUS_REMOVED: 7
+
+parameters:
+    product_select_list:
+        - shop_goods.goods_id
+        - shop_goods.name
+        - shop_goods.short_name
+        - shop_goods.url
+        - shop_goods.model
+        - shop_goods.article
+        - shop_goods.brief
+        - shop_goods.code
+        - shop_goods.value
+        - shop_goods.value_old
+        - shop_goods.value_of
+        - shop_goods.amount
+        - shop_goods.minimum
+        - shop_goods.maximum
+        - shop_goods.step
+        - shop_goods.weight
+        - shop_goods.cid
+        - shop_goods.unit_id
+        - shop_goods.vendor_id
+        - shop_goods.video_id
+    popular:
+        view: 1
+        add_cart: 20
+        delete_cart: -10
+        one_click: 50
+
+
+menu:
+	cabinet:
+		orders:
+			name: Магазин
+			links:
+				Мои заказы: [cabinet_order,[action=list]]
+
+	admin:
+		shop:
+			name: Магазин
+			links:
+				Яндекс Маркет: [admin_yml,[action=list]]
+				Заказы: [admin_order,[action=list]]
+				Категории: [admin_category,[action=list]]
+				Товар: [admin_goods,[action=list]]
+				Типы товаров: [admin_goods_type,[action=list]]
+				Группы товаров: [admin_product_collection,[action=list]]
+				Кол-ции групп товаров: [admin_collection,[action=list]]
+				Выборки товаров: [admin_line_product,[action=list]]
+				Характеристики: [admin_chara,[action=list]]
+				Единицы измерений: [admin_unit,[action=list]]
+				Производители: [admin_vendor,[action=list]]
+				Поставщики: [admin_provider,[action=list]]
+				Валюта: [admin_currency,[action=list]]
+				Отзывы к товарам: [admin_reviews,[action=list]]
+
+parser:
+	tags:
+		shop: \Shop\Core\Component\Snippet\Controls\ShopTag
+
+orm:
+#	Shop\Commodity\Entity\Goods:
+#		behaviors:
+#			multiCategoryBehavior: Shop\Catalog\Behaviors\MultiCategoryBehavior
+
+
+migration:
+	orm:
+		- Shop\Catalog\Entity\Category
+		- Shop\Catalog\Entity\CategoryMulti
+		- Shop\Catalog\Entity\CategoryMetaGoods
+		- Shop\Catalog\Entity\CategoryFilter
+		- Shop\Catalog\Entity\CategoryPopularProduct
+		- Shop\Catalog\Entity\Collection
+		- Shop\Catalog\Entity\Filter
+		- Shop\Commodity\Entity\Goods
+		- Shop\Commodity\Entity\TypeGoods
+		- Shop\Commodity\Entity\Section
+		- Shop\Commodity\Entity\Attribute
+		- Shop\Commodity\Entity\Vendor
+		- Shop\Commodity\Entity\Provider
+		- Shop\Commodity\Entity\Options\Item
+		- Shop\Commodity\Entity\Options\Variant
+		- Shop\Commodity\Entity\Options\Inventory
+		- Shop\Commodity\Entity\Characteristics
+		- Shop\Commodity\Entity\CharacteristicsGroup
+		- Shop\Commodity\Entity\CharacteristicsValues
+		- Shop\Commodity\Entity\CharacteristicsGoods
+		- Shop\Commodity\Entity\Review
+		- Shop\Commodity\Entity\Accompany
+		- Shop\Commodity\Entity\Collection
+		- Shop\Commodity\Entity\CollectionPackage
+		- Shop\Commodity\Entity\CollectionGoods
+		- Shop\Commodity\Entity\CollectionProduct
+		- Shop\Commodity\Entity\CollectionProductItem
+		- Shop\Commodity\Entity\LineProduct
+		- Shop\Commodity\Entity\LineProductItem
+		- Shop\Commodity\Entity\YmlGenerator
+		Shop\Commodity\Entity\Unit:
+			-
+				name: штук
+				abbr: шт.
+			-
+				name: килограмм
+				abbr: кг.
+			-
+				name: погонный метр
+				abbr: пог.м.
+			-
+				name: миллиметр
+				abbr: мм.
+			-
+				name: метр
+				abbr: м
+			-
+				name: метр квадратный
+				abbr: м²
+			-
+				name: метр кубический
+				abbr: м³
+			-
+				name: диамерт
+				abbr: '"'
+			-
+				name: литр
+				abbr: л.
+			-
+				name: грамм
+				abbr: гр.
+			-
+				name: миллиграмм
+				abbr: мг.
+			-
+				name: пара
+				abbr: пара
+			-
+				name: упаковка
+				abbr: уп.
+			-
+				name: комплект
+				abbr: компл.
+			-
+				name: час
+				abbr: час
+			-
+				name: день
+				abbr: день
+			-
+				name: смена
+				abbr: смена
+			-
+				name: человек
+				abbr: чел.
+			-
+				name: квадратный дециметр
+				abbr: дм²
+			-
+				name: рулон
+				abbr: рул.
+		- \Shop\Payment\Entity\Account
+		- \Shop\Store\Entity\Item
+		- \Shop\Store\Entity\Order
+		\Shop\Store\Entity\Currency:
+			-
+				code: RUB
+				name: Рубль
+				symbol_left:
+				symbol_right: &nbsp;руб.
+				decimal_place: 2
+				decimal_type: 0
+				value: 1
+				nominal: 1
+			-
+				code: USD
+				name: Доллар
+				symbol_left: $&nbsp;
+				symbol_right:
+				decimal_place: 2
+				decimal_type: 0
+				value: '56.52'
+				nominal: 1
+			-
+				code: EUR
+				name: Евро
+				symbol_left: €nbsp;
+				symbol_right:
+				decimal_place: 2
+				decimal_type:
+				value: '62.04'
+				nominal: 1
+		- \Shop\Store\Entity\Balance
+		- \Shop\Store\Entity\Cashflow
+		- \Shop\Store\Entity\Bill
+
+#sitemaps:
+#	\Shop\Catalog\Sitemaps\CatalogSitemaps:
+#		site: www
+#		router: shop_category_list
+#		type_id: 1
+#	\Shop\Catalog\Sitemaps\CollectionCatalogSitemaps:
+#		site: www
+#		router: shop_category_collection
+#		type_id: 1
+#	\Shop\Commodity\Sitemaps\GoodsSitemaps:
+#		site: www
+#		router: shop_goods
+#		type_id: 1
+
+
+
+webloader:
+	js:
+		admin:
+			files:
+				- common/df.shop.js
+				- controller/admin_shop.js
+		cabinet:
+			files:
+				- controller/cabinet_shop.js
+
+
+routing:
+	router:
+		Shop:
+			Catalog:
+				options:
+					host: www
+			Commodity:
+				options:
+					host: www
+			Payment:
+			Store:
+			Cabinet:
+			Admin:
+				options:
+					host: admin
+
+shop:
+	catalog: # Shop:Catalog
+		init: false
+		type:
+			1: #type_goods
+				page: 20
+				paginationRenderer:
+				router: category_list
+				first:
+					name: Каталог
+					router: [category]
+				layout:
+					catalog: index
+					nothing: index
+					goods: index
+					type: index
+				show:
+					types: false
+					images: true
+				view:
+					category: shop/category
+					goods: shop/goods
+
+	shop: # Shop:Shop
+		init: true
+		type:
+			1:
+				colletcion: false # первоначально показывать коллекции
+				page: 20
+				paginationRenderer:
+				router: shop_category_list
+				first:
+				    title:
+				    name: Магазин
+				    router: [shop_category]
+				layout:
+					collection: index
+					catalog: index
+					nothing: index
+					goods: index
+					type: index
+				show:
+					types: false
+					vendor: false
+					images: true
+					characteristics: false
+				view:
+					category: shop/category
+					goods: shop/goods
+					filter: shop/filters
+
+	commodity: # Shop:Commodity
+		type:
+			1: #type_goods
+				page: 20
+				paginationRenderer:
+				router: shop_category_list
+				first:
+					name: Магазин
+					router: [shop_category]
+				layout:
+					goods: index
+					collection: index
+					search: index
+				show:
+					types: false
+					images: true
+					sections: true
+					vendor: false
+					characteristics: false
+				view:
+					goods: shop/goods
+					option: shop/options
+		types:
+			1:
+				id: 1
+				name: Хит продаж
+			2:
+				id: 2
+				name: Новинки
+			3:
+				id: 3
+				name: Распродажа
+			4:
+				id: 4
+				name: Акции
+			5:
+				id: 5
+				name: Уцененный товар
+			6:
+				id: 6
+				name: До вас купили
+			7:
+				id: 7
+				name: Популярные товары
+	vendor:
+	    page: 20
+	    first:
+	        name: Производители
+	        router: [shop_brand_list]
+	    layout:
+	        show: index
+	        list: index
+	    view: shop/vendor
+	you_watched: 6 #кол-во просмотреных товаров
+	after_by:
+		limit: 6
+		type_id: 6
+	payment: #Shop:Payment
+		layout: index
+		robokassa:
+			login:
+			pass1:
+			pass2:
+			test: true
+			method: POST
+		yandex:
+			formcomment:
+			receiver:
+			secret:
+		sberbank:
+			login:
+			pass:
+			test:
+			method: POST
+	store:
+		minimum: 0 # минимальная стоимость заказа
+		order_auth: false #обезательно ли быть авторизованым при оформлении и просмотре заказа
+
+		currency:
+			init: true
+			code: RUB
+			decimal_point: '.'
+			thousand_point: &nbsp;
+
+		layout:
+			cart: index
+			order: index
+
+		#
+		# Order
+		# Статусы заказов
+		# ORDER_STATUS_* {type}
+		order:
+			status:
+				1:
+					id: 1
+					type: NEW
+					name: Новый
+					color:
+					callback: \Shop\Store\Component\Status\NewCallback
+					popular: 50
+				2:
+					id: 2
+					type: CONFIRMED
+					name: Подтвержден
+					color:
+					popular: 10
+				3:
+					id: 3
+					type: PAID
+					name: Оплачен
+					color:
+					popular: 50
+				4:
+					id: 4
+					type: SEND
+					name: Отправлен
+					color:
+					popular: 0
+				5:
+					id: 5
+					type: MADE
+					name: Выполнен
+					color:
+					popular: 50
+				6:
+					id: 6
+					type: RETURN
+					name: Возврат
+					color:
+					popular: 0
+				7:
+					id: 7
+					type: REMOVED
+					name: Удален
+					color:
+					popular: -30
+		#
+		# Cart
+		# все что касается оформления корзины
+		#
+		# Доставка
+		delivery_default: 1
+		delivery:
+			1:
+				id: 1
+				name: Самовывоз
+				desc: Самовывоз до 18:00
+				value: 0
+				status: true
+				type: \Shop\Store\Component\Cart\Delivery\Pickup
+			2:
+				id: 2
+				name: Курьером по Екатеринбургу
+				desc: Доставка курьером в пределах Екатеринбурга
+				value: 300
+				status: false
+				type: \Shop\Store\Component\Cart\Delivery\DeliveryToCity
+			3:
+				id: 3
+				name: Доставка
+				desc: Доставка в период с 10:00 до 21:00
+				value: 0
+				status: true
+				type: \Shop\Store\Component\Cart\Delivery\DeliveryToCity
+		#Города
+		city_default: 0
+		cities_type: \Shop\Store\Component\Cart\City\CityDefault
+		cities:
+#			1:
+#				id: 1
+#				name: Названия города
+#				value: 450
+#				points:
+#					1:
+#						id: 1
+#						address: 'Адрес'
+#						locations: [56.796299,60.61006]
+#						info: 'Информация'
+		#Способ оплаты
+		payment_method_default: 1
+		payment_method:
+			1:
+				id: 1
+				name: Наличными
+				status: true
+				type: \Shop\Store\Component\Cart\Payment\Payment
+			2:
+				id: 2
+				name: Пластиковой картой
+				status: true
+				type: \Shop\Store\Component\Cart\Payment\Payment
+			3:
+				id: 3
+				name: Безналичный расчет Online
+				status: true
+				type: \Shop\Store\Component\Cart\Payment\PaymentOnline
+			4:
+				id: 4
+				name: Безналичный расчет с курьером
+				status: true
+				type: \Shop\Store\Component\Cart\Payment\Payment
+		#Спрособ пополнения счета
+		bill_default: 1
+		bill:
+			1:
+				id: 1
+				name: Яндекс кошелек
+				status: true
+				type: \Shop\Payment\Handler\YandexHandler
+			2:
+				id: 2
+				name: Банковская карта
+				status: true
+				type: \Shop\Payment\Handler\YandexCartHandler
+		#Скидки
+		discount:
+			1:
+				id: 1
+				name: price_10000
+				label: 'Скидка 3% на сумму покупку товара более 10000 рублей'
+				type: \Shop\Store\Component\Cart\Discount\PriceDiscount
+				percent: 3
+				func: 'if({{value}}>10000, 1, 0)'
+				priority: 10
+				status: 0
+			2:
+				id: 2
+				name: week_6_7
+				label: 'Скидка 3% при покупки в сб,вс'
+				type: \Shop\Store\Component\Cart\Discount\WeekDiscount
+				percent: 3
+				func: '0,6'
+				priority: 10
+				status: 0
+			3:
+				id: 3
+				name: period_1_10_01
+				label: 'Скидка 3% при покупки в новогодние праздники'
+				type: \Shop\Store\Component\Cart\Discount\PeriodDiscount
+				percent: 3
+				func: '01.01-11.01'
+				priority: 30
+				status: 0

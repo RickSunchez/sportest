@@ -1,0 +1,1 @@
+<input name="option[<?=$option->pk()?>]" value="" />

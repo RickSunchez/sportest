@@ -1,0 +1,72 @@
+435397 >> collection | item not found by name
+435398 >> collection | item not found by name
+ЦБ-00000254 >> collection | not equal instances
+435944 >> collection | not equal instances
+ЦБ-1201204 >> collection | item not found by name
+ЦБ-1201140 >> collection | item not found by name
+ЦБ-1202543 >> collection | item not found by name
+ЦБ-1200632 >> collection | not equal instances
+ЦБ-1201456 >> collection | not equal instances
+ЦБ-1201219 >> collection | not equal instances
+ЦБ-1201139 >> collection | item not found by name
+ЦБ-1202580 >> collection | not equal instances
+ЦБ-1202790 >> collection | not equal instances
+ЦБ-1202178 >> collection | not equal instances
+ЦБ-1201055 >> collection | item not found by name
+ЦБ-1202569 >> single | more than 2 includes
+ЦБ-1201842 >> collection | item not found by name
+435943 >> collection | not equal instances
+ЦБ-1201116 >> collection | item not found by name
+435949 >> collection | item not found by name
+ЦБ-1201069 >> collection | not equal instances
+ЦБ-1202572 >> collection | not equal instances
+ЦБ-1202571 >> collection | not equal instances
+ЦБ-1202779 >> collection | not equal instances
+34725474 >> collection | not equal instances
+ЦБ-1202594 >> collection | not equal instances
+34725874 >> collection | item not found by name
+00-00000556 >> collection | not equal instances
+ЦБ-1202122 >> collection | not equal instances
+34725644 >> collection | item not found by name
+ЦБ-1202013 >> collection | not equal instances
+00-00000368 >> collection | item not found by name
+ЦБ-1202925 >> collection | not equal instances
+ЦБ-1201113 >> collection | not equal instances
+ЦБ-1202981 >> collection | not equal instances
+34725599 >> collection | not equal instances
+ЦБ-1201523 >> collection | item not found by name
+CB-00000167 >> collection | not equal instances
+00-00000345 >> collection | not equal instances
+ЦБ-1200732 >> collection | not equal instances
+-00000281 >> collection | item not found by name
+ЦБ-1200864 >> collection | item not found by name
+ЦБ-1202415 >> collection | not equal instances
+00-00000451 >> collection | not equal instances
+34725384 >> collection | item not found by name
+ЦБ-1200934 >> collection | item not found by name
+34725413 >> collection | not equal instances
+ЦБ-00000144 >> collection | not equal instances
+34725627 >> collection | item not found by name
+ЦБ-1202696 >> collection | not equal instances
+ЦБ-1200902 >> collection | not equal instances
+ЦБ-1202868 >> collection | not equal instances
+ЦБ-00000043 >> collection | item not found by name
+ЦБ-00000267 >> collection | not equal instances
+ЦБ-00000265 >> collection | not equal instances
+ЦБ-00000264 >> collection | not equal instances
+ЦБ-00000262 >> collection | not equal instances
+ЦБ-00000269 >> collection | not equal instances
+ЦБ-00000268 >> collection | not equal instances
+ЦБ-1202465 >> collection | item not found by name
+ЦБ-00000276 >> collection | not equal instances
+ЦБ-00000277 >> collection | not equal instances
+ЦБ-00000270 >> collection | not equal instances
+ЦБ-00000271 >> collection | not equal instances
+ЦБ-00000278 >> collection | not equal instances
+ЦБ-00000279 >> collection | not equal instances
+435960 >> collection | item not found by name
+ЦБ-01200778 >> collection | item not found by name
+ЦБ-01200577 >> collection | not equal instances
+00-00000651 >> collection | not equal instances
+ЦБ-00000068 >> collection | not equal instances
+435951 >> collection | item not found by name

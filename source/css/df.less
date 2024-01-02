@@ -1,0 +1,348 @@
+pre {
+  white-space: pre-wrap; /* Chrome & Safari */
+  white-space: -moz-pre-wrap; /* Mozilla since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+.border-radius(@radius: 5px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;
+}
+
+.box-shadow(@x: 0; @y: 0; @blur: 1px; @color: #000) {
+  -webkit-box-shadow: @arguments;
+  -moz-box-shadow: @arguments;
+  box-shadow: @arguments;
+}
+
+.ellipsis() {
+  white-space: nowrap; /* Запрещаем перенос строк */
+  overflow: hidden; /* Обрезаем все, что не помещается в область */
+  text-overflow: ellipsis; /* Добавляем многоточие */
+  -ms-text-overflow: ellipsis; /* Required for IE8 */
+  -o-text-overflow: ellipsis; /* Required for Opera */
+}
+
+.box-shadow-inset(@v:15px) {
+  box-shadow: 0px 0px @v -8px #000000 inset;
+}
+
+.gradient(@c1: #000000, @c2: #FFFFFF) {
+  background: @c1; /* Old browsers */
+  background: -moz-linear-gradient(top, @c1 0%, @c2 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, @c1), color-stop(100%, @c2)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, @c1 0%, @c2 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, @c1 0%, @c2 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, @c1 0%, @c2 100%); /* IE10+ */
+  background: linear-gradient(to bottom, @c1 0%, @c2 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=@c1, endColorstr=@c2, GradientType=0); /* IE6-9 */
+}
+
+.rotate(@rotate:90deg) {
+  -webkit-transform: rotate(@rotate); // разворот элемента для разных бразуеров
+  -moz-transform: rotate(@rotate);
+  -ms-transform: rotate(@rotate);
+  -o-transform: rotate(@rotate);
+  transform: rotate(@rotate);
+}
+
+.transit(@time: .4s, @property: all, @timing_function: ease-in-out) {
+  -webkit-transition: @property @time @timing_function;
+  -moz-transition: @property @time @timing_function;
+  -o-transition: @property @time @timing_function;
+  -ms-transition: @property @time @timing_function;
+  transition: @property @time @timing_function;
+}
+
+.transit_property(@property: all) {
+  -webkit-transition-property: @property;
+  -moz-transition-property: @property;
+  -o-transition-property: @property;
+  transition-property: @property;
+}
+
+.transit_duration(@time: 0) {
+  -webkit-transition-duration: @time;
+  -o-transition-duration: @time;
+  -moz-transition-duration: @time;
+  transition-duration: @time;
+}
+
+.transit_easing(@easing: linear) {
+  -webkit-transition-timing-function: @easing;
+  -o-transition-timing-function: @easing;
+  -moz-transition-timing-function: @easing;
+  transition-timing-function: @easing;
+}
+
+.transit-delay(@time:0) {
+  -webkit-transition-delay: @time;
+  -o-transition-delay: @time;
+  -moz-transition-delay: @time;
+  transition-delay: @time;
+}
+
+.transform(@opt) {
+  -webkit-transform: @opt;
+  -moz-transform: @opt;
+  -o-transform: @opt;
+  transform: @opt;
+  -ms-transform: @opt;
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+}
+
+.transform-origin(@origin) {
+  -webkit-transform-origin: @origin;
+  -moz-transform-origin: @origin;
+  -ms-transform-origin: @origin; // IE9 only
+  transform-origin: @origin;
+}
+
+.shadow(@size:0, @left:0, @top:0, @color:black, @inside: 0) {
+  -webkit-box-shadow: @left @top @size @inside @color;
+  -moz-box-shadow: @left @top @size @inside @color;
+  box-shadow: @left @top @size @inside @color;
+}
+
+.desaturate() {
+  filter: grayscale(100%); /* Current draft standard */
+  -webkit-filter: grayscale(100%); /* New WebKit */
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%); /* Not yet supported in Gecko, Opera or IE */
+  filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='0'><filter id='greyscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' /></filter></svg>#greyscale");
+  filter: gray; /* IE */
+  -webkit-filter: grayscale(1); /* Old WebKit */
+}
+
+.desaturate_disabled() {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+
+.clearfix() {
+  &:before,
+  &:after {
+    content: " "; // 1
+    display: table; // 2
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+html {
+  font-size: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html, table {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  overflow-y: scroll;
+}
+
+a {
+  outline: none !important;
+  &:hover, &:focus, &:active {
+    outline: none !important;
+  }
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none;
+}
+
+.b-table {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+}
+
+.b-table-row {
+  display: table-row;
+  width: 100%;
+}
+
+.b-table-cell {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.i-center-td {
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+
+.i-middle-td {
+  vertical-align: middle !important;
+}
+
+/******************b-loading-ajax**************/
+#ajax-overlay {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 10000;
+  display: none;
+}
+
+#loading-ajax {
+  z-index: 999999;
+  position: fixed;
+  left: 50px;
+  bottom: 50px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ccc;
+  .border-radius(10px);
+  background-image: url("/source/images/ajax-loader.gif");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  display: none;
+  text-indent: 99999px;
+  overflow: hidden;
+}
+
+.b-loading-ajax_status_ready {
+  display: none;
+}
+
+.b-loading-ajax_status_loading {
+  display: block !important;
+}
+
+.b-loading-ajax_center {
+  left: 50% !important;
+  bottom: auto !important;
+  top: 50%;
+}
+
+/******************END b-loading-ajax**************/
+
+/****************** b-documents **************/
+
+.b-file {
+  display: inline-block;
+  width: 49%;
+  padding: 5px 0 20px 70px;
+  position: relative
+}
+
+.b-file:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  content: '';
+  width: 60px;
+  height: 60px
+}
+
+.b-file__size {
+  margin-top: 6px;
+  display: block;
+  font-style: italic;
+  font-size: 12px;
+  color: #707070
+}
+
+.b-file_doc:before,
+.b-file_docx:before {
+  width: 60px;
+  height: 60px;
+  float: left;
+  background: url("/source/images/files.png") no-repeat;
+  background-position: 0 0
+}
+
+.b-file_xls:before,
+.b-file_xlsx:before {
+  width: 60px;
+  height: 60px;
+  float: left;
+  background: url("/source/images/files.png") no-repeat;
+  background-position: -60px 0
+}
+
+.b-file_ppt:before {
+  width: 60px;
+  height: 60px;
+  float: left;
+  background: url("/source/images/files.png") no-repeat;
+  background-position: -120px 0
+}
+
+.b-file_pps:before {
+  width: 60px;
+  height: 60px;
+  float: left;
+  background: url("/source/images/files.png") no-repeat;
+  background-position: -180px 0
+}
+
+.b-file_pdf:before {
+  width: 60px;
+  height: 60px;
+  float: left;
+  background: url("/source/images/files.png") no-repeat;
+  background-position: -240px 0
+}
+
+.b-file_rar:before {
+  width: 60px;
+  height: 60px;
+  float: left;
+  background: url("/source/images/files.png") no-repeat;
+  background-position: -300px 0
+}
+
+.b-file_zip:before {
+  width: 60px;
+  height: 60px;
+  float: left;
+  background: url("/source/images/files.png") no-repeat;
+  background-position: -360px 0
+}
+
+.b-file_jpg:before {
+  width: 60px;
+  height: 60px;
+  float: left;
+  background: url("/source/images/files.png") no-repeat;
+  background-position: -420px 0
+}
+
+.b-file_gif:before {
+  width: 60px;
+  height: 60px;
+  float: left;
+  background: url("/source/images/files.png") no-repeat;
+  background-position: -480px 0
+}
+
+.b-file_tif:before {
+  width: 60px;
+  height: 60px;
+  float: left;
+  background: url("/source/images/files.png") no-repeat;
+  background-position: -540px 0
+}
+
+.m-layout {
+  .b-file {
+    width: 100%;
+    display: block;
+  }
+}
+
+/******************END b-documents **************/

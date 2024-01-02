@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+               <yml_catalog date="2022-07-15 16:32">
+               <shop>
+<name>Интернет-магазин «СпортЕсть.Ру»</name>
+                <company>ООО Лодки Лиман</company>
+                <url>https://www.sportest.ru</url>
+                <platform>Delorius Framework</platform>
+                <version>2.0</version>
+                <agency>Седьмая группа</agency>
+                <email>info@7thgroup.ru</email>
+<currencies>
+<currency id="RUB" rate="1" plus="0" />
+<currency id="USD" rate="CBRF" plus="0" />
+<currency id="EUR" rate="CBRF" plus="0" />
+</currencies>
+<categories>
+<category id="20"  >Лодки</category>
+<category id="34" parentId="20" >Мастер Лодок</category>
+<category id="28" parentId="20" >SOLAR</category>
+<category id="27" parentId="20" >Prof Marin</category>
+<category id="31" parentId="20" >Адмирал</category>
+<category id="30" parentId="20" >Флагман</category>
+<category id="142" parentId="20" >МНЕВ и Ко + Посейдон</category>
+<category id="25" parentId="20" >WinBoat</category>
+<category id="132" parentId="20" >РИБ Stel</category>
+<category id="24" parentId="20" >Афалина</category>
+<category id="141" parentId="20" >SMarine</category>
+<category id="26" parentId="20" >RusBoat</category>
+<category id="146" parentId="20" >ALTAIR</category>
+<category id="134" parentId="20" >ORCA</category>
+<category id="32" parentId="20" >Хантер</category>
+<category id="147" parentId="20" >Stel</category>
+<category id="150" parentId="20" >Wyatboat</category>
+<category id="149" parentId="20" >ВЫДРА</category>
+<category id="102"  >Мототехника</category>
+<category id="106" parentId="102" >Мотобуксировщики БУРЛАК</category>
+<category id="103" parentId="102" >Снегоходы</category>
+<category id="105" parentId="102" >Мотобуксировщики НОРКА</category>
+<category id="77"  >Лодочные моторы</category>
+<category id="79" parentId="77" >TOHATSU</category>
+<category id="80" parentId="77" >HIDEA</category>
+<category id="84" parentId="77" >Электромоторы</category>
+<category id="136" parentId="77" >ALLFA</category>
+<category id="81" parentId="77" >YAMAHA</category>
+<category id="128" parentId="77" >Hangkai</category>
+<category id="143" parentId="77" >SEA-PRO</category>
+<category id="145" parentId="77" >Marlin</category>
+<category id="140" parentId="77" >Моторы б/у</category>
+<category id="85"  >ЗАПЧАСТИ ДЛЯ ЛОДОЧНЫХ МОТОРОВ</category>
+<category id="86" parentId="85" >TOHATSU</category>
+<category id="87" parentId="85" >HIDEA</category>
+<category id="89" parentId="85" >YAMAHA</category>
+<category id="90" parentId="85" >SUZUKI</category>
+<category id="88" parentId="85" >MERCURY</category>
+<category id="129" parentId="85" >HANGKAI</category>
+<category id="91" parentId="85" >Электрические моторы</category>
+<category id="139" parentId="85" >HONDA</category>
+<category id="137" parentId="85" >Sea-Pro</category>
+<category id="59"  >Аксессуары для лодок</category>
+<category id="71" parentId="59" >Фурнитура для лодок и навесное</category>
+<category id="61" parentId="59" >Алюминиевые профили</category>
+<category id="69" parentId="59" >Насосы для лодок</category>
+<category id="73" parentId="59" >Комплектующие для ремонта и усиления лодок</category>
+<category id="72" parentId="59" >Клапаны</category>
+<category id="75" parentId="59" >Мягкие накладки на сиденья</category>
+<category id="60" parentId="59" >Якоря</category>
+<category id="76" parentId="59" >Крепежные блоки и держатели удилищ</category>
+<category id="62" parentId="59" >Сиденья для лодок</category>
+<category id="65" parentId="59" >Транцевые колеса (шасси)</category>
+<category id="64" parentId="59" >Жилеты</category>
+<category id="63" parentId="59" >Весла для лодок</category>
+<category id="66" parentId="59" >Тенты</category>
+<category id="74" parentId="59" >Спасательные средства</category>
+<category id="70" parentId="59" >Запчасти для насосов</category>
+<category id="15" parentId="59" >Аксессуары для насосов</category>
+<category id="152" parentId="59" >Насосы осушительные</category>
+<category id="67" parentId="59" >Полы для лодок (пайолы)</category>
+<category id="68" parentId="59" >Сумки для лодок</category>
+<category id="92"  >Аксессуары для лодочных моторов</category>
+<category id="93" parentId="92" >Гребные винты</category>
+<category id="100" parentId="92" >Дистанционное управление</category>
+<category id="99" parentId="92" >Топливная система</category>
+<category id="96" parentId="92" >Масла и смазки</category>
+<category id="98" parentId="92" >Свечи</category>
+<category id="101" parentId="92" >Принадлежности для лодочных моторов</category>
+<category id="94" parentId="92" >Чехлы для моторов</category>
+<category id="95" parentId="92" >Тяговые аккумуляторы и ЗУ</category>
+<category id="148" parentId="92" >Тележки для моторов</category>
+<category id="97" parentId="92" >Остановочные лини (Чека)</category>
+<category id="107"  >Нужные мелочи</category>
+<category id="110" parentId="107" >Рыболовные снасти</category>
+<category id="112" parentId="107" >Ледянки</category>
+<category id="114" parentId="107" >Фонари</category>
+<category id="113" parentId="107" >Солнцезащитные очки</category>
+<category id="111" parentId="107" >Сумки спортивные</category>
+<category id="108" parentId="107" >Швейцарские ножи</category>
+<category id="120"  >Эхолоты и аксессуары</category>
+<category id="122" parentId="120" >Аксессуары для эхолотов и навигаторов</category>
+<category id="121" parentId="120" >Эхолоты</category>
+<category id="123" parentId="120" >Держатели датчика эхолота</category>
+<category id="124"  >Водные аттракционы</category>
+<category id="127" parentId="124" >Буксировочные тросы и крепления</category>
+<category id="125" parentId="124" >Надувные аттракционы</category>
+<category id="151" parentId="124" >Sup-доски</category>
+</categories>
+<offers>
+<offer id="62507" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-altair-joker-r-320-p62507/</url>
+<price>41500</price>
+<oldprice>53200</oldprice>
+<currencyId>RUB</currencyId>
+<categoryId>146</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/01/20/GXEoXUx.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ  ALTAIR JOKER R-320</name>
+<vendor>Альтаир</vendor>
+<description> Лодка ПВХ ALTAIR Joker-R-320 изначально разрабатывались,  как лодка для удачливого рыбака. Какой же удачливый рыбак обойдется без надежной и практичной лодки? В результате появились основные характеристики будущей “рыбацкой” линейки. Прежде всего это большой баллон, вместительный кокпит и, конечно, практичные цвета лодок. Так же проверенный временем прочный армированный ПВХ материал и надежный обвес. В тоже время мы дополнили лодку отличными ходовыми характеристиками и серьезным запасом прочности. Отметим наличие килеватости у всего модельного ряда ALTAIR  Джокер. Киль значительно улучшает курсовую устойчивость и стабильность хода на неспокойной воде. Особенно актуален тот факт, что лодки ПВХ ALTAIR  JOKER  чувствуют себя уверенно также на моторах малой мощности. Следовательно мореходность, быстрый выход на глиссер, комфорт и мягкость хода отличает эти лодки от многих одноклассников.В конечном счёте лодка получилась органичной во всех отношениях.Во-первых  из обвеса на корпус установлено только самое необходимое.Во-вторых  максимально простая сборка обусловлена конструкцией пайол. Для удобства сборки, пайол оснащен соединительным профилем системы шип-паз. А для достижения максимальной жесткости и надежности конструкции пола в комплект мы добавили стрингер.В-третьих надежность каждого узла конструкции.В-четвертых – удобство эксплуатации и мобильность.</description>
+<param name="Вес"  >45.5кг</param>
+<param name="Длина" unit="м" >3.2</param>
+<param name="Ширина" unit="м" >1.58</param>
+<param name="Длина кокпита" unit="м" >2.22</param>
+<param name="Ширина кокпита" unit="м" >0.7</param>
+<param name="Диаметр баллона"  >0.44</param>
+<param name="Грузоподъемность" unit="кг" >450</param>
+<param name="Пассажировместимость"  >3</param>
+<param name="Максимальная мощность подвесного мотора"  >10л.с.</param>
+<param name="Количество отсеков плавучести"  >3+1(киль)</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Тип пайола"  >фанерный: на профиле</param>
+<param name="Габариты в транспортировочном состоянии, см"  >0,31 х 0,66 х 1,03</param>
+<param name="Плотность"  >850 г/м2</param>
+</offer>
+<offer id="63857" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-altair-hd-340-ndnd-p63857/</url>
+<price>52100</price>
+<oldprice>70100</oldprice>
+<currencyId>RUB</currencyId>
+<categoryId>146</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/02/11/HxjR7tO.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ ALTAIR HD-340 НДНД</name>
+<description>Лодка ПВХ ALTAIR HD-340 НДНД заметно проще в эксплуатации и намного легче пайольных собратьев. И как следствие отличное скольжение по водной глади за счёт оригинальной конструкции надувного дна. С первых минут движения на лодке ПВХ с дном конструкции ALTAIR HD создается ощущение комфорта и безопасности. Чтобы прояснить ситуацию, заметим, что за основу при его разработке была взята известная конструкция “Морской дротик”. Таким образом удалось адаптировать жёсткий корпус в “надувном” формате. Другими словами мы получили уникальный корпус с уникальными характеристиками. Прежде всего это совокупность высоких скоростей с легким выходом на глиссер, а так же превосходная маневренность и управляемость. Поведение лодки определяется сложным рельефом дна ALTAIR HD и наличием в нем ярко выраженной килеватости. Что в последствии обеспечивает лодке ALTAIR HD отличную остойчивость и уверенный выход на глиссирование. Точно так же вместе с быстрым набором скорости  отметим отличную управляемость и курсовую устойчивость. Особенно актуален «мягкий» и чёткий отзыв на поворот румпеля, даже на полной скорости.  Так же лодки прекрасно справляются как с волной и порывами ветра, оставаясь на заданном курсе. Комфорт и безопасность – вот самое точное определение линейки ALTAIR HD.</description>
+<param name="Вес"  >41.5кг</param>
+<param name="Длина" unit="м" >3.4</param>
+<param name="Ширина" unit="м" >1.63</param>
+<param name="Длина кокпита" unit="м" >2.4</param>
+<param name="Ширина кокпита" unit="м" >0.75</param>
+<param name="Диаметр баллона"  >0.44</param>
+<param name="Плотность"  >950 г/м2</param>
+<param name="Грузоподъемность" unit="кг" >550</param>
+<param name="Пассажировместимость"  >4+1</param>
+<param name="Максимальная мощность подвесного мотора"  >15л.с.</param>
+<param name="Количество отсеков плавучести"  >3+НДНД</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Тип пайола"  >НДНД</param>
+</offer>
+<offer id="5750" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-ndnd-reka-r-340-p5750/</url>
+<price>43800</price>
+<oldprice>56400</oldprice>
+<currencyId>RUB</currencyId>
+<categoryId>146</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/01/20/eprJ1jc.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ ALTAIR HD-330 НДНД</name>
+<vendor>РЕКА</vendor>
+<description>Лодка ПВХ ALTAIR HD-330 НДНД – флагман в серии 320\\330. Другими словами увеличенная копия младшей 320 модели. Лодка оснащена дном низкого давления (НДНД). Таким образом она имеет все преимущества легкой, мобильной и надежной конструкции с небольшим преимуществом по вместительности. Прежде всего ALTAIR HD 330 имеет в резерве драгоценное место в кокпите, и как результат более комфортное размещение. Так же малый вес, простота сборки и эксплуатации точно так же основные преимущества серии.  Кроме того жесткость конструкции, стабильность курса, малая парусность, просторный кокпит – главное в ней.  Следовательно теперь приятно проводить время на воде можно в компании друзей или родных!</description>
+<param name="Вес" unit="кг" >31.5</param>
+<param name="Длина" unit="м" >3.3</param>
+<param name="Ширина" unit="м" >1.53</param>
+<param name="Длина кокпита" unit="м" >2.33</param>
+<param name="Ширина кокпита" unit="м" >0.65</param>
+<param name="Диаметр баллона"  >0.44</param>
+<param name="Плотность"  >850 г/м2</param>
+<param name="Грузоподъемность" unit="кг" >480</param>
+<param name="Пассажировместимость"  >3</param>
+<param name="Максимальная мощность подвесного мотора"  >9.9л.с.</param>
+<param name="Количество отсеков плавучести"  >3+НДНД</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Тип пайола"  >НДНД</param>
+<param name="Габариты в транспортировочном состоянии, см"  >0,33×0,62×0,90</param>
+</offer>
+<offer id="62634" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-altair-hd-320-ndnd-p62634/</url>
+<price>39800</price>
+<oldprice>53400</oldprice>
+<currencyId>RUB</currencyId>
+<categoryId>146</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/01/20/UYHi0qz.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ ALTAIR HD-320 НДНД</name>
+<vendor>РЕКА</vendor>
+<description>Лодка ПВХ надувная ALTAIR HD 320 НДНД – одна из последних разработок компании Альтаир-Про. Особенно актуально на сегодняшний день надувное дно  низкого давления (НДНД). Прежде всего надувное дно позволяет раскрыть потенциал лодки при любых видах отдыха на воде. Лодка HD 320 обладает такими свойствами, как легкость и простота сборки. В результате разработок получилась надежная конструкция, имеющая малый вес. Это позволяет легко управляться с лодкой. Между тем эта модель не уступает по характеристикам лодкам с жестким дном, а по некоторым и опережает их!  Наличие характерной килеватости обеспечивает стабильную курсовую устойчивость. Высокая динамика, предсказуемость управления и надежность. Поэтому использовать эту лодку можно и на рыбалке, и на охоте, и на любом отдыхе на воде.</description>
+<param name="Вес" unit="кг" >26</param>
+<param name="Длина" unit="м" >3.2</param>
+<param name="Ширина" unit="м" >1.53</param>
+<param name="Длина кокпита"  >2.23м</param>
+<param name="Ширина кокпита" unit="м" >0.65</param>
+<param name="Диаметр баллона"  >0.44</param>
+<param name="Плотность"  >850 г/м2</param>
+<param name="Грузоподъемность" unit="кг" >450</param>
+<param name="Пассажировместимость"  >3</param>
+<param name="Максимальная мощность подвесного мотора"  >9.9л.с.</param>
+<param name="Количество отсеков плавучести"  >3+НДНД</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Тип пайола"  >НДНД</param>
+<param name="Габариты в транспортировочном состоянии, см"  >0,33×0,62×0,90</param>
+</offer>
+<offer id="66714" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-altair-hd-360-ndnd-p66714/</url>
+<price>63500</price>
+<oldprice>79700</oldprice>
+<currencyId>RUB</currencyId>
+<categoryId>146</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/05/18/TKEH5a1.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ ALTAIR HD-360 НДНД</name>
+<description>Лодка ПВХ надувная ALTAIR HD-360 НДНД заметно проще в эксплуатации и намного легче пайольных собратьев. И как следствие мы получили отличное скольжение по водной глади за счёт оригинальной конструкции надувного дна. С первых минут движения на лодке ПВХ с дном конструкции ALTAIR HD создается ощущение комфорта и безопасности. Чтобы прояснить ситуацию, заметим, что за основу при его разработке была взята известная конструкция “Морской дротик”. Таким образом удалось адаптировать жёсткий корпус в “надувном” формате. Другими словами мы получили уникальный корпус с уникальными характеристиками. Прежде всего это совокупность высоких скоростей с легким выходом на глиссер, а так же превосходная маневренность и управляемость. Поведение лодки определяется сложным рельефом дна ALTAIR HD и наличием в нем ярко выраженной килеватости. Что в последствии обеспечивает лодке ALTAIR HD отличную остойчивость и уверенный выход на глиссирование. Точно так же вместе с быстрым набором скорости  отметим отличную управляемость и курсовую устойчивость. Особенно актуален «мягкий» и чёткий отзыв на поворот румпеля, даже на полной скорости.  Так же лодки прекрасно справляются как с волной и порывами ветра, оставаясь на заданном курсе. Комфорт и безопасность – вот самое точное определение линейки ALTAIR HD. Лодка ПВХ ALTAIR HD-360 НДНД – гарантия Вашей безопасности на воде! </description>
+<param name="Вес"  >44.5кг</param>
+<param name="Длина" unit="м" >3.6</param>
+<param name="Ширина" unit="м" >1.71</param>
+<param name="Длина кокпита" unit="м" >2.52</param>
+<param name="Ширина кокпита" unit="м" >0.77</param>
+<param name="Диаметр баллона"  >0.47</param>
+<param name="Плотность"  >950 г/м2</param>
+<param name="Грузоподъемность" unit="кг" >700</param>
+<param name="Пассажировместимость"  >4+1</param>
+<param name="Максимальная мощность подвесного мотора"  >18л.с.</param>
+<param name="Количество отсеков плавучести"  >3+НДНД</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Тип пайола"  >НДНД</param>
+</offer>
+</offers>
+</shop>
+        </yml_catalog>

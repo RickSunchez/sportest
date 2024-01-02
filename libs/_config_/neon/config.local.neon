@@ -1,0 +1,78 @@
+includes:
+    - common/constants.neon
+    - common/parameters.neon
+    - common/services.neon
+    - common/extensions.neon
+
+php:
+	date.timezone: Asia/Yekaterinburg
+
+routing:
+	libDir: %libDir%
+
+attribute:
+	Template: Delorius\Attribute\Common\TemplateAttribute
+	Profiler: Delorius\Attribute\Common\ProfilerAttribute
+	Model: Delorius\Attribute\Common\ModelAttribute
+	Ajax: Delorius\Attribute\Common\AjaxAttribute
+	Post: Delorius\Attribute\Common\PostAttribute
+	Get: Delorius\Attribute\Common\GetAttribute
+
+cache:
+    init: true
+    type: files # files|memcached
+    namespace: www
+
+
+application:
+	catchExceptions: true # no - redirect homepage
+	behaviors:
+		flashMessage: \Delorius\Behaviors\Common\FlashControllerBehavior
+		site: \Delorius\Behaviors\Common\SiteControllerBehavior
+	profiler: false
+	toolbar:
+		print: false
+		render: false
+		enabled: false
+		secret_key: OfAeeQTnKJPqLM9Q4T7mb2EYDP7XwpdIi3GFtYIxzfvxzZwa7JSCq0eqNuTy1ZCq
+
+
+http:
+	proxy:
+	frames: true #[https://metrika.yandex.ru,http://webvisor.com]
+	headers: # список дополнительных заголовков
+		Vary: User-Agent
+
+
+session:
+	autoStart: true
+	expiration: +14 days
+	host: %basicHost%
+	domains: true
+
+
+database:
+	default:
+		type: MySQL
+		connection:
+			hostname: 192.168.1.206:3306
+			database: group
+			username: mysql
+			password: mysql
+			persistent: FALSE
+		table_prefix:
+		charset: utf8
+		caching: TRUE
+		profiling: TRUE
+
+
+security:
+	debugger: false
+#	users:
+#		johndoe: pass
+#	roles:
+#		guest:
+#		member:
+#		admin: [member]  # admin extends member
+#	resources:
+#		file: #https://addons.nette.org/carrooi/security

@@ -1,0 +1,1920 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+               <yml_catalog date="2022-04-05 18:00">
+               <shop>
+<name>Интернет-магазин «СпортЕсть.Ру»</name>
+                <company>ООО Лодки Лиман</company>
+                <url>https://www.sportest.ru</url>
+                <platform>Delorius Framework</platform>
+                <version>2.0</version>
+                <agency>Седьмая группа</agency>
+                <email>info@7thgroup.ru</email>
+<currencies>
+<currency id="RUB" rate="1" plus="0" />
+<currency id="USD" rate="CBRF" plus="0" />
+<currency id="EUR" rate="CBRF" plus="0" />
+</currencies>
+<categories>
+<category id="20"  >Лодки</category>
+<category id="34" parentId="20" >Мастер Лодок</category>
+<category id="28" parentId="20" >SOLAR</category>
+<category id="27" parentId="20" >Prof Marin</category>
+<category id="31" parentId="20" >Адмирал</category>
+<category id="30" parentId="20" >Флагман</category>
+<category id="142" parentId="20" >МНЕВ и Ко + Посейдон</category>
+<category id="25" parentId="20" >WinBoat</category>
+<category id="24" parentId="20" >Афалина</category>
+<category id="132" parentId="20" >РИБ Stel</category>
+<category id="141" parentId="20" >SMarine</category>
+<category id="26" parentId="20" >RusBoat</category>
+<category id="146" parentId="20" >ALTAIR</category>
+<category id="32" parentId="20" >Хантер</category>
+<category id="134" parentId="20" >ORCA</category>
+<category id="147" parentId="20" >Stel</category>
+<category id="150" parentId="20" >Wyatboat</category>
+<category id="149" parentId="20" >ВЫДРА</category>
+<category id="102"  >Мототехника</category>
+<category id="106" parentId="102" >Мотобуксировщики БУРЛАК</category>
+<category id="103" parentId="102" >Снегоходы</category>
+<category id="105" parentId="102" >Мотобуксировщики НОРКА</category>
+<category id="77"  >Лодочные моторы</category>
+<category id="79" parentId="77" >TOHATSU</category>
+<category id="80" parentId="77" >HIDEA</category>
+<category id="84" parentId="77" >Электромоторы</category>
+<category id="136" parentId="77" >ALLFA</category>
+<category id="81" parentId="77" >YAMAHA</category>
+<category id="128" parentId="77" >Hangkai</category>
+<category id="143" parentId="77" >SEA-PRO</category>
+<category id="145" parentId="77" >Marlin</category>
+<category id="140" parentId="77" >Моторы б/у</category>
+<category id="85"  >ЗАПЧАСТИ ДЛЯ ЛОДОЧНЫХ МОТОРОВ</category>
+<category id="86" parentId="85" >TOHATSU</category>
+<category id="87" parentId="85" >HIDEA</category>
+<category id="89" parentId="85" >YAMAHA</category>
+<category id="90" parentId="85" >SUZUKI</category>
+<category id="88" parentId="85" >MERCURY</category>
+<category id="129" parentId="85" >HANGKAI</category>
+<category id="91" parentId="85" >Электрические моторы</category>
+<category id="139" parentId="85" >HONDA</category>
+<category id="137" parentId="85" >Sea-Pro</category>
+<category id="59"  >Аксессуары для лодок</category>
+<category id="71" parentId="59" >Фурнитура для лодок и навесное</category>
+<category id="61" parentId="59" >Алюминиевые профили</category>
+<category id="69" parentId="59" >Насосы для лодок</category>
+<category id="73" parentId="59" >Комплектующие для ремонта и усиления лодок</category>
+<category id="72" parentId="59" >Клапаны</category>
+<category id="75" parentId="59" >Мягкие накладки на сиденья</category>
+<category id="60" parentId="59" >Якоря</category>
+<category id="76" parentId="59" >Крепежные блоки и держатели удилищ</category>
+<category id="62" parentId="59" >Сиденья для лодок</category>
+<category id="65" parentId="59" >Транцевые колеса (шасси)</category>
+<category id="64" parentId="59" >Жилеты</category>
+<category id="63" parentId="59" >Весла для лодок</category>
+<category id="66" parentId="59" >Тенты</category>
+<category id="74" parentId="59" >Спасательные средства</category>
+<category id="70" parentId="59" >Запчасти для насосов</category>
+<category id="15" parentId="59" >Аксессуары для насосов</category>
+<category id="152" parentId="59" >Насосы осушительные</category>
+<category id="67" parentId="59" >Полы для лодок (пайолы)</category>
+<category id="68" parentId="59" >Сумки для лодок</category>
+<category id="92"  >Аксессуары для лодочных моторов</category>
+<category id="93" parentId="92" >Гребные винты</category>
+<category id="100" parentId="92" >Дистанционное управление</category>
+<category id="99" parentId="92" >Топливная система</category>
+<category id="96" parentId="92" >Масла и смазки</category>
+<category id="98" parentId="92" >Свечи</category>
+<category id="101" parentId="92" >Принадлежности для лодочных моторов</category>
+<category id="94" parentId="92" >Чехлы для моторов</category>
+<category id="95" parentId="92" >Тяговые аккумуляторы и ЗУ</category>
+<category id="148" parentId="92" >Тележки для моторов</category>
+<category id="97" parentId="92" >Остановочные лини (Чека)</category>
+<category id="107"  >Нужные мелочи</category>
+<category id="110" parentId="107" >Рыболовные снасти</category>
+<category id="112" parentId="107" >Ледянки</category>
+<category id="114" parentId="107" >Фонари</category>
+<category id="113" parentId="107" >Солнцезащитные очки</category>
+<category id="111" parentId="107" >Сумки спортивные</category>
+<category id="108" parentId="107" >Швейцарские ножи</category>
+<category id="120"  >Эхолоты и аксессуары</category>
+<category id="122" parentId="120" >Аксессуары для эхолотов и навигаторов</category>
+<category id="121" parentId="120" >Эхолоты</category>
+<category id="123" parentId="120" >Держатели датчика эхолота</category>
+<category id="124"  >Водные аттракционы</category>
+<category id="127" parentId="124" >Буксировочные тросы и крепления</category>
+<category id="125" parentId="124" >Надувные аттракционы</category>
+<category id="151" parentId="124" >Sup-доски</category>
+</categories>
+<offers>
+<offer id="109" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-solar-maksima-350-cvet-svetlo-seryy-p109/</url>
+<price>96400</price>
+<currencyId>RUB</currencyId>
+<categoryId>28</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2018/07/04/9udUAzl.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ СОЛАР Максима 350 (Цвет: Светло-серый)</name>
+<vendor>Solar</vendor>
+<param name="Количество отсеков плавучести"  >4</param>
+<param name="Тип пайола"  >НДНД</param>
+<param name="Количество упаковочных сумок" unit="шт" >1</param>
+<param name="Серия"  >Максима</param>
+<param name="Тип крепления сиденья"  >передвижное</param>
+<param name="Вид транца"  >стационарный</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Наличие киля"  >есть</param>
+<param name="Плотность ткани ПВХ на баллоне"  >950 гр\\м Valmex (Чехия)</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >950+900+640 Valmex (Чехия)</param>
+<param name="Пассажировместимость"  >3</param>
+<param name="Максимальная мощность" unit="л.с" >15</param>
+<param name="Вес" unit="кг" >52</param>
+<param name="Грузоподъемность" unit="кг" >500</param>
+<param name="Ширина кокпита" unit="м" >0.8</param>
+<param name="Ширина" unit="м" >1.7</param>
+<param name="Длина кокпита" unit="м" >2.4</param>
+<param name="Длина" unit="м" >3.5</param>
+</offer>
+<offer id="110" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-solar-maksima-350-cvet-siniy-p110/</url>
+<price>101400</price>
+<currencyId>RUB</currencyId>
+<categoryId>28</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2018/07/04/rZz9Ynu.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ СОЛАР Максима 350 (Цвет: Синий)</name>
+<vendor>Solar</vendor>
+<param name="Количество отсеков плавучести"  >4</param>
+<param name="Тип пайола"  >НДНД</param>
+<param name="Количество упаковочных сумок" unit="шт" >1</param>
+<param name="Серия"  >Максима</param>
+<param name="Тип крепления сиденья"  >передвижное</param>
+<param name="Вид транца"  >стационарный</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Наличие киля"  >есть</param>
+<param name="Плотность ткани ПВХ на баллоне"  >950 гр\\м Valmex (Чехия)</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >950+900+640 Valmex (Чехия)</param>
+<param name="Пассажировместимость"  >3</param>
+<param name="Максимальная мощность" unit="л.с" >15</param>
+<param name="Вес" unit="кг" >52</param>
+<param name="Грузоподъемность" unit="кг" >500</param>
+<param name="Ширина кокпита" unit="м" >0.8</param>
+<param name="Ширина" unit="м" >1.7</param>
+<param name="Длина кокпита" unit="м" >2.4</param>
+<param name="Длина" unit="м" >3.5</param>
+</offer>
+<offer id="53734" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-hanter-380-pro-p53734/</url>
+<price>57990</price>
+<currencyId>RUB</currencyId>
+<categoryId>32</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2020/03/10/j2Jt3eg.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ Хантер 380 ПРО</name>
+<description>СЕРИЯ «ПРО» - большие и комфортные надувные лодки ПВХ, со стационарным надувным дном низкого давления НДНД. Современный дизайн, комбинированная расцветка корпуса, материал ПВХ плотностью 1050 гр/м.кв, большой диаметр баллона и объемный кокпит, лишь не полный перечень преимуществ новых надувных лодок. Умеренная цена, отличные ходовые характеристики и пятилетняя гарантия, не оставят без внимания, даже самого взыскательного рыбака.Серия надувных лодок «ПРО» - предназначена для рыбалки и активного отдыха, на так называемой «большой воде», как правило это большие реки и озера. Модельный ряд серии ПРО, представлен четырьмя размерами от 3,3 метра до 4,2 метра, а диаметры баллонов в этой серии колеблются от 0,495 м, у самой маленькой лодки Хантер 330 ПРО, до 0,54 метра, у флагмана серии Хантер 420 ПРО.Хантер 350 ПРО – среднеразмерная лодка ПВХ в серии надувных лодок «ПРО». От своей предшественницы, лодки Хантер 330 ПРО, отличается лишь длинной корпуса, при этом ширина лодки осталась такой же. Но, благодаря увеличению длины, лодка получила и другие технические характеристики. Возросла грузоподъемность лодки, и как следствие ее пассажировместимость.В этой лодке она ограничена четырьмя взрослыми пассажирами и одним ребенком до 12 лет. Плюс к этому, лодка Хантер 350 ПРО изготовлена из ткани плотностью 1050 гр/м.кв., что для многих является не маловажным преимуществом. Хантер 380 ПРО – среднеразмерная лодка ПВХ в серии надувных лодок «ПРО». Отличается от лодки Хантер 350 ПРО, не только длиной, но и шириной, а также диаметром баллона. У лодки Хантер 380 ПРО диаметр баллона составляет 0,52 м., против 0,495 м у лодки Хантер 350 ПРО. Благодаря увеличению длины, ширины и диаметра баллона, лодка получила и другие технические характеристики. Возросла грузоподъемность лодки, и как следствие ее пассажировместимость.В этой лодке она ограничена пятью взрослыми пассажирами, а максимальная мощность двигателя ограничена 25 л.с. Надувная лодка Хантер 380 ПРО изготовлена из ткани плотностью 1050 гр/м.кв., что для многих является не маловажным преимуществом. Надувная лодка Хантер 380 ПРО со стационарным вклеенным умеренно-килевым дном низкого давления (НДНД) рассчитана на использование с мотором до 25 л.с. с максимальной загрузкой до 750 кг. Предназначена для рыбалки, охоты и активного отдыха на воде небольшой компанией. Выпускается в двух расцветах - комбинированном красно/черном цвете и комбинированном черно/камуфлированном цвете. Благодаря надувному дну низкого давления НДНД, подготовка лодки для спуска на воду занимает не более 15 минут - достаточно просто накачать надувные отсеки и дно, а так же установить банки и весла. Сборка лодки, так же удивит своей простотой – нужно просто открыть клапана, стравить воздух и свернуть лодку в сумку. В собранном состоянии лодка перевозится в одной сумке, которая изготовлена в виде конверта. Помимо сумки в комплектацию надувной лодки входят : весла длиной 1,8 метра, банки (сиденья из ламинированной водостойкой фанеры толщиной 15 мм…</description>
+<param name="Вес" unit="кг" >52</param>
+<param name="Длина" unit="м" >3.8</param>
+<param name="Ширина"  >1.89м</param>
+<param name="Диаметр баллона"  >0.52</param>
+<param name="Грузоподъемность" unit="кг" >750</param>
+<param name="Плотность ткани ПВХ на баллоне"  >1050</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >1050</param>
+<param name="Пассажировместимость"  >5</param>
+<param name="Тип крепления сиденья"  >ликтрос–ликпаз</param>
+<param name="Максимальная мощность подвесного мотора"  >25л.с.</param>
+<param name="Количество отсеков плавучести"  >3+НДНД</param>
+<param name="Длина кокпита" unit="м" >2.65</param>
+<param name="Ширина кокпита" unit="м" >0.82</param>
+<param name="Тип пайола"  >НДНД</param>
+<param name="Тип днища"  >килевое</param>
+</offer>
+<offer id="41269" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-smarine-air-max-360-cvet-seryy-p41269/</url>
+<price>75790</price>
+<currencyId>RUB</currencyId>
+<categoryId>141</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2019/12/28/pUCxwok.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ SMarine AIR MAX - 360 (Цвет: серый)</name>
+<description>Корейский ПВХ (Wonpoong). ПВХ  дна 1700 г/м2, плотность ПВХ баллонов 1100  / 1350 г/м2   (противоскользящее покрытие, броня), толщина материала баллонов 0,9 мм,  что обеспечивает высокую степень надежности изделий. Дно дополнительно проклеено 5 мм полиуретановой лентой (броня). Ручки для переноски, привальный брус, сумка для переноса лодки, ремкомплект, паспорт изделия, два весла, две банки (сиденье) алюминиевые.        * Отдельно можно докомплектовать: непромокаемой носовой сумкой, мягкими накладками на сидение с сумкой рундк, съемный носовой тент, съемный надувной каркас для носового тента.</description>
+<param name="Вид транца"  >стационарный</param>
+<param name="Максимальная мощность" unit="л.с" >20</param>
+<param name="Диаметр баллона"  >0.45</param>
+<param name="Длина" unit="м" >3.6</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Плотность ткани ПВХ на баллоне"  >1100</param>
+<param name="Плотность ткани ПВХ на днище"  >1700</param>
+<param name="Ширина"  >1.84м</param>
+<param name="Вес комплекта" unit="кг" >56</param>
+<param name="Пассажировместимость"  >5</param>
+<param name="Высота транца"  >0.381 (S)</param>
+<param name="Грузоподъемность" unit="кг" >650</param>
+<param name="Количество упаковочных сумок" unit="шт" >1</param>
+<param name="Тип пайола"  >НДНД</param>
+<param name="Серия"  >AIR MAX</param>
+<param name="Толщина транца" unit="мм" >27</param>
+<param name="Тип крепления сиденья"  >передвижное</param>
+</offer>
+<offer id="55155" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-kayman-n-400-ndnd-p55155/</url>
+<price>81920</price>
+<currencyId>RUB</currencyId>
+<categoryId>142</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2020/06/15/x3V5Vc9.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ Кайман N-380 НДНД</name>
+<param name="Длина" unit="м" >3.8</param>
+<param name="Ширина" unit="м" >1.9</param>
+<param name="Длина кокпита" unit="м" >2.66</param>
+<param name="Ширина кокпита"  >0.93 м</param>
+<param name="Пассажировместимость"  >6</param>
+<param name="Вес" unit="кг" >65</param>
+<param name="Грузоподъемность" unit="кг" >750</param>
+<param name="Максимальная мощность подвесного мотора"  >20л.с.</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Тип пайола"  >НДНД</param>
+<param name="Количество отсеков плавучести"  >4 + НДНД</param>
+<param name="Плотность ткани ПВХ на баллоне"  >1100</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >1100</param>
+<param name="Тип шва"  >Сварной шов</param>
+</offer>
+<offer id="444" available="true" >
+<url>https://www.sportest.ru/slan-fanernaya-akva-2800-po-forme-dnishcha-p444/</url>
+<price>6800</price>
+<currencyId>RUB</currencyId>
+<categoryId>34</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2018/09/14/EFVJYvJ.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Слань фанерная  Аква 2800 по форме днища</name>
+<vendor>Мастер Лодок</vendor>
+<description></description>
+<param name="Длина" unit="см" >203</param>
+<param name="Ширина" unit="см" >80.5</param>
+<param name="Толщина" unit="мм" >6</param>
+</offer>
+<offer id="62507" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-altair-joker-r-320-p62507/</url>
+<price>46500</price>
+<currencyId>RUB</currencyId>
+<categoryId>146</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/01/20/GXEoXUx.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ  ALTAIR JOKER R-320</name>
+<vendor>Альтаир</vendor>
+<description> Лодка ПВХ ALTAIR Joker-R-320 изначально разрабатывались,  как лодка для удачливого рыбака. Какой же удачливый рыбак обойдется без надежной и практичной лодки? В результате появились основные характеристики будущей “рыбацкой” линейки. Прежде всего это большой баллон, вместительный кокпит и, конечно, практичные цвета лодок. Так же проверенный временем прочный армированный ПВХ материал и надежный обвес. В тоже время мы дополнили лодку отличными ходовыми характеристиками и серьезным запасом прочности. Отметим наличие килеватости у всего модельного ряда ALTAIR  Джокер. Киль значительно улучшает курсовую устойчивость и стабильность хода на неспокойной воде. Особенно актуален тот факт, что лодки ПВХ ALTAIR  JOKER  чувствуют себя уверенно также на моторах малой мощности. Следовательно мореходность, быстрый выход на глиссер, комфорт и мягкость хода отличает эти лодки от многих одноклассников.В конечном счёте лодка получилась органичной во всех отношениях.Во-первых  из обвеса на корпус установлено только самое необходимое.Во-вторых  максимально простая сборка обусловлена конструкцией пайол. Для удобства сборки, пайол оснащен соединительным профилем системы шип-паз. А для достижения максимальной жесткости и надежности конструкции пола в комплект мы добавили стрингер.В-третьих надежность каждого узла конструкции.В-четвертых – удобство эксплуатации и мобильность.</description>
+<param name="Вес"  >45.5кг</param>
+<param name="Длина" unit="м" >3.2</param>
+<param name="Ширина" unit="м" >1.58</param>
+<param name="Длина кокпита" unit="м" >2.22</param>
+<param name="Ширина кокпита" unit="м" >0.7</param>
+<param name="Диаметр баллона"  >0.44</param>
+<param name="Грузоподъемность" unit="кг" >450</param>
+<param name="Пассажировместимость"  >3</param>
+<param name="Максимальная мощность подвесного мотора"  >10л.с.</param>
+<param name="Количество отсеков плавучести"  >3+1(киль)</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Тип пайола"  >фанерный: на профиле</param>
+<param name="Габариты в транспортировочном состоянии, см"  >0,31 х 0,66 х 1,03</param>
+<param name="Плотность"  >850 г/м2</param>
+</offer>
+<offer id="581" available="true" type="vendor.model">
+<url>https://www.sportest.ru/lodka-naduvnaya-poseydon-kasatka-385-marine-cvet-svetlo-seryy-temno-seryy-p581/</url>
+<price>109489</price>
+<currencyId>RUB</currencyId>
+<categoryId>142</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/07/09/7ZduRMj.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<typePrefix>МНЕВ и Ко + Посейдон</typePrefix>
+<vendor>МНЕВ и Ко</vendor>
+<model>Касатка 385</model>
+<description>Данная модель является мореходной модификацией Касатки-385. Корпус лодки остался без изменений. Увеличена килеватость на транце и в миделе, полностью изменено днище, что существенно повысило мореходность и комфорт хода по волне. Это позволило включить Касатку 385 Marine в разряд лодок повышенной мореходности. Как следствие увеличения килеватости отмечено снижение максимальной скорости на 2-4 км/ч по сравнению с базовой моделью.  Подготовив модельный ряд, который удовлетворил все возможные потребности покупателей, конструкторы компании Посейдон решили изготовить лодку, которая придется по душе не только рыбакам и охотникам, но и любителям отдыха на воде всей семьей. При изготовлении была использована оригинальная цветовая гамма высококачественных немецких материалов. Касатка несомненно привлекает к себе внимание не только внешней эстетикой и гармоничным дизайном, но, прежде всего, безукоризненной управляемостью на воде, обеспечивая тем самым безопасность и комфорт шкипера и пассажиров. В основу концепции формирования мореходных качеств легли наработки, ранее применявшиеся в лодках повышенной мореходности &quot;Антей&quot; &quot;Титан&quot; &quot;Посейдон&quot;. Семейство Касатка отличается традиционными для лодок компании Посейдон большой вместимостью и грамотно просчитанной эргономикой кокпита. Упрощенная сборка-разборка пайола и стрингеров является ещё одним существенным преимуществом новой Касатки. Все типоразмеры Касатки в стандартной комплектации оборудуются ручками пилота, причем как слева, так и справа, а для переднего пассажира установлен внутренний двухсторонний леер. Также предусмотрен клапан сброса избыточного давления. Для переноски лодки имеется отдельная носовая и бортовые ручки.Все модели серии Касатка обладают великолепной управляемостью, курсовой устойчивостью и высокими скоростными показателями. Конструктора смогли обеспечить общую надежность и отменные ходовые качества лодки.</description>
+<param name="Плотность ткани ПВХ на баллоне"  >1000</param>
+<param name="Толщина пайола" unit="мм" >12</param>
+<param name="Вес комплекта" unit="кг" >73</param>
+<param name="Вес в сборе" unit="кг" >69</param>
+<param name="Толщина транца" unit="мм" >27</param>
+<param name="Тип пайола"  >фанерный: на профиле</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Длина кокпита" unit="м" >2.79</param>
+<param name="Ширина кокпита" unit="м" >0.85</param>
+<param name="Максимальная мощность" unit="л.с" >30</param>
+<param name="Грузоподъемность" unit="кг" >740</param>
+<param name="Вид транца"  >стационарный</param>
+<param name="Пассажировместимость"  >6</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >1000</param>
+<param name="Тип крепления сиденья"  >передвижное</param>
+<param name="Тип"  >надувная ПВХ</param>
+<param name="Количество отсеков плавучести"  >3+1</param>
+<param name="Ширина" unit="м" >1.81</param>
+<param name="Диаметр баллона"  >0.47</param>
+<param name="Наличие стрингера"  >есть</param>
+<param name="Высота транца"  >405</param>
+<param name="Длина" unit="м" >3.85</param>
+<param name="Серия"  >Средний класс</param>
+</offer>
+<offer id="875" available="true" type="vendor.model">
+<url>https://www.sportest.ru/lodka-naduvnaya-poseydon-kasatka-335-cvet-svetlo-seryy-temno-seryy-p875/</url>
+<price>76306</price>
+<currencyId>RUB</currencyId>
+<categoryId>142</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2020/02/29/YbwNohj.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<typePrefix>МНЕВ и Ко + Посейдон</typePrefix>
+<vendor>МНЕВ и Ко</vendor>
+<model>Касатка 335</model>
+<description>Подготовив модельный ряд, который удовлетворил все возможные потребности покупателей, конструкторы компании ПОСЕЙДОН решили изготовить лодку, которая придется по душе, не только рыбакам и охотникам, но и любителям отдыха на воде всей семьей. При изготовлении была использована оригинальная цветовая гамма высококачественных немецких материалов. «Касатка» несомненно привлекает к себе внимание не только внешней эстетикой и гармоничным дизайном, что притягивает взгляды и заставляет неотступно следить за её движением, но и безукоризненной управляемостью на воде, обеспечивая безопасность и комфорт штурмана и пассажиров. В основу концепции мореходных качеств легли наработки, ранее применяемые в лодках повышенной мореходности – «Антей», «Титан», «Посейдон». Семейство «Касаток» отличается традиционными для лодок компании «Посейдон» большой вместимостью и грамотно просчитанной эргономикой кокпита. Упрощенная сборка-разборка пайол и стрингеров является ещё одним существенным преимуществом новой «Касатки». Все типоразмеры «Касаток» в стандартной комплектации оборудуются ручками пилота, причем как слева, так и справа, а для переднего пассажира установлен внутренний двухсторонний леер. Также предусмотрен клапан сброса избыточного давления. Для переноски лодки имеется отдельная носовая и бортовые ручки. Все модели серии «Касатка» обладают великолепной управляемостью, курсовой устойчивостью и высокими скоростными показателями. Конструкторы смогли обеспечить общую надежность и отменные ходовые качества лодки. Необходимо отдать должное опыту специалистов компании, лодка получилась выше всяких похвал и успешно прошла все испытания. Материал произ-во Германия HEYTEX, плотность 1050г/м2. Касатка 335. Дополнительная скидка. Одна из самых продаваемых лодок со спортивным характером и ярким дизайном. В дополнительной комплектации носовой тент с окном, регулируемый по высоте транец из нержавеющей стали, комплект мягких накладок на банки с сумкой и коврик с креплением бензобака.</description>
+<param name="Тип пайола"  >фанерный: на профиле</param>
+<param name="Вес комплекта" unit="кг" >55</param>
+<param name="Максимальная мощность" unit="л.с" >15</param>
+<param name="Длина кокпита" unit="м" >2.4</param>
+<param name="Ширина" unit="м" >1.56</param>
+<param name="Ширина кокпита" unit="м" >0.71</param>
+<param name="Пассажировместимость"  >4</param>
+<param name="Тип"  >надувная ПВХ</param>
+<param name="Количество отсеков плавучести"  >3+1</param>
+<param name="Длина" unit="м" >3.35</param>
+<param name="Вес в сборе" unit="кг" >51</param>
+<param name="Толщина транца" unit="мм" >27</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Тип крепления сиденья"  >передвижное</param>
+<param name="Вид транца"  >стационарный</param>
+<param name="Количество упаковочных сумок" unit="шт" >2</param>
+<param name="Грузоподъемность" unit="кг" >450</param>
+<param name="Высота транца"  >405</param>
+<param name="Диаметр баллона"  >0.43</param>
+<param name="Толщина пайола" unit="мм" >12</param>
+<param name="Плотность ткани ПВХ на баллоне"  >1000</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >1000</param>
+<param name="Наличие стрингера"  >есть</param>
+<param name="Серия"  >Средний класс</param>
+</offer>
+<offer id="878" available="true" type="vendor.model">
+<url>https://www.sportest.ru/lodka-naduvnaya-poseydon-kasatka-365-cvet-belo-seryy-p878/</url>
+<price>100579</price>
+<currencyId>RUB</currencyId>
+<categoryId>142</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2018/07/04/BUwEVkU.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<typePrefix>МНЕВ и Ко + Посейдон</typePrefix>
+<vendor>МНЕВ и Ко</vendor>
+<model>Касатка 365</model>
+<description>Подготовив модельный ряд, который удовлетворил все возможные потребности покупателей, конструкторы компании ПОСЕЙДОН решили изготовить лодку, которая придется по душе, не только рыбакам и охотникам, но и любителям отдыха на воде всей семьей. При изготовлении была использована оригинальная цветовая гамма высококачественных немецких материалов. КАСАТКА несомненно привлекает к себе внимание не только внешней эстетикой и гармоничным дизайном, но, прежде всего, безукоризненной управляемостью на воде, обеспечивая тем самым, безопасность и комфорт шкипрера и пассажиров. В основу концепции формирования мореходных качеств легли наработки, ранее применявшиеся в лодках повышенной мореходности – «Антей», «Титан», «Посейдон». Семейство КАСАТКА отличается традиционными для лодок компании «Посейдон» большой вместимостью и грамотно просчитанной эргономикой кокпита. Упрощенная сборка-разборка пайола и стрингеров является ещё одним существенным преимуществом новой КАСАТКИ. Все типоразмеры КАСАТКИ в стандартной комплектации оборудуются ручками пилота, причем как слева, так и справа, а для переднего пассажира установлен внутренний двухсторонний леер. Также предусмотрен клапан сброса избыточного давления. Для переноски лодки имеется отдельная носовая и бортовые ручки. Все модели серии КАСАТКА обладают великолепной управляемостью, курсовой устойчивостью и высокими скоростными показателями. Конструкторы смогли обеспечить общую надежность и отменные ходовые качества лодки. Необходимо отдать должное опыту специалистов компании, лодка получилась выше всяких похвал и успешно прошла все испытания. Рекомендуемые районы плавания – прибрежная морская зона, внутренние водные акватории. Касатка 365. Дополнительная скидка! Лодка с непревзойдёнными скоростными характеристиками и маневренностью, многократный победитель гонок маломерных судов. Одна из самых продаваемых лодок. В дополнительной комплектации носовой тент с окном, регулируемый по высоте транец из нержавеющей стали, перекидные</description>
+<param name="Толщина пайола" unit="мм" >12</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Диаметр баллона"  >0.48</param>
+<param name="Толщина транца" unit="мм" >27</param>
+<param name="Пассажировместимость"  >5</param>
+<param name="Вес в сборе" unit="кг" >62</param>
+<param name="Длина кокпита" unit="м" >2.6</param>
+<param name="Ширина кокпита" unit="м" >0.81</param>
+<param name="Максимальная мощность" unit="л.с" >25</param>
+<param name="Вид транца"  >стационарный</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >1000</param>
+<param name="Наличие стрингера"  >есть</param>
+<param name="Тип крепления сиденья"  >передвижное</param>
+<param name="Грузоподъемность" unit="кг" >660</param>
+<param name="Ширина" unit="м" >1.77</param>
+<param name="Длина" unit="м" >3.65</param>
+<param name="Количество отсеков плавучести"  >3+1</param>
+<param name="Вес комплекта" unit="кг" >66</param>
+<param name="Высота транца"  >405</param>
+<param name="Плотность ткани ПВХ на баллоне"  >1000</param>
+<param name="Тип пайола"  >фанерный: на профиле</param>
+<param name="Тип"  >надувная ПВХ</param>
+<param name="Серия"  >Средний класс</param>
+</offer>
+<offer id="879" available="true" type="vendor.model">
+<url>https://www.sportest.ru/lodka-naduvnaya-poseydon-kasatka-365-cvet-svetlo-seryy-temno-seryy-p879/</url>
+<price>100579</price>
+<currencyId>RUB</currencyId>
+<categoryId>142</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2020/02/29/gezaJHa.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<typePrefix>МНЕВ и Ко + Посейдон</typePrefix>
+<vendor>МНЕВ и Ко</vendor>
+<model>Касатка 365</model>
+<description>Серия Касатка отлично зарекомендовала себя и как лодка для семейного отдыха и развлечений на воде, и как лодка для рыбалки.Рекомендованные районы плавания – прибрежная зона морей и внутренние водоемы без ограничений.Став обладателем этой красивой и технически совершенной лодки вам не избежать повышенного внимания владельцев других брендов.</description>
+<param name="Длина" unit="м" >3.65</param>
+<param name="Ширина" unit="м" >1.77</param>
+<param name="Длина кокпита" unit="м" >2.6</param>
+<param name="Ширина кокпита" unit="м" >0.81</param>
+<param name="Пассажировместимость"  >5</param>
+<param name="Вес"  >64кг</param>
+<param name="Грузоподъемность" unit="кг" >480</param>
+<param name="Максимальная мощность подвесного мотора"  >25л.с.</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Тип пайола"  >фанерный: на профиле</param>
+<param name="Количество отсеков плавучести"  >3+1</param>
+<param name="Плотность ткани ПВХ на баллоне"  >1000г/м2</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >1000</param>
+<param name="Тип шва"  >Сварной шов</param>
+<param name="Диаметр баллона"  >0.48</param>
+</offer>
+<offer id="1054" available="true" >
+<url>https://www.sportest.ru/kater-winboat-360rf-model-360rf-sprint-p1054/</url>
+<price>145000</price>
+<currencyId>RUB</currencyId>
+<categoryId>25</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2018/07/04/XRw1GbV.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Катер WINBOAT-360RF (модель 360RF СПРИНТ)</name>
+<vendor>WinBoat</vendor>
+<description>Компактная складная надувная лодка с жестким стеклопластиковым дном (складной РИБ).Принципиально новая надувная лодка. Коренным отличием новой надувной лодки является жесткое пластиковое днище, значительно упрощающее конструкцию и позволяющее избавиться от большого количества элементов настила. Полное отсутствие наборного пайола и надувного киля позволяет значительно сократить время сборки и разборки (сборка-5-7 минут, разборка 5-7минут). Простота конструкции и использование современных композитных материалов значительно уменьшили вес лодки (48кг). Наличие жесткого пластикового днища существенно улучшило управляемость и повысило мореходность. Имеет складное днище. Теперь мы имеем простую в устройстве и удобную в эксплуатации надувную лодку нового поколения.</description>
+<param name="Длина кокпита" unit="м" >2.7</param>
+<param name="Ширина" unit="м" >1.78</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Максимальная мощность" unit="л.с" >25</param>
+<param name="Грузоподъемность" unit="кг" >500</param>
+<param name="Рекомендованная мощность"  >10-15</param>
+<param name="Высота транца"  >405</param>
+<param name="Глубина кокпита" unit="м" >0.58</param>
+<param name="Ширина кокпита" unit="м" >0.8</param>
+<param name="Тип"  >комбинированная (RIB)</param>
+<param name="Тип крепления сиденья"  >передвижное</param>
+<param name="Плотность ткани ПВХ на баллоне"  >1100</param>
+<param name="Килеватость на транце"  >12</param>
+<param name="Вид транца"  >стационарный</param>
+<param name="Материал днища"  >стеклопластик</param>
+<param name="Вес" unit="кг" >48</param>
+<param name="Пассажировместимость"  >4</param>
+<param name="Размер упаковки" unit="м" >0.9/1.1/0.4</param>
+<param name="Длина" unit="м" >3.6</param>
+<param name="Диаметр баллона"  >0.44</param>
+<param name="Высота борта" unit="м" >0.66</param>
+<param name="Количество отсеков плавучести"  >3</param>
+</offer>
+<offer id="51923" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-kayman-n-330-ndnd-p51923/</url>
+<price>58910</price>
+<currencyId>RUB</currencyId>
+<categoryId>142</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2020/02/29/jmX8sB5.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ Кайман N-330 НДНД</name>
+<param name="Длина" unit="м" >3.3</param>
+<param name="Ширина" unit="м" >1.52</param>
+<param name="Длина кокпита" unit="м" >2.36</param>
+<param name="Ширина кокпита" unit="м" >0.67</param>
+<param name="Пассажировместимость"  >3+1</param>
+<param name="Вес" unit="кг" >35</param>
+<param name="Грузоподъемность" unit="кг" >420</param>
+<param name="Максимальная мощность подвесного мотора"  >15л.с.</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Тип пайола"  >НДНД</param>
+<param name="Количество отсеков плавучести"  >3+НДНД</param>
+<param name="Плотность ткани ПВХ на баллоне"  >850 г/м.кв</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >850</param>
+<param name="Тип шва"  >Сварной шов</param>
+</offer>
+<offer id="63857" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-altair-hd-340-ndnd-p63857/</url>
+<price>59000</price>
+<currencyId>RUB</currencyId>
+<categoryId>146</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/09/07/X6EMhC1.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ ALTAIR HD-340 НДНД</name>
+<description>Лодка ПВХ ALTAIR HD-340 НДНД заметно проще в эксплуатации и намного легче пайольных собратьев. И как следствие отличное скольжение по водной глади за счёт оригинальной конструкции надувного дна. С первых минут движения на лодке ПВХ с дном конструкции ALTAIR HD создается ощущение комфорта и безопасности. Чтобы прояснить ситуацию, заметим, что за основу при его разработке была взята известная конструкция “Морской дротик”. Таким образом удалось адаптировать жёсткий корпус в “надувном” формате. Другими словами мы получили уникальный корпус с уникальными характеристиками. Прежде всего это совокупность высоких скоростей с легким выходом на глиссер, а так же превосходная маневренность и управляемость. Поведение лодки определяется сложным рельефом дна ALTAIR HD и наличием в нем ярко выраженной килеватости. Что в последствии обеспечивает лодке ALTAIR HD отличную остойчивость и уверенный выход на глиссирование. Точно так же вместе с быстрым набором скорости  отметим отличную управляемость и курсовую устойчивость. Особенно актуален «мягкий» и чёткий отзыв на поворот румпеля, даже на полной скорости.  Так же лодки прекрасно справляются как с волной и порывами ветра, оставаясь на заданном курсе. Комфорт и безопасность – вот самое точное определение линейки ALTAIR HD.</description>
+<param name="Вес"  >41.5кг</param>
+<param name="Длина" unit="м" >3.4</param>
+<param name="Ширина" unit="м" >1.63</param>
+<param name="Длина кокпита" unit="м" >2.4</param>
+<param name="Ширина кокпита" unit="м" >0.75</param>
+<param name="Диаметр баллона"  >0.44</param>
+<param name="Плотность"  >950 г/м2</param>
+<param name="Грузоподъемность" unit="кг" >550</param>
+<param name="Пассажировместимость"  >4+1</param>
+<param name="Максимальная мощность подвесного мотора"  >15л.с.</param>
+<param name="Количество отсеков плавучести"  >3+НДНД</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Тип пайола"  >НДНД</param>
+</offer>
+<offer id="13225" available="true" >
+<url>https://www.sportest.ru/rib-stel-r-375-elen-p13225/</url>
+<price>139000</price>
+<currencyId>RUB</currencyId>
+<categoryId>132</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2018/11/21/9VLucRq.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>РИБ Stel R-375 Elen</name>
+<description>В носовой части лодки ручка для переноски и спереди в днище установлено рым-кольцо для буксировки. В кормовой части лодки 2 ручки для переноски. Усиление по килю. На транце рым-кольцо для страховки мотора. Якорный рым - опция! Не входит в штатную комплектацию.  </description>
+<param name="Тип"  >комбинированная (RIB)</param>
+<param name="Пассажировместимость"  >5</param>
+<param name="Грузоподъемность" unit="кг" >720</param>
+<param name="Вес" unit="кг" >80</param>
+<param name="Длина" unit="м" >3.75</param>
+<param name="Ширина" unit="м" >1.7</param>
+<param name="Длина кокпита" unit="м" >2.7</param>
+<param name="Ширина кокпита" unit="м" >0.83</param>
+<param name="Диаметр баллона"  >0.44</param>
+<param name="Максимальная мощность" unit="л.с" >30</param>
+<param name="Количество отсеков плавучести"  >3</param>
+<param name="Плотность ткани ПВХ на баллоне"  >1100</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Вид транца"  >стационарный</param>
+</offer>
+<offer id="3035" available="true" >
+<url>https://www.sportest.ru/lodka-pvh-flagman-280-p3035/</url>
+<price>37900</price>
+<currencyId>RUB</currencyId>
+<categoryId>30</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2018/07/04/RjdsDM1.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка ПВХ Флагман 280</name>
+<vendor>Флагман</vendor>
+<description>При конструировании надувной лодки ФЛАГМАН 280 мы хотели добиться компактности, быстроты сборки разборки, небольшого веса, надёжности в экстренных водных ситуациях, лодки выходного дня для двоих, которую можно транспортировать на тележке в электричке, на двух велосипедах разделив вес на лодку и комплектующие, на мотоцикле, или в самой маленькой машине. В результате мы получили: Лодка в неделимом весе 16 кг. при использовании ткани 700 гр. Лодка имеет вклеенный транец для установки мотора от 2,5 до 10 л.с. Отличительной особенностью лодки ФЛАГМАН 280 L от других лодок ФЛАГМАН является то, что надувное днище малокилеватое. Результаты испытаний показали, что за счёт присутствия хоть и незначительного по сравнению с классическими лодками ФЛАГМАН киля лодка не рысклива, имеет курсовую устойчивость, как на веслах, так и под мотором. Под мотором SUZUKI 2. 4т. один человек 90 кг. 15 км./ч Были проведены испытания и под TOHATSU 9.8 л/с. 6кг (бензин) + мотор 26кг = 32 кг. Шкипер 90 кг. 33 - 35 км/ч, Шкипер + пассажир 90+105 кг = 195 кг 29 – 30 км/ч. Диаметр баллонов 460 мм, умеренно приподнятый носовой баллон, небольшая килеватасть, позволяет ФЛАГМАН 280 уверенно преодолевать волны до 40 – 50 см. высотой. На вёслах лодка управляется легко, динамика разгона, скольжение, на высшем уровне. На надувной лодке ФЛАГМАН 280 UL установлена опорная пластина Fast Sliding (быстрое скольжение). Ассиметричные конуса концов баллонов в корме и опорная пластина помогают нашей малютке быстро выходить в глиссирующий режим и не дельфинировать. Исключительно для двоих при опытном шкипере и общем весе снаряжённого груза 180 кг мотор 9,8 л/с.</description>
+<param name="Вес" unit="кг" >28</param>
+<param name="Максимальная мощность" unit="л.с" >6</param>
+<param name="Грузоподъемность" unit="кг" >220</param>
+<param name="Пассажировместимость"  >2</param>
+<param name="Диаметр баллона"  >0.46</param>
+<param name="Длина" unit="м" >2.8</param>
+<param name="Длина кокпита" unit="м" >1.84</param>
+<param name="Ширина" unit="м" >1.5</param>
+<param name="Ширина кокпита" unit="м" >0.62</param>
+<param name="Количество отсеков плавучести"  >3+1</param>
+<param name="Тип"  >надувная ПВХ</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Плотность ткани ПВХ на баллоне"  >850</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >850</param>
+<param name="Высота транца"  >0.42</param>
+<param name="Вид транца"  >стационарный</param>
+<param name="Количество упаковочных сумок" unit="шт" >1</param>
+<param name="Размер упаковки" unit="м" >0.9/0.45/0.37</param>
+<param name="Тип пайола"  >НДНД</param>
+<param name="Тип крепления сиденья"  >передвижное</param>
+<param name="Серия"  >Моторные</param>
+</offer>
+<offer id="41221" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-smarine-sdp-max-365-cvet-seryy-p41221/</url>
+<price>83820</price>
+<currencyId>RUB</currencyId>
+<categoryId>141</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2019/12/25/su6Qmm5.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ SMarine SDP MAX - 365 (Цвет: серый)</name>
+<description>Корейский ПВХ (Wonpoong). ПВХ балона 1100  / 1350 г/м2, , привальный брус (90 мм) с отбойником, защитные ленты по всей длине баллонов (235 мм.)  и килю (60 мм.), стравливающий клапан воздуха в нососвой части, сливной клапан, усиленный транец,  D- кольца в носовой части балона для буксировки, якорный роульс в носовой части, алюминиевый пол повышенной прочности, стрингеры изготовленные из алюминия, дополнительно усилены ребром жесткости, усиленные U - болты, верхние брызгоотбойники на транце, сумка для переноса лодки, сумка для переноса пайол, ремкомплект, паспорт изделия, два весла, две банки (сиденье) алюминиевые.                                                                    * Отдельно можно докомплектовать: непромокаемой носовой сумкой, мягкими накладками на сидение с сумкой рундк, съемный носовой тент, съемный надувной каркас для носового тента.</description>
+<param name="Вид транца"  >стационарный</param>
+<param name="Максимальная мощность" unit="л.с" >20</param>
+<param name="Диаметр баллона"  >0.45</param>
+<param name="Длина" unit="м" >3.65</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Плотность ткани ПВХ на баллоне"  >1100</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >1100</param>
+<param name="Наличие стрингера"  >есть</param>
+<param name="Толщина пайола" unit="мм" >12</param>
+<param name="Ширина" unit="м" >1.7</param>
+<param name="Вес комплекта" unit="кг" >70</param>
+<param name="Пассажировместимость"  >5+1</param>
+<param name="Высота транца"  >0.381 (S)</param>
+<param name="Грузоподъемность"  >689</param>
+<param name="Количество упаковочных сумок" unit="шт" >2</param>
+<param name="Тип пайола"  >алюминиевый</param>
+<param name="Серия"  >SDP MAX</param>
+<param name="Толщина транца" unit="мм" >27</param>
+<param name="Тип крепления сиденья"  >передвижное</param>
+</offer>
+<offer id="33431" available="true" >
+<url>https://www.sportest.ru/lyjnyy-modul-burlak-lm-3f-zadniy-privod-p33431/</url>
+<price>21000</price>
+<currencyId>RUB</currencyId>
+<categoryId>106</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2019/11/06/O9Z8LTA.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лыжный модуль Бурлак ЛМ-3 (Задний привод (R))</name>
+<vendor>Бурлак</vendor>
+<description>Надежная, полностью разборная конструкция.Продукт прошел испытания на пересеченной местности.При установке лыжного модуля от компании Снегоход-Сервис в комплекте с коробкой реверса потребитель получает аналог разборного снегохода, который легко преодолевает любые препятствия и способен развивать скорость до 45 км/ч.Ширина в собранном виде - 110 см.Длина в собранном виде (от рамы мотобуксировщика до кончиков лыж) - 105 см.Вес 40 кг.Длина Лыжного модуля ЛМ-3 R с Бурлаком 1250 в сборе - 2450 мм.Длина Лыжного модуля ЛМ-3 R с Бурлаком 1450 в сборе - 2650 мм. </description>
+<param name="Вес" unit="кг" >40</param>
+</offer>
+<offer id="54114" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-smarine-sdp-max-330-cvet-seryy-p54114/</url>
+<price>72380</price>
+<currencyId>RUB</currencyId>
+<categoryId>141</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2020/05/09/fTMiCgO.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ SMarine SDP MAX - 330 (Цвет: серый)</name>
+<description>Лодка из толстой ткани корейского производства</description>
+<param name="Вид транца"  >стационарный</param>
+<param name="Максимальная мощность" unit="л.с" >20</param>
+<param name="Диаметр баллона"  >0.45</param>
+<param name="Длина" unit="м" >3.35</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Плотность ткани ПВХ на баллоне"  >1100</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >1300</param>
+<param name="Наличие стрингера"  >есть</param>
+<param name="Толщина пайола" unit="мм" >12</param>
+<param name="Ширина" unit="м" >1.7</param>
+<param name="Вес комплекта" unit="кг" >52</param>
+<param name="Пассажировместимость"  >5+1</param>
+<param name="Высота транца"  >0.381 (S)</param>
+<param name="Грузоподъемность"  >689</param>
+<param name="Количество упаковочных сумок" unit="шт" >2</param>
+<param name="Тип пайола"  >алюминиевый</param>
+<param name="Серия"  >SDP MAX</param>
+<param name="Толщина транца" unit="мм" >27</param>
+<param name="Тип крепления сиденья"  >передвижное</param>
+<param name="Производитель"  >SMarine</param>
+</offer>
+<offer id="59509" available="true" >
+<url>https://www.sportest.ru/slan-fanernaya-akva-master-3chasti-805mm-x-1210mm-p59509/</url>
+<price>2700</price>
+<currencyId>RUB</currencyId>
+<categoryId>34</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2020/09/30/MYREsh4.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Слань фанерная  АКВА-МАСТЕР 3части (805мм X 1210мм)</name>
+<description>Использование фанерной вкладки - это самый простой способ получить твердую опору под ногами при гребле или рыбалки. Фиксированные размеры и возможность быстрой установки в нужную зону кокпита делают ее универсальной для применения в надувных лодках разной длины. Вкладка МАСТЕР изготавливается компанией &quot;Мастер лодок&quot; из влагостойкой ламинированной фанеры толщиной 6 мм, состоит из трех секций, соединенных между собой ПВХ-тканью.</description>
+<param name="Длина"  >1210мм</param>
+<param name="Ширина"  >805мм</param>
+<param name="Толщина пайола" unit="мм" >6</param>
+<param name="Тип пайола"  >фанерный: книжка</param>
+</offer>
+<offer id="3871" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-solar-maksima-380-cvet-svetlo-seryy-p3871/</url>
+<price>112900</price>
+<currencyId>RUB</currencyId>
+<categoryId>28</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2018/07/04/kU1OElb.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ СОЛАР Максима 380 (Цвет: Светло-серый)</name>
+<vendor>Solar</vendor>
+<param name="Количество отсеков плавучести"  >4</param>
+<param name="Тип пайола"  >НДНД</param>
+<param name="Количество упаковочных сумок" unit="шт" >1</param>
+<param name="Серия"  >Максима</param>
+<param name="Тип крепления сиденья"  >передвижное</param>
+<param name="Вид транца"  >стационарный</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Наличие киля"  >есть</param>
+</offer>
+<offer id="3881" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-solar-maksima-380-cvet-siniy-p3881/</url>
+<price>118900</price>
+<currencyId>RUB</currencyId>
+<categoryId>28</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2018/07/04/EyL7Xk2.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ СОЛАР Максима 380 (Цвет: Синий)</name>
+<vendor>Solar</vendor>
+<param name="Количество отсеков плавучести"  >4</param>
+<param name="Тип пайола"  >НДНД</param>
+<param name="Количество упаковочных сумок" unit="шт" >1</param>
+<param name="Серия"  >Максима</param>
+<param name="Тип крепления сиденья"  >передвижное</param>
+<param name="Вид транца"  >стационарный</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Наличие киля"  >есть</param>
+</offer>
+<offer id="4412" available="true" >
+<url>https://www.sportest.ru/ndnd-dlya-lodok-hanter-280-320-cvet-zelenyy-p4412/</url>
+<price>6000</price>
+<currencyId>RUB</currencyId>
+<categoryId>32</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2018/07/04/lvJ4Fed.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>НДНД для лодок Хантер 280-320 (цвет: зеленый)</name>
+<vendor>Хантер</vendor>
+</offer>
+<offer id="13226" available="true" >
+<url>https://www.sportest.ru/rib-stel-r-440-p13226/</url>
+<price>224600</price>
+<currencyId>RUB</currencyId>
+<categoryId>132</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2018/11/21/uvoOOZk.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>РИБ Stel R-450</name>
+<param name="Тип"  >комбинированная (RIB)</param>
+<param name="Пассажировместимость"  >6</param>
+<param name="Грузоподъемность" unit="кг" >700</param>
+<param name="Вес"  >160кг</param>
+<param name="Длина"  >4.49 м</param>
+<param name="Ширина"  >2.05м</param>
+<param name="Длина кокпита" unit="м" >3.35</param>
+<param name="Ширина кокпита" unit="м" >1.1</param>
+<param name="Диаметр баллона"  >0.45</param>
+<param name="Максимальная мощность" unit="л.с" >40</param>
+<param name="Количество отсеков плавучести"  >5</param>
+<param name="Плотность ткани ПВХ на баллоне"  >1100</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Вид транца"  >стационарный</param>
+</offer>
+<offer id="4671" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-viking-vn-340-h-cvet-sero-chernaya-p4671/</url>
+<price>61967</price>
+<currencyId>RUB</currencyId>
+<categoryId>142</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/02/11/G10OrqG.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная Викинг VN 340 H (Цвет: серо-черная)</name>
+<vendor>МНЕВ и Ко</vendor>
+<description>Серия лодок ПВХ &quot;Викинг&quot; относится к лодкам лайт-класса и демонстрирует универсальный, без оглядки на эконом-класс, подход к проектированию надувных моторно-гребных лодок, в первую очередь с точки зрения отработки отличных потребительских и ходовых качеств. Лодка серии &quot;Викинг&quot; была сознательно разработана, как лодка среднего класса по ходовым и эксплуатационным характеристикам, но выгодно отличающаяся весом и ценой. Достигнуто это не за счет упрощения формы баллона и днища, или применения ткани малой плотности, а путем использования облегченного пайола из 9-ти миллиметровой фанеры и оптимально подобранной толщины транца. При этом всесторонне учтены пожелания обширной аудитории потенциальных покупателей. В итоге получилась в меру компактная, легкая лодка с высокими ходовыми и эксплуатационными характеристиками. При изготовлении лодки ПВХ &quot;Викинг&quot; используется ткань плотностью 850-900 г/м2 ведущих мировых производителей. Для придания лодке продольной жесткости, установлен специальный стрингер нового образца. А на стыках пайол - профиль шип-паз, что существенно упрощает сборку.</description>
+<param name="Толщина пайола" unit="мм" >9</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >900</param>
+<param name="Плотность ткани ПВХ на баллоне"  >850</param>
+<param name="Высота транца"  >395</param>
+<param name="Толщина транца" unit="мм" >27</param>
+<param name="Вид транца"  >стационарный</param>
+<param name="Количество отсеков плавучести"  >3+1</param>
+<param name="Тип крепления сиденья"  >ликтрос–ликпаз</param>
+<param name="Тип"  >надувная ПВХ</param>
+<param name="Ширина кокпита" unit="м" >0.75</param>
+<param name="Ширина" unit="м" >1.67</param>
+<param name="Вес комплекта" unit="кг" >46</param>
+<param name="Количество упаковочных сумок" unit="шт" >2</param>
+<param name="Размер упаковки пайола"  >0.91/0.69/0.07</param>
+<param name="Размер упаковки лодки"  >0.95/0.52/0.3</param>
+<param name="Пассажировместимость"  >4</param>
+<param name="Максимальная мощность" unit="л.с" >15</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Тип пайола"  >фанерный: на профиле</param>
+<param name="Длина кокпита" unit="м" >2.4</param>
+<param name="Длина" unit="м" >3.4</param>
+<param name="Диаметр баллона"  >0.46</param>
+<param name="Грузоподъемность" unit="кг" >460</param>
+</offer>
+<offer id="55497" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-kayman-n-330-payol-12-mm-cvet-seryy-p55497/</url>
+<price>61070</price>
+<currencyId>RUB</currencyId>
+<categoryId>142</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2020/12/09/0rpsUpX.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ Кайман N-330 пайол 9 мм. (Цвет: серый)</name>
+<description>Легендарная лодка КАЙМАН – эталон надувной моторной лодки в Российском маломерном судостроении.Изготовленная в соответствии с основными правилами конструирования надувных моторных лодок, она показала оптимальные скоростные и мореходные характеристики, непревзойдённые и по сей день.Стремительные обводы и переменный диаметр надувного корпуса, умеренная килеватость натянутого как струна днища, качественные материалы и надёжные комплектующие – всё это неизменные признаки надувной лодки КАЙМАН.Надувная моторная лодка КАЙМАН – всегда правильный выбор.</description>
+<param name="Длина" unit="м" >3.3</param>
+<param name="Ширина" unit="м" >1.52</param>
+<param name="Длина кокпита" unit="м" >2.36</param>
+<param name="Ширина кокпита" unit="м" >0.67</param>
+<param name="Диаметр баллона"  >0.42</param>
+<param name="Вес" unit="кг" >48</param>
+<param name="Грузоподъемность" unit="кг" >420</param>
+<param name="Максимальная мощность подвесного мотора"  >18л.с.</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Тип пайола"  >фанерный: на профиле</param>
+<param name="Количество отсеков плавучести"  >3+1(киль)</param>
+<param name="Плотность ткани ПВХ на баллоне"  >850 г/м.кв</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >850</param>
+<param name="Тип шва"  >Сварной шов</param>
+</offer>
+<offer id="4814" available="true" >
+<url>https://www.sportest.ru/lodka-pvh-flagman-350-p4814/</url>
+<price>53000</price>
+<currencyId>RUB</currencyId>
+<categoryId>30</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2018/07/04/ETQBp4P.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка ПВХ Флагман 350</name>
+<vendor>Флагман</vendor>
+<description>Надувная лодка «Флагман - 350» предназначена для рыбалки, охоты, туризма и активного отдыха на воде небольшой компанией из 2-х – 3-х человек. Оптимальный вес, удобная упаковка и минимальное время сборки–разборки делают эксплуатацию лодки комфортной при любых погодных условиях. Позволяет выходить на глиссирование с лодочным мотором малой мощности. Отличная мореходность и скоростные качества надувной лодки «Флагман 350» доставят Вам и вашим спутникам не мало удовольствия на воде. Отличительные особенности Идеальный &quot;рыбацкий стандарт&quot;. В лодке хватит места для снаряжения самого взыскательного рыбака. Благодаря небольшому весу лодки, можно использовать мотор минимальной мощности. В то же время, при установке 15-18 сильного подвесного мотора, лодка порадует владельца своими скоростными характеристиками. По мореходности лодка вполне может дать фору более крупными судами. Упаковывается лодка в один пакет, который с легкостью помещается в багажник любого легкового автомобиля.</description>
+<param name="Вес" unit="кг" >48</param>
+<param name="Максимальная мощность" unit="л.с" >18</param>
+<param name="Грузоподъемность" unit="кг" >500</param>
+<param name="Пассажировместимость"  >4</param>
+<param name="Диаметр баллона"  >0.48</param>
+<param name="Длина" unit="м" >3.5</param>
+<param name="Длина кокпита" unit="м" >2.5</param>
+<param name="Ширина" unit="м" >1.64</param>
+<param name="Ширина кокпита" unit="м" >0.72</param>
+<param name="Количество отсеков плавучести"  >3+1</param>
+<param name="Тип"  >надувная ПВХ</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Тип пайола"  >НДНД</param>
+<param name="Плотность ткани ПВХ на баллоне"  >1050</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >1050</param>
+<param name="Тип крепления сиденья"  >передвижное</param>
+<param name="Высота транца"  >0.42</param>
+<param name="Вид транца"  >стационарный</param>
+<param name="Количество упаковочных сумок" unit="шт" >1</param>
+<param name="Размер упаковки" unit="м" >1.1/0.53/0.32</param>
+<param name="Серия"  >Моторные</param>
+</offer>
+<offer id="4824" available="true" >
+<url>https://www.sportest.ru/lodka-pvh-flagman-380-p4824/</url>
+<price>60000</price>
+<currencyId>RUB</currencyId>
+<categoryId>30</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2018/07/04/fQrgKic.gif</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка ПВХ Флагман 380</name>
+<vendor>Флагман</vendor>
+<description>Лучший вариант надувной лодки для активного отдыха компанией из 3-5 человек. Удобна при транспортировке и эксплуатации благодаря малому весу и компактной упаковке. Позволяет выходить на глиссирование с мотором от 5 л.с. Оптимальная внутренняя длина и ширина кокпита позволит Вам с комфортом провести свои выходные на воде. При всей внешней похожести на традиционные надувные лодки под мотор – надувная лодка «Флагман 380» принципиально другая и прежде всего за счет V-образного умеренно килевого надувного дна. Отличительные особенности Лодка, для тех, кто понимает... На этой модели &quot;Флагмана&quot; можно уже смело отправляться в поход! Места хватит и для семейного экипажа и для &quot;предметов роскоши&quot; типа мангала, переносной магнитолы, ноутбука. Мотор мощностью до 18 л.с. позволяет домчаться до отдаленных пляжей и бухт за минимальное время. В то же время, лодка достигает приемлемых скоростей и под мотором в 10 л.с.</description>
+<param name="Вес" unit="кг" >55</param>
+<param name="Максимальная мощность" unit="л.с" >20</param>
+<param name="Грузоподъемность" unit="кг" >750</param>
+<param name="Пассажировместимость"  >5</param>
+<param name="Диаметр баллона"  >0.48</param>
+<param name="Длина" unit="м" >3.8</param>
+<param name="Длина кокпита" unit="м" >2.68</param>
+<param name="Ширина" unit="м" >1.77</param>
+<param name="Ширина кокпита" unit="м" >0.78</param>
+<param name="Количество отсеков плавучести"  >3+1</param>
+<param name="Тип"  >надувная ПВХ</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Тип пайола"  >НДНД</param>
+<param name="Плотность ткани ПВХ на баллоне"  >1050</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >1050</param>
+<param name="Тип крепления сиденья"  >передвижное</param>
+<param name="Высота транца"  >0.42</param>
+<param name="Вид транца"  >стационарный</param>
+<param name="Количество упаковочных сумок" unit="шт" >1</param>
+<param name="Размер упаковки" unit="м" >1.1/0.55/0.34</param>
+<param name="Серия"  >Моторные</param>
+</offer>
+<offer id="5066" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-rivera-3200-sk-p5066/</url>
+<price>48860</price>
+<currencyId>RUB</currencyId>
+<categoryId>34</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2018/07/04/EjJEsxw.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ Ривьера 3200 СК компакт</name>
+<vendor>Мастер Лодок</vendor>
+<description>Трехместная моторная лодка с передвижным сидением (ликтрос-ликпаз), слань из 4-х частей с закрепленными А-профилем и Н-профилем, стрингера, киль, стационарный транец Ривьера 3200 СК - это мегахит продаж, возможно, даже самая популярная лодка в своем классе. Доступная цена для лодок такого класса (с надувным килем), возможность установки мощного лодочного мотора до 15 л.с., жесткий пол - все это позволяет уверенно ходить на этой лодке по большим водоемам при высокой волне. За умеренную цену Вы получаете поистине универсальную лодку для решения практически всех задач, которые придется решать - и рыбачить втроем на спокойном лесном озере на веслах, и ходить по большой волне на крупном водохранилище или реке. Ривьера 3200 СК позволит Вам уверенно чувствовать себя практически на любой воде.</description>
+<param name="Вес" unit="кг" >41</param>
+<param name="Грузоподъемность" unit="кг" >500</param>
+<param name="Пассажировместимость"  >3</param>
+<param name="Диаметр баллона"  >0.42</param>
+<param name="Длина" unit="м" >3.2</param>
+<param name="Ширина" unit="м" >1.5</param>
+<param name="Ширина кокпита" unit="м" >1416</param>
+<param name="Количество отсеков плавучести"  >3+1</param>
+<param name="Тип"  >надувная ПВХ</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Тип пайола"  >фанерный: на профиле</param>
+<param name="Толщина пайола" unit="мм" >9</param>
+<param name="Наличие стрингера"  >есть</param>
+<param name="Плотность ткани ПВХ на баллоне"  >900</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >900</param>
+<param name="Тип крепления сиденья"  >передвижное</param>
+<param name="Высота транца"  >S</param>
+<param name="Вид транца"  >стационарный</param>
+<param name="Количество упаковочных сумок" unit="шт" >2</param>
+<param name="Серия"  >Ривьера</param>
+</offer>
+<offer id="5069" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-rivera-3400-sk-kompakt-p5069/</url>
+<price>54460</price>
+<currencyId>RUB</currencyId>
+<categoryId>34</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2018/07/04/SXVKVtg.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ Ривьера 3400 СК Компакт</name>
+<vendor>Мастер Лодок</vendor>
+<description>Надувная килевая лодка Ривьера 3400 СК Компакт уфимского производителя Мастер лодок является популярным вариантом бюджетной качественной компактной лодки для рыбалки и активного отдыха. Модель изготавливается из прочной ткани ПВХ плотностью 900 г/м2, что делает лодку подготовленной для суровых условий эксплуатации. Надувная килевая лодка Ривьера 3400 СК Компакт уфимского производителя Мастер лодок является популярным вариантом бюджетной качественной компактной лодки для рыбалки и активного отдыха. Модель изготавливается из прочной ткани ПВХ плотностью 900 г/м2, что делает лодку подготовленной для суровых условий эксплуатации. Диаметр баллонов составляет 46 см, что гарантирует надежность лодки при выходе на большие водоемы, а также позволяет использовать лодку с более тяжелыми и мощными моторами. На транец лодки можноустановить мотор мощностью до 15 л.с. Несмотря на ее сравнительно небольшой размер, лодка с легкостью вместит в себя трех взрослых рыбаков, а также позволит взять с собой ценный груз без ущерба для места. Благодаря передвижным сидениям можно самостоятельно отрегулировать пространство внутри вместительного кокпита. Пол лодки выполнен из влагостойкой фанеры толщиной 9 мм, что позволит рыбачить стоя в полный рост. Установленный по периметру лодки привальный брус сделает отдых на лодке Ривьера 3400 СККомпактне только безопасным, но и комфортным. Грузоподъемность лодки составляет 500 кг. Лодка оснащена удобными ручками для переноски, расположенными в носовой и кормовой частях.Лодка укомплектовывается в две сумки для переноски, ее совокупный вес составляет 43 кг.</description>
+<param name="Вес" unit="кг" >43</param>
+<param name="Грузоподъемность" unit="кг" >500</param>
+<param name="Пассажировместимость"  >3</param>
+<param name="Диаметр баллона"  >0.46</param>
+<param name="Длина" unit="м" >3.4</param>
+<param name="Длина кокпита" unit="м" >2.68</param>
+<param name="Ширина" unit="м" >1.6</param>
+<param name="Ширина кокпита" unit="м" >0.68</param>
+<param name="Количество отсеков плавучести"  >3+1</param>
+<param name="Тип"  >надувная ПВХ</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Тип пайола"  >фанерный: на профиле</param>
+<param name="Толщина пайола" unit="мм" >9</param>
+<param name="Наличие стрингера"  >есть</param>
+<param name="Плотность ткани ПВХ на баллоне"  >900</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >900</param>
+<param name="Тип крепления сиденья"  >передвижное</param>
+<param name="Высота транца"  >S</param>
+<param name="Вид транца"  >стационарный</param>
+<param name="Серия"  >Ривьера</param>
+</offer>
+<offer id="5073" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-rivera-3600-sk-kompakt-p5073/</url>
+<price>59650</price>
+<currencyId>RUB</currencyId>
+<categoryId>34</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2018/07/04/EWC3CZh.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ Ривьера 3600 СК Компакт</name>
+<vendor>Мастер Лодок</vendor>
+<description>Баллоны Ривьера 3600 СК Компакт изготовлены из армированного пятислойного ПВХ плотностью 900 г/м2. Материал устойчив к воздействию горюче-смазочных материалов (бензина, масла), ультрафиолетовых лучей и механических нагрузок. Диаметр баллонов лодки 46 см, 3 герметичных отсека (+ 1 киль). Швы клееные внахлест. С боков баллоны защищены привальным брусом с брызгоотбойником. Пол Лодка укомплектована жестким настилом из водостойкой фанеры. Соединение секций осуществляется алюминиевым Н-образным профилем. Для придания продольной жесткости конструкции в комплект входят алюминиевые стрингеры. Лавки Ривьера 3600 СК Компакт комплектуется 2 сиденьями из водостойкой фанеры с креплением типа ликтрос/ликпаз, которое позволяет перемещать лавки по кокпиту. Транец Надувная лодка имеет жестко вклеенный транец из водостойкой многослойной фанеры. Торцы транца защищены пластиковой окантовкой. В месте крепления двигателя предусмотрены дополнительные накладки для уменьшения износа. Особенности Безопасность пассажиров Ривьера 3600 СК Компакт дополнительно обеспечивается натянутым вдоль борта леерным тросом. На носу и корме имеются ручки для переноски. Между транцем и баллонами натянуты брызгозащитные косынки (комингсы). Для фиксации весел в стояночном положении предусмотрены крепления. Днище по линии баллонов усилено лентой ПВХ.</description>
+<param name="Вес" unit="кг" >55</param>
+<param name="Грузоподъемность" unit="кг" >500</param>
+<param name="Пассажировместимость"  >4</param>
+<param name="Диаметр баллона"  >0.46</param>
+<param name="Длина" unit="м" >3.6</param>
+<param name="Длина кокпита" unit="м" >2.75</param>
+<param name="Ширина" unit="м" >1.6</param>
+<param name="Ширина кокпита" unit="м" >0.68</param>
+<param name="Количество отсеков плавучести"  >3+1</param>
+<param name="Тип"  >надувная ПВХ</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Тип пайола"  >фанерный: на профиле</param>
+<param name="Толщина пайола" unit="мм" >9</param>
+<param name="Наличие стрингера"  >есть</param>
+<param name="Плотность ткани ПВХ на баллоне"  >900</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >900</param>
+<param name="Тип крепления сиденья"  >передвижное</param>
+<param name="Высота транца"  >S</param>
+<param name="Вид транца"  >стационарный</param>
+<param name="Количество упаковочных сумок" unit="шт" >2</param>
+<param name="Серия"  >Ривьера</param>
+</offer>
+<offer id="5168" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-akva-2800-p5168/</url>
+<price>23670</price>
+<currencyId>RUB</currencyId>
+<categoryId>34</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2018/07/04/KA0udQz.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ Аква 2800</name>
+<vendor>Мастер Лодок</vendor>
+<description>Лодка ПВХ под мотор АКВА 2800 - отличное решение, если Вы хотите приобрести легкую и компактную лодку, на которую при необходимости можно установить мотор. Характерная особенность лодки Авка 2800 - отличные ходовые качества, вследствие чего она выходит на глиссирование даже с мотором небольшой мощности. Надежность, удобство и простота - так кратко можно описать эту замечательную лодку. Ее можно взять на рыбалку, можно покатать детей на отдыхе, а при необходимости Аква 2800 будет трудиться под мотором, выполняя другую полезную работу. Лодка изготовлена из качественного ПВХ, имеет дополнительную защиту баллонов под днищем, чтобы снизить вероятность повреждения и разгерметизации баллонов. Удобные поворотные уключины и фиксаторы для весел позволят сэкономить драгоценные минуты утренней рыбалки. Аква 2800 имеет ручку для переноски, леер безопасности вдоль борта, в корпусе лодки имеются специальные клапаны для быстрого сдутия лодки. Комплектация: 1. Лодка – 1 шт. 2. Весло – 2 шт. 3. Сиденье жесткое – 2 шт. 4. Сумка упаковочная – 1 шт. 5. Ремкомплект – 1 шт. 6. Насос – 1 шт. 7. Паспорт – 1 шт.</description>
+<param name="Вес комплекта" unit="кг" >23</param>
+<param name="Максимальная мощность" unit="л.с" >5</param>
+<param name="Грузоподъемность" unit="кг" >220</param>
+<param name="Пассажировместимость"  >2</param>
+<param name="Диаметр баллона"  >0.36</param>
+<param name="Длина" unit="м" >2.8</param>
+<param name="Длина кокпита" unit="м" >2.1</param>
+<param name="Ширина" unit="м" >1.3</param>
+<param name="Ширина кокпита" unit="м" >0.58</param>
+<param name="Количество отсеков плавучести"  >2</param>
+<param name="Тип"  >надувная ПВХ</param>
+<param name="Тип днища"  >плоское</param>
+<param name="Тип пайола"  >нет</param>
+<param name="Плотность ткани на балоне"  >750</param>
+<param name="Плотность ткани на днище"  >750</param>
+<param name="Тип крепления сиденья"  >стационарное</param>
+<param name="Вид транца"  >стационарный</param>
+<param name="Высота транца"  >0.38</param>
+<param name="Количество упаковочных сумок" unit="шт" >1</param>
+<param name="Серия"  >Аква</param>
+</offer>
+<offer id="64100" available="true" >
+<url>https://www.sportest.ru/winboat-375rf-sprint-luxe-cvet-sv-seryy-seryy-p64100/</url>
+<price>178000</price>
+<currencyId>RUB</currencyId>
+<categoryId>25</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/11/18/AyL6BG0.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Катер WinBoat 375RF Sprint LUXE (Цвет: св.серый/серый)</name>
+<vendor>WinBoat</vendor>
+<description>Складная надувная лодка из ПВХ с жестким стеклопластиковым корпусом (складной РИБ). Лодка отлично подойдет для рыбалки и отдыха на воде. Отличительной особенностью данной модели является наличие стеклопластиковой палубной секции, плоской по всей ширине лодки и имеющий рельефное нескользящее покрытие. Основными преимуществами этой модели РИБ можно отметить: - легкость сборки/разборки (2-3 минуты без учета накачивания/сдутия баллонов) - отсутствие пайолов - удобство хранения и транспортировки Жесткий стеклопластиковый корпус придает лодке РИБ отличную управляемость и мореходность. Баллоны, сделанные из высококачественного ПВХ (1050-1100 г/м2) состоят из трех герметичных отсеков, что повышает безопасность и непотопляемость лодки. Гарантия на лодку составляет 4 (четыре) года.</description>
+<param name="Длина" unit="м" >3.75</param>
+<param name="Ширина" unit="м" >1.75</param>
+<param name="Диаметр баллона"  >0.43</param>
+<param name="Количество отсеков плавучести"  >3</param>
+<param name="Грузоподъемность" unit="кг" >600</param>
+<param name="Пассажировместимость"  >5</param>
+<param name="Вес" unit="кг" >62</param>
+<param name="Плотность"  >1100</param>
+<param name="Максимальная мощность подвесного мотора"  >25л.с.</param>
+</offer>
+<offer id="53826" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-smarine-air-max-380-p53826/</url>
+<price>78980</price>
+<currencyId>RUB</currencyId>
+<categoryId>141</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/04/21/gfmrR9N.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ SMarine AIR MAX - 380 (Цвет: серо-синий)</name>
+<description>Лодки SMarine серии AIR MAX разработаны с учетом эксплуатации во время активного отдыха, занятиях спортом, на рыбалке и охоте. Для изготовления лодок используется корейский ПВХ Wonpoong повышенной прочности. Материал лодки обладает дополнительной износоустойчивостью и резистентностью к ультрафиолетовому излучению.</description>
+<param name="Вид транца"  >стационарный</param>
+<param name="Максимальная мощность" unit="л.с" >30</param>
+<param name="Диаметр баллона"  >0.46</param>
+<param name="Длина" unit="м" >3.8</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Плотность ткани ПВХ на баллоне"  >1100</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >1100</param>
+<param name="Ширина"  >1.84м</param>
+<param name="Вес комплекта" unit="кг" >55</param>
+<param name="Пассажировместимость"  >6</param>
+<param name="Высота транца"  >0.381 (S)</param>
+<param name="Грузоподъемность"  >730</param>
+<param name="Количество упаковочных сумок" unit="шт" >1</param>
+<param name="Тип пайола"  >НДНД</param>
+<param name="Серия"  >AIR MAX</param>
+<param name="Толщина транца" unit="мм" >35</param>
+<param name="Тип крепления сиденья"  >передвижное</param>
+</offer>
+<offer id="5439" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-apache-280-p5439/</url>
+<price>20020</price>
+<currencyId>RUB</currencyId>
+<categoryId>34</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2018/07/04/TBOgyaE.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ Apache 280</name>
+<vendor>Мастер Лодок</vendor>
+<description>Главным и неоспоримым преимуществом моторно-гребных лодок «APACHE» является уникальная конструкция, которая значительно увеличивает полезное пространство внутри лодки, чем повышает ее вместительность по сравнению с другими аналогичными надувными лодками. Размер воздушных баллонов также увеличен, что дает ощущение уверенности внутри лодки, а также избавляет от чувства опасности в воде. Эта лодка имеет увеличенный кокпит, что создает дополнительное свободное место в лодке, дарит пассажирам ощущение простора, а смещенный по отношению к кокпиту пол делает посадку более комфортной. Комплектация лодки порадует своего владельца, так как включает в себя дополнительные ручки и леера, способные выручить в любой ситуации, а для удобства хранения и транспортировки лодки в комплект входит стильная сумка. Баллоны данной модели более добротные благодаря равномерному распределению напряжения. А для защиты пассажиров по борту лодки производители пустили леерный пояс.</description>
+<param name="Вид транца"  >нет</param>
+<param name="Вес комплекта" unit="кг" >14</param>
+<param name="Максимальная мощность" unit="л.с" >2.5</param>
+<param name="Грузоподъемность" unit="кг" >220</param>
+<param name="Пассажировместимость"  >2</param>
+<param name="Диаметр баллона"  >0.36</param>
+<param name="Длина" unit="м" >2.8</param>
+<param name="Ширина" unit="м" >1.3</param>
+<param name="Количество отсеков плавучести"  >2</param>
+<param name="Тип днища"  >плоское</param>
+<param name="Тип пайола"  >фанерный: слань</param>
+<param name="Плотность ткани на балоне"  >800</param>
+<param name="Плотность ткани на днище"  >800</param>
+<param name="Тип крепления сиденья"  >передвижное</param>
+<param name="Количество упаковочных сумок" unit="шт" >1</param>
+<param name="Серия"  >Apache</param>
+</offer>
+<offer id="5455" available="true" >
+<url>https://www.sportest.ru/slan-fanernaya-akva-2600-po-forme-dnishcha-p5455/</url>
+<price>4848</price>
+<currencyId>RUB</currencyId>
+<categoryId>34</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2018/09/14/NmnI7it.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Слань фанерная  Аква 2600 по форме днища</name>
+<vendor>Мастер Лодок</vendor>
+<param name="Длина" unit="см" >179.2</param>
+<param name="Ширина" unit="см" >80.5</param>
+<param name="Толщина" unit="мм" >6</param>
+</offer>
+<offer id="5561" available="true" >
+<url>https://www.sportest.ru/lodka-pvh-flagman-300-p5561/</url>
+<price>39900</price>
+<currencyId>RUB</currencyId>
+<categoryId>30</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2018/07/04/6Jzq9mM.gif</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка ПВХ Флагман 300</name>
+<vendor>Флагман</vendor>
+<description>При конструировании надувной лодки ФЛАГМАН 280 мы хотели добиться компактности, быстроты сборки разборки, небольшого веса, надёжности в экстренных водных ситуациях, лодки выходного дня для двоих, которую можно транспортировать на тележке в электричке, на двух велосипедах разделив вес на лодку и комплектующие, на мотоцикле, или в самой маленькой машине. В результате мы получили: Лодка в неделимом весе 16 кг. при использовании ткани 700 гр. Лодка имеет вклеенный транец для установки мотора от 2,5 до 10 л.с. Отличительной особенностью лодки ФЛАГМАН 280 L от других лодок ФЛАГМАН является то, что надувное днище малокилеватое. Результаты испытаний показали, что за счёт присутствия хоть и незначительного по сравнению с классическими лодками ФЛАГМАН киля лодка не рысклива, имеет курсовую устойчивость, как на веслах, так и под мотором. Под мотором SUZUKI 2. 4т. один человек 90 кг. 15 км./ч Были проведены испытания и под TOHATSU 9.8 л/с. 6кг (бензин) + мотор 26кг = 32 кг. Шкипер 90 кг. 33 - 35 км/ч, Шкипер + пассажир 90+105 кг = 195 кг 29 – 30 км/ч. Диаметр баллонов 460 мм, умеренно приподнятый носовой баллон, небольшая килеватасть, позволяет ФЛАГМАН 280 уверенно преодолевать волны до 40 – 50 см. высотой. На вёслах лодка управляется легко, динамика разгона, скольжение, на высшем уровне. На надувной лодке ФЛАГМАН 280 UL установлена опорная пластина Fast Sliding (быстрое скольжение). Ассиметричные конуса концов баллонов в корме и опорная пластина помогают нашей малютке быстро выходить в глиссирующий режим и не дельфинировать. Исключительно для двоих при опытном шкипере и общем весе снаряжённого груза 180 кг мотор 9,8 л/с.</description>
+<param name="Вес" unit="кг" >28</param>
+<param name="Максимальная мощность" unit="л.с" >6</param>
+<param name="Грузоподъемность" unit="кг" >300</param>
+<param name="Пассажировместимость"  >2</param>
+<param name="Диаметр баллона"  >0.46</param>
+<param name="Длина" unit="м" >3</param>
+<param name="Длина кокпита" unit="м" >2.05</param>
+<param name="Ширина" unit="м" >1485</param>
+<param name="Ширина кокпита" unit="м" >605</param>
+<param name="Количество отсеков плавучести"  >3+1</param>
+<param name="Тип"  >надувная ПВХ</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Плотность ткани ПВХ на баллоне"  >850</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >850</param>
+<param name="Высота транца"  >0.42</param>
+<param name="Количество упаковочных сумок" unit="шт" >1</param>
+<param name="Размер упаковки" unit="м" >0.8/0.28/0.28</param>
+<param name="Тип пайола"  >НДНД</param>
+<param name="Тип крепления сиденья"  >передвижное</param>
+<param name="Вид транца"  >стационарный</param>
+<param name="Серия"  >Моторные</param>
+</offer>
+<offer id="5725" available="true" >
+<url>https://www.sportest.ru/lodka-pvh-flagman-330u-p5725/</url>
+<price>45800</price>
+<currencyId>RUB</currencyId>
+<categoryId>30</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2018/07/04/3PG2nJq.gif</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка ПВХ Флагман 330U</name>
+<vendor>Флагман</vendor>
+<description>Cтартовали продажи новой юбилейной модели надувной лодки ПВХ НДНД ФЛАГМАН 330 U (330 Ю). Отличительной особенностью данной надувной лодки является малая килеватость. Все лодки серии U (юбилейные) имеют надувные днища низкого давления (НДНД) с малым килем. Еще одной особенностью новой модели является возможность использования мотора с максимальной мощностью 15 л.с при толщине транца всего 18 мм. Это было достигнуто путем специального усиления транца. На испытаниях надувной лодки ФЛАГМАН 330 U , использовался мотор мотор Mercury 15 л.с, штатный винт. Лодка показала отличные результаты. 1 человек 88 кг — скорость 48 км/ч 1 человек 110 кг — скорость 45 км/ч 2 человека 200 кг — скорость 42 км/ч Испытания на воде показали, что лодка легка в управлении и в движении на вёслах. Уверенно преодолевает волны до 700 мм, развивает хорошую скорость не делmфинирует. Полностью надувная конструкция обеспечивает владельцу лодки Флагман дополнительные комфорт и безопасность. В лодке удобно располагаться: на дне можно лежать, сидеть, стоять, ходить, рыбачить взаброс. Дополнительный объем воздуха повышает плавучесть и грузоподъемность. Лодка гораздо мягче ведет себя на волне, ее не «бъет». Лодка не шумит, вам не будет отбивать ноги пайолами на мелкой ряби. Пайолы не сложатся от сильного удара волны (за счет полностью надувной конструкции лодка просто «спружинит» и спокойно пойдет дальше). Лодку можно быстро собрать и разобрать, не нужно таскать на себе пайолы и мучиться с их сборкой и монтажем. Лодка гораздо легче и занимает меньше места в упакованном состоянии.</description>
+<param name="Вес" unit="кг" >36</param>
+<param name="Максимальная мощность" unit="л.с" >15</param>
+<param name="Грузоподъемность" unit="кг" >400</param>
+<param name="Пассажировместимость"  >3</param>
+<param name="Диаметр баллона"  >0.46</param>
+<param name="Длина" unit="м" >3.3</param>
+<param name="Длина кокпита" unit="м" >2.3</param>
+<param name="Ширина" unit="м" >1.5</param>
+<param name="Ширина кокпита" unit="м" >0.62</param>
+<param name="Количество отсеков плавучести"  >3+1</param>
+<param name="Тип"  >надувная ПВХ</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Плотность ткани ПВХ на баллоне"  >850</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >850</param>
+<param name="Высота транца"  >0.42</param>
+<param name="Количество упаковочных сумок" unit="шт" >1</param>
+<param name="Размер упаковки" unit="м" >1.06/0.57/0.4</param>
+<param name="Тип пайола"  >НДНД</param>
+<param name="Тип крепления сиденья"  >передвижное</param>
+<param name="Вид транца"  >стационарный</param>
+<param name="Серия"  >Малая килеватость</param>
+</offer>
+<offer id="5750" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-ndnd-reka-r-340-p5750/</url>
+<price>46900</price>
+<currencyId>RUB</currencyId>
+<categoryId>146</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/01/20/eprJ1jc.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ ALTAIR HD-330 НДНД</name>
+<vendor>РЕКА</vendor>
+<description>Лодка ПВХ ALTAIR HD-330 НДНД – флагман в серии 320\\330. Другими словами увеличенная копия младшей 320 модели. Лодка оснащена дном низкого давления (НДНД). Таким образом она имеет все преимущества легкой, мобильной и надежной конструкции с небольшим преимуществом по вместительности. Прежде всего ALTAIR HD 330 имеет в резерве драгоценное место в кокпите, и как результат более комфортное размещение. Так же малый вес, простота сборки и эксплуатации точно так же основные преимущества серии.  Кроме того жесткость конструкции, стабильность курса, малая парусность, просторный кокпит – главное в ней.  Следовательно теперь приятно проводить время на воде можно в компании друзей или родных!</description>
+<param name="Вес" unit="кг" >31.5</param>
+<param name="Длина" unit="м" >3.3</param>
+<param name="Ширина" unit="м" >1.53</param>
+<param name="Длина кокпита" unit="м" >2.33</param>
+<param name="Ширина кокпита" unit="м" >0.65</param>
+<param name="Диаметр баллона"  >0.44</param>
+<param name="Плотность"  >850 г/м2</param>
+<param name="Грузоподъемность" unit="кг" >480</param>
+<param name="Пассажировместимость"  >3</param>
+<param name="Максимальная мощность подвесного мотора"  >9.9л.с.</param>
+<param name="Количество отсеков плавучести"  >3+НДНД</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Тип пайола"  >НДНД</param>
+<param name="Габариты в транспортировочном состоянии, см"  >0,33×0,62×0,90</param>
+</offer>
+<offer id="53908" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-smarine-air-max-330-cvet-seryy-p53908/</url>
+<price>69900</price>
+<currencyId>RUB</currencyId>
+<categoryId>141</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2020/04/14/gtuXqrt.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ SMarine AIR MAX - 330 (Цвет: серый)</name>
+<description>Корейский ПВХ (Wonpoong). ПВХ  дна 1700 г/м2, плотность ПВХ баллонов 1100  / 1350 г/м2   (противоскользящее покрытие, броня), толщина материала баллонов 0,9 мм,  что обеспечивает высокую степень надежности изделий. Дно дополнительно проклеено 5 мм полиуретановой лентой (броня). Ручки для переноски, привальный брус, сумка для переноса лодки, ремкомплект, паспорт изделия, два весла, две банки (сиденье) алюминиевые.                                  * Отдельно можно докомплектовать: непромокаемой носовой сумкой, мягкими накладками на сидение с сумкой рундк, съемный носовой тент, съемный надувной каркас для носового тента.</description>
+<param name="Вид транца"  >стационарный</param>
+<param name="Максимальная мощность" unit="л.с" >15</param>
+<param name="Диаметр баллона"  >0.44</param>
+<param name="Длина" unit="м" >3.3</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Плотность ткани ПВХ на баллоне"  >1100</param>
+<param name="Плотность ткани ПВХ на днище"  >1700</param>
+<param name="Ширина" unit="м" >1.65</param>
+<param name="Вес комплекта" unit="кг" >45</param>
+<param name="Пассажировместимость"  >4</param>
+<param name="Высота транца"  >0.381 (S)</param>
+<param name="Грузоподъемность" unit="кг" >550</param>
+<param name="Количество упаковочных сумок" unit="шт" >1</param>
+<param name="Тип пайола"  >НДНД</param>
+<param name="Серия"  >AIR MAX</param>
+<param name="Толщина транца" unit="мм" >27</param>
+<param name="Тип крепления сиденья"  >передвижное</param>
+</offer>
+<offer id="6775" available="true" >
+<url>https://www.sportest.ru/lodka-pvh-flagman-dk-350-p6775/</url>
+<price>73900</price>
+<currencyId>RUB</currencyId>
+<categoryId>30</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2018/07/04/ZE4vyR7.png</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка ПВХ Флагман DK 350</name>
+<vendor>Флагман</vendor>
+<description>Надувная лодка «Флагман - 350» предназначена для рыбалки, охоты, туризма и активного отдыха на воде небольшой компанией из 2-х – 3-х человек. Оптимальный вес, удобная упаковка и минимальное время сборки–разборки делают эксплуатацию лодки комфортной при любых погодных условиях. Позволяет выходить на глиссирование с лодочным мотором малой мощности. Отличная мореходность и скоростные качества надувной лодки «Флагман 350» доставят Вам и вашим спутникам не мало удовольствия на воде. Отличительные особенности Идеальный &quot;рыбацкий стандарт&quot;. В лодке хватит места для снаряжения самого взыскательного рыбака. Благодаря небольшому весу лодки, можно использовать мотор минимальной мощности. В то же время, при установке 15-18 сильного подвесного мотора, лодка порадует владельца своими скоростными характеристиками. По мореходности лодка вполне может дать фору более крупными судами. Упаковывается лодка в один пакет, который с легкостью помещается в багажник любого легкового автомобиля.</description>
+<param name="Вес" unit="кг" >53</param>
+<param name="Максимальная мощность" unit="л.с" >25</param>
+<param name="Грузоподъемность" unit="кг" >850</param>
+<param name="Пассажировместимость"  >6</param>
+<param name="Диаметр баллона"  >0.43</param>
+<param name="Длина" unit="м" >3.5</param>
+<param name="Длина кокпита" unit="м" >2.66</param>
+<param name="Ширина" unit="м" >1.77</param>
+<param name="Ширина кокпита" unit="м" >0.91</param>
+<param name="Количество отсеков плавучести"  >3+дно</param>
+<param name="Тип"  >надувная ПВХ</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Тип пайола"  >НДНД</param>
+<param name="Плотность ткани ПВХ на баллоне"  >850</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >1050</param>
+<param name="Тип крепления сиденья"  >ликтрос–ликпаз</param>
+<param name="Высота транца"  >0.381 (S)</param>
+<param name="Вид транца"  >стационарный</param>
+<param name="Количество упаковочных сумок" unit="шт" >1</param>
+<param name="Размер упаковки" unit="м" >1.20/0.60/0.40</param>
+</offer>
+<offer id="74164" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-flagman-dk-320-cvet-sero-siniy-p74164/</url>
+<price>52000</price>
+<currencyId>RUB</currencyId>
+<categoryId>30</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/10/12/DAFnZ8k.png</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ Флагман DK 320 (Цвет: Серо-синий)</name>
+<vendor>Флагман</vendor>
+<param name="Вес" unit="кг" >38</param>
+<param name="Длина" unit="м" >3.2</param>
+<param name="Ширина" unit="м" >1.52</param>
+<param name="Длина кокпита" unit="м" >2.6</param>
+<param name="Ширина кокпита" unit="м" >0.72</param>
+<param name="Диаметр баллона"  >0.4</param>
+<param name="Количество отсеков плавучести"  >3+НДНД</param>
+<param name="Максимальная мощность подвесного мотора"  >10л.с.</param>
+<param name="Грузоподъемность" unit="кг" >500</param>
+<param name="Пассажировместимость"  >3</param>
+<param name="Вид транца"  >стационарный</param>
+<param name="Плотность"  >850 г/м2</param>
+<param name="Тип крепления сиденья"  >ликтрос–ликпаз</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Тип пайола"  >НДНД</param>
+</offer>
+<offer id="11623" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-akva-optima-190-p11623/</url>
+<price>10890</price>
+<currencyId>RUB</currencyId>
+<categoryId>34</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2019/04/08/1n7ZHBV.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ Аква-Оптима 190</name>
+<vendor>Мастер Лодок</vendor>
+<description>Легкая одноместная надувная ПВХ лодка «Аква Оптима 190» предназначена для закрытых водоемов и может эксплуатироваться при прибрежной рыбалке, сбора стреляной дичи на утиной охоте, прохождения зарослей камыша или в качестве судна для преодоления небольших водных преград при пеших походах. Бортовой баллон, диаметром 28 см поделен на два независимых отсека, каждый из которых оснащен воздушным клапаном. При производстве этой модели используется ПВХ материал плотностью 750 г/кв.м зеленого или серого цвета. Максимальные габариты кокпита составляют 134 см по длине и 44 см по ширине.В лодке предусмотрено единственное фанерное сиденье, которое устанавливается во вклеенные опоры и не подлежит регулировке. «Аква Оптима 190» оснащена леерными поясами, каждый из которых растянут по внешней стороне борта лодки между двух шайб. Уключин в данной модели не предусмотрено, т.к. лодка комплектуется двумя 60-сантиметровыми гребками из пластика и алюминия. В носовой части имеется якорный рым.</description>
+<param name="Вес" unit="кг" >8</param>
+<param name="Длина" unit="м" >1.9</param>
+<param name="Ширина" unit="м" >1.0</param>
+<param name="Длина кокпита" unit="м" >1.32</param>
+<param name="Ширина кокпита" unit="м" >0.44</param>
+<param name="Пассажировместимость"  >1</param>
+<param name="Количество отсеков плавучести"  >2</param>
+<param name="Грузоподъемность" unit="кг" >120</param>
+<param name="Диаметр баллона"  >0.28</param>
+<param name="Габариты"  >740/330/200</param>
+</offer>
+<offer id="11624" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-akva-optima-210-p11624/</url>
+<price>12750</price>
+<currencyId>RUB</currencyId>
+<categoryId>34</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2019/04/08/GMzMEWO.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ Аква-Оптима 210</name>
+<vendor>Мастер Лодок</vendor>
+<description>Легкая одноместная надувная ПВХ лодка «Аква Оптима 210» предназначена для закрытых водоемов и может эксплуатироваться при прибрежной рыбалке, сбора стреляной дичи на утиной охоте или в качестве судна для преодоления небольших водных преград при пеших походах. Бортовой баллон, диаметром 28 см поделен на два независимых отсека, каждый из которых оснащен воздушным клапаном. При производстве этой модели используется ПВХ материал плотностью 750 г/кв.м зеленого или серого цвета. Максимальные габариты кокпита составляют 154 см по длине и 44 см по ширине.В лодке предусмотрено единственное фанерное сиденье, которое устанавливается во вклеенные опоры и не подлежит регулировке. «Аква Оптима 210» оснащена леерными поясами, каждый из которых растянут по внешней стороне борта лодки между двух шайб. Данная модель комплектуется разборными дюралюминиевыми веслами с пластиковой фурнитурой, длиной 150 см и поворотными уключинами. В носовой части имеется якорный рым.</description>
+<param name="Вес" unit="кг" >10</param>
+<param name="Длина" unit="м" >2.1</param>
+<param name="Ширина" unit="м" >1.0</param>
+<param name="Длина кокпита" unit="м" >1.52</param>
+<param name="Ширина кокпита" unit="м" >0.44</param>
+<param name="Диаметр баллона"  >0.28</param>
+<param name="Пассажировместимость"  >1</param>
+<param name="Грузоподъемность" unit="кг" >120</param>
+<param name="Количество отсеков плавучести"  >2</param>
+<param name="Плотность ткани ПВХ на баллоне"  >750</param>
+<param name="Габариты"  >800/430/220</param>
+</offer>
+<offer id="11627" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-akva-optima-260-p11627/</url>
+<price>15610</price>
+<currencyId>RUB</currencyId>
+<categoryId>34</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2019/04/08/eLJJu5f.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ Аква-Оптима 260</name>
+<vendor>Мастер Лодок</vendor>
+<description>Надувная ПВХ лодка «Аква Оптима 260»  - легкое двухместное судно, предназначено для прибрежной рыбалки в закрытых водоемах и может эксплуатироваться в качестве судна для преодоления небольших водных преград при пеших походах, сбора стреляной дичи на утиной охоте. Бортовой баллон, диаметром 34 см поделен на два независимых отсека, каждый из которых оснащен воздушным клапаном. При производстве этой модели используется ПВХ материал плотностью 750 г/кв.м зеленого или серого цвета. Максимальные габариты кокпита составляют 192 см по длине и 52 см по ширине.В лодке предусмотрены опоры для установки двух фанерных сидений. «Аква Оптима 260» оснащена леерными поясами, каждый из которых растянут по внешней стороне борта лодки между двух шайб. Данная модель комплектуется разборными дюралюминиевыми веслами с пластиковой фурнитурой, длиной 150 см и поворотными уключинами. В носовой части имеется якорный рым.</description>
+<param name="Вес" unit="кг" >14</param>
+<param name="Длина" unit="м" >2.6</param>
+<param name="Ширина" unit="м" >1.2</param>
+<param name="Длина кокпита" unit="м" >1.9</param>
+<param name="Ширина кокпита" unit="м" >0.50</param>
+<param name="Диаметр баллона"  >0.34</param>
+<param name="Пассажировместимость"  >2</param>
+<param name="Грузоподъемность" unit="кг" >220</param>
+<param name="Количество отсеков плавучести"  >2</param>
+<param name="Габариты"  >800/500/240</param>
+<param name="Плотность ткани ПВХ на баллоне"  >750</param>
+</offer>
+<offer id="11630" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-akva-master-260-p11630/</url>
+<price>18930</price>
+<currencyId>RUB</currencyId>
+<categoryId>34</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2020/04/24/I1tle9t.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ Аква-Мастер 260</name>
+<vendor>Мастер Лодок</vendor>
+<description>Надувная ПВХ лодка «Аква Мастер 260»  - легкое двухместное судно, предназначено для прибрежной рыбалки в закрытых водоемах и может эксплуатироваться в качестве судна для преодоления небольших водных преград при пеших походах, сбора стреляной дичи на утиной охоте. Бортовой баллон, диаметром 36 см имеет два независимых отсека, каждый из которых оснащен воздушным клапаном. Дно лодки приклеено к нижней касательной части борта, перекрывая его, тем самым, защищая от преждевременного истирания ткани баллона. При производстве этой модели используется ПВХ материал плотностью 750 г/кв.м зеленого или серого цвета. Габариты кокпита составляют 188 см по длине и 58 см по ширине.Лодка комплектуется двумя фанерными сиденьями, свободно перемещающимися вдоль кокпита, благодаря системе установки &quot;ликтос-ликпаз&quot;. «Аква Мастер 260» оснащена леерными поясами, каждый из которых растянут по внешней стороне борта лодки между двух шайб. В носовой части имеется ручка для переноски, а на корме размещены четыре шайбы для установки навесного транца. Данная модель комплектуется разборными дюралюминиевыми веслами с пластиковой фурнитурой, длиной 150 см, поворотными уключинами и защелками весел.Серия &quot;Аква Мастер&quot; имеет варианты дополнительной комплектации, такие как навесной транец, на который можно установить мотор мощностью до 2,5 л.с. (1,84 кВт), или различное оснащение дна.</description>
+<param name="Вес" unit="кг" >16</param>
+<param name="Длина" unit="м" >2.6</param>
+<param name="Ширина" unit="м" >1.3</param>
+<param name="Длина кокпита" unit="м" >1.88</param>
+<param name="Ширина кокпита" unit="м" >0.6</param>
+<param name="Диаметр баллона"  >0.36</param>
+<param name="Пассажировместимость"  >2</param>
+<param name="Грузоподъемность" unit="кг" >220</param>
+<param name="Количество отсеков плавучести"  >2</param>
+<param name="Плотность ткани ПВХ на баллоне"  >750</param>
+<param name="Габариты"  >900/400/300</param>
+</offer>
+<offer id="11631" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-akva-master-280-p11631/</url>
+<price>19750</price>
+<currencyId>RUB</currencyId>
+<categoryId>34</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2020/04/24/M69LKxs.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ Аква-Мастер 280</name>
+<vendor>Мастер Лодок</vendor>
+<description>Надувная ПВХ лодка «Аква Мастер 280»  - легкое двухместное судно, предназначено для прибрежной рыбалки в закрытых водоемах и может эксплуатироваться в качестве судна для преодоления небольших водных преград при пеших походах, сбора стреляной дичи на утиной охоте. Бортовой баллон, диаметром 36 см имеет два независимых отсека, каждый из которых оснащен воздушным клапаном. Дно лодки приклеено к нижней касательной части борта, перекрывая его, тем самым, защищая от преждевременного истирания ткани баллона. При производстве этой модели используется ПВХ материал плотностью 750 г/кв.м зеленого или серого цвета. Габариты кокпита составляют 208 см по длине и 58 см по ширине.Лодка комплектуется двумя фанерными сиденьями, свободно перемещающимися вдоль кокпита, благодаря системе установки &quot;ликтос-ликпаз&quot;. «Аква Мастер 280» оснащена леерными поясами, каждый из которых растянут по внешней стороне борта лодки между двух шайб. В носовой части имеется ручка для переноски, а на корме размещены четыре шайбы для установки навесного транца. Данная модель комплектуется разборными дюралюминиевыми веслами с пластиковой фурнитурой, длиной 150 см, поворотными уключинами и защелками весел.Серия &quot;Аква Мастер&quot; имеет варианты дополнительной комплектации, такие как навесной транец, на который можно установить мотор мощностью до 2,5 л.с. (1,84 кВт), или различное оснащение дна.</description>
+<param name="Вес" unit="кг" >17</param>
+<param name="Длина" unit="м" >2.8</param>
+<param name="Ширина" unit="м" >1.3</param>
+<param name="Длина кокпита" unit="м" >2.08</param>
+<param name="Ширина кокпита" unit="м" >0.6</param>
+<param name="Диаметр баллона"  >0.36</param>
+<param name="Пассажировместимость"  >2</param>
+<param name="Грузоподъемность" unit="кг" >220</param>
+<param name="Количество отсеков плавучести"  >2</param>
+<param name="Плотность ткани ПВХ на баллоне"  >750</param>
+<param name="Габариты"  >900/400/300</param>
+</offer>
+<offer id="11633" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-akva-2600-p11633/</url>
+<price>20920</price>
+<currencyId>RUB</currencyId>
+<categoryId>34</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/02/04/voDeuY0.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ Аква 2600</name>
+<vendor>Мастер Лодок</vendor>
+<param name="Длина" unit="м" >2.6</param>
+<param name="Ширина" unit="м" >1.3</param>
+<param name="Длина кокпита"  >1.73м</param>
+<param name="Ширина кокпита" unit="м" >0.59</param>
+<param name="Вес" unit="кг" >19</param>
+<param name="Диаметр баллона"  >0.36</param>
+<param name="Пассажировместимость"  >2</param>
+<param name="Грузоподъемность" unit="кг" >220</param>
+<param name="Плотность"  >750</param>
+<param name="Количество отсеков плавучести"  >2</param>
+<param name="Максимальная мощность подвесного мотора"  >4л.с.</param>
+<param name="Габариты в транспортировочном состоянии, см"  >1100/500/200</param>
+</offer>
+<offer id="13593" available="true" >
+<url>https://www.sportest.ru/reyling-nosovoy-dlya-r-375-p13593/</url>
+<price>2400</price>
+<currencyId>RUB</currencyId>
+<categoryId>132</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2018/12/24/u4Nnns5.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Рейлинг носовой для R-375</name>
+<description>Рейлинги на лодки ПВХ - это металлические поручни за которые можно держаться во время движения на надувной лодке ПВХ, а также устанавливать на них дополнительные крепления для эхолотов, навигаторов, держателей для спиннингов. Рейлинги легко снимаются для хранения и легко устанавливаются. Рейлинги для лодок ПВХ выполнены полностью из нержавеющей стали, что обеспечивает их долгий срок службы, а профессиональная работа сварщиков исключает брак на производстве.</description>
+<param name="Материал"  >нержавеющая сталь</param>
+</offer>
+<offer id="51924" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-kayman-n-360-ndnd-p51924/</url>
+<price>71240</price>
+<currencyId>RUB</currencyId>
+<categoryId>142</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2020/02/29/NQEt1rw.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ Кайман N-360 НДНД</name>
+<param name="Длина" unit="м" >3.6</param>
+<param name="Ширина" unit="м" >1.72</param>
+<param name="Длина кокпита" unit="м" >2.46</param>
+<param name="Ширина кокпита" unit="м" >0.78</param>
+<param name="Пассажировместимость"  >5+1</param>
+<param name="Вес" unit="кг" >44</param>
+<param name="Грузоподъемность" unit="кг" >420</param>
+<param name="Максимальная мощность подвесного мотора"  >20л.с.</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Тип пайола"  >НДНД</param>
+<param name="Количество отсеков плавучести"  >3+НДНД</param>
+<param name="Плотность ткани ПВХ на баллоне"  >1000г/м2</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >1000</param>
+<param name="Тип шва"  >Сварной шов</param>
+</offer>
+<offer id="76963" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-admiral-330-cf-ndnd-p76963/</url>
+<price>53750</price>
+<currencyId>RUB</currencyId>
+<categoryId>31</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/11/23/SXKefFs.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ Адмирал-330 CF НДНД</name>
+<description>Адмирал 330 CF НДНД – это многофункциональная лодка повышенной комфортабельности (CF-комфорт) – в этой серии лодок данная модель отличается самым просторным кокпитом. Среди ее преимуществ можно отметить: малый вес; компактность в собранном состоянии; увеличенный размер баллонов; возможность переносить вручную усилиями двух человек; не требует много места для хранения. Следует отметить тот факт, что в процессе создания лодки за основные приоритеты были взяты: простота сборки и разборки; максимальная вместительность; низкая цена.</description>
+<param name="Длина" unit="м" >3.3</param>
+<param name="Ширина" unit="м" >1.7</param>
+<param name="Длина кокпита"  >2.355м</param>
+<param name="Ширина кокпита" unit="м" >0.8</param>
+<param name="Вес комплекта" unit="кг" >41</param>
+<param name="Вес лодки"  >35кг</param>
+<param name="Диаметр баллона"  >0.45</param>
+<param name="Грузоподъемность" unit="кг" >550</param>
+<param name="Пассажировместимость"  >4</param>
+<param name="Максимальная мощность подвесного мотора"  >18л.с.</param>
+<param name="Количество отсеков плавучести"  >3+НДНД</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Тип пайола"  >НДНД</param>
+<param name="Тип крепления сиденья"  >ликтрос–ликпаз</param>
+<param name="Плотность ткани ПВХ на баллоне"  >850</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >1100</param>
+</offer>
+<offer id="16173" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-rivera-3200-ndnd-p16173/</url>
+<price>52360</price>
+<currencyId>RUB</currencyId>
+<categoryId>34</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2019/03/06/cxBj46b.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ Ривьера 3200 НДНД компакт</name>
+<param name="Тип"  >надувная ПВХ</param>
+<param name="Длина" unit="м" >3.2</param>
+<param name="Ширина" unit="м" >1.5</param>
+<param name="Длина кокпита" unit="м" >2.15</param>
+<param name="Ширина кокпита" unit="м" >0.74</param>
+<param name="Вес" unit="кг" >46</param>
+<param name="Диаметр баллона"  >0.42</param>
+<param name="Пассажировместимость"  >3</param>
+<param name="Грузоподъемность" unit="кг" >500</param>
+<param name="Плотность ткани ПВХ на баллоне"  >900</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >900</param>
+<param name="Максимальная мощность" unit="л.с" >15</param>
+<param name="Количество отсеков плавучести"  >3+НДНД</param>
+<param name="Тип пайола"  >НДНД</param>
+<param name="Тип днища"  >килевое</param>
+</offer>
+<offer id="25325" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-akva-2900-p25325/</url>
+<price>25600</price>
+<currencyId>RUB</currencyId>
+<categoryId>34</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2019/08/04/KyX3eKq.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ Аква 2900</name>
+<param name="Тип крепления сиденья"  >передвижное</param>
+<param name="Вид транца"  >стационарный</param>
+<param name="Плотность ткани на днище"  >850</param>
+<param name="Плотность ткани на балоне"  >850</param>
+<param name="Тип"  >надувная ПВХ</param>
+<param name="Тип днища"  >плоское</param>
+<param name="Тип пайола"  >0</param>
+<param name="Длина" unit="м" >2.9</param>
+<param name="Ширина" unit="м" >1.4</param>
+<param name="Ширина кокпита" unit="м" >0.6</param>
+<param name="Количество отсеков плавучести"  >3</param>
+<param name="Диаметр баллона"  >0.4</param>
+<param name="Грузоподъемность" unit="кг" >350</param>
+<param name="Пассажировместимость"  >2</param>
+<param name="Максимальная мощность" unit="л.с" >5</param>
+<param name="Вес комплекта"  >21 кг</param>
+<param name="Длина кокпита" unit="м" >2.1</param>
+<param name="Серия"  >Аква</param>
+</offer>
+<offer id="70429" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-akva-master-300-tr-p70429/</url>
+<price>24310</price>
+<currencyId>RUB</currencyId>
+<categoryId>34</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/07/26/O4j5Jjh.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ Аква-Мастер 300 ТР</name>
+<description>«Аква Мастер 300 ТР»  - надувная моторно-гребная ПВХ лодка, предназначена для перевозки трех пассажиров, прибрежной рыбалки в закрытых водоемах и сбора стреляной дичи на утиной охоте. Бортовой баллон, диаметром 40 см имеет два независимых отсека, каждый из которых оснащен воздушным клапаном. Дно лодки приклеено к нижней касательной части борта, перекрывая его, тем самым, защищая от преждевременного истирания ткани баллона. При производстве этой модели используется ПВХ материал плотностью 750 г/кв.м зеленого или серого цвета. Габариты кокпита составляют 220 см по длине и 60 см по ширине. Лодка комплектуется двумя фанерными сиденьями, свободно перемещающимися вдоль кокпита, благодаря системе установки &quot;ликтос-ликпаз&quot;. «Аква Мастер 300 ТР» оснащена леерными поясами, каждый из которых растянут по внешней стороне борта лодки между трех шайб. В носовой части имеется ручка для переноски, а на корме размещены четыре шайбы для установки навесного транца. Навесной транец входит в базовую комплектацию лодки, на него можно установить мотор мощностью до 2,5 л.с. (1,84 кВт). Данная модель комплектуется разборными дюралюминиевыми веслами с пластиковой фурнитурой, длиной 150 см, поворотными уключинами и защелками весел. Лодка &quot;Аква Мастер 300 ТР&quot; имеет варианты дополнительного оснащения дна.</description>
+<param name="Вес" unit="кг" >21</param>
+<param name="Длина"  >3.0м</param>
+<param name="Ширина" unit="м" >1.45</param>
+<param name="Длина кокпита" unit="м" >2.2</param>
+<param name="Ширина кокпита" unit="м" >0.63</param>
+<param name="Пассажировместимость"  >3</param>
+<param name="Количество отсеков плавучести"  >2</param>
+<param name="Грузоподъемность" unit="кг" >350</param>
+<param name="Диаметр баллона"  >0.28</param>
+<param name="Габариты"  >950/440/280</param>
+</offer>
+<offer id="62634" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-altair-hd-320-ndnd-p62634/</url>
+<price>44000</price>
+<currencyId>RUB</currencyId>
+<categoryId>146</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/01/20/UYHi0qz.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ ALTAIR HD-320 НДНД</name>
+<vendor>РЕКА</vendor>
+<description>Лодка ПВХ надувная ALTAIR HD 320 НДНД – одна из последних разработок компании Альтаир-Про. Особенно актуально на сегодняшний день надувное дно  низкого давления (НДНД). Прежде всего надувное дно позволяет раскрыть потенциал лодки при любых видах отдыха на воде. Лодка HD 320 обладает такими свойствами, как легкость и простота сборки. В результате разработок получилась надежная конструкция, имеющая малый вес. Это позволяет легко управляться с лодкой. Между тем эта модель не уступает по характеристикам лодкам с жестким дном, а по некоторым и опережает их!  Наличие характерной килеватости обеспечивает стабильную курсовую устойчивость. Высокая динамика, предсказуемость управления и надежность. Поэтому использовать эту лодку можно и на рыбалке, и на охоте, и на любом отдыхе на воде.</description>
+<param name="Вес" unit="кг" >26</param>
+<param name="Длина" unit="м" >3.2</param>
+<param name="Ширина" unit="м" >1.53</param>
+<param name="Длина кокпита"  >2.23м</param>
+<param name="Ширина кокпита" unit="м" >0.65</param>
+<param name="Диаметр баллона"  >0.44</param>
+<param name="Плотность"  >850 г/м2</param>
+<param name="Грузоподъемность" unit="кг" >450</param>
+<param name="Пассажировместимость"  >3</param>
+<param name="Максимальная мощность подвесного мотора"  >9.9л.с.</param>
+<param name="Количество отсеков плавучести"  >3+НДНД</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Тип пайола"  >НДНД</param>
+<param name="Габариты в транспортировочном состоянии, см"  >0,33×0,62×0,90</param>
+</offer>
+<offer id="62603" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-altair-joker-r-350-p62603/</url>
+<price>53125</price>
+<currencyId>RUB</currencyId>
+<categoryId>146</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/09/07/orOshvQ.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ  ALTAIR JOKER R-350</name>
+<description>Лодка ПВХ ALTAIR Joker-R-350 изначально разрабатывались,  как лодка для удачливого рыбака. Какой же удачливый рыбак обойдется без надежной и практичной лодки? В результате появились основные характеристики будущей “рыбацкой” линейки. Прежде всего это большой баллон, вместительный кокпит и, конечно, практичные цвета лодок. Так же проверенный временем прочный армированный ПВХ материал и надежный обвес. В тоже время мы дополнили лодку отличными ходовыми характеристиками и серьезным запасом прочности. Отметим наличие килеватости у всего модельного ряда ALTAIR  Джокер. Киль значительно улучшает курсовую устойчивость и стабильность хода на неспокойной воде. Особенно актуален тот факт, что лодки ПВХ ALTAIR  JOKER  чувствуют себя уверенно также на моторах малой мощности. Следовательно мореходность, быстрый выход на глиссер, комфорт и мягкость хода отличает эти лодки от многих одноклассников.В конечном счёте лодка получилась органичной во всех отношениях.Во-первых  из обвеса на корпус установлено только самое необходимое.Во-вторых  максимально простая сборка обусловлена конструкцией пайол. Для удобства сборки, пайол оснащен соединительным профилем системы шип-паз. А для достижения максимальной жесткости и надежности конструкции пола в комплект мы добавили стрингер.В-третьих надежность каждого узла конструкции.В-четвертых – удобство эксплуатации и мобильность.</description>
+<param name="Вес"  >45.5кг</param>
+<param name="Длина" unit="м" >3.5</param>
+<param name="Ширина" unit="м" >1.56</param>
+<param name="Длина кокпита" unit="м" >2.52</param>
+<param name="Ширина кокпита" unit="м" >0.68</param>
+<param name="Диаметр баллона"  >0.44</param>
+<param name="Грузоподъемность" unit="кг" >550</param>
+<param name="Пассажировместимость"  >4+1</param>
+<param name="Максимальная мощность подвесного мотора"  >15л.с.</param>
+<param name="Количество отсеков плавучести"  >3+1(киль)</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Тип пайола"  >фанерный: на профиле</param>
+<param name="Габариты в транспортировочном состоянии, см"  >0,31 х 0,66 х 1,03</param>
+<param name="Плотность"  >850 г/м2</param>
+</offer>
+<offer id="68605" available="true" >
+<url>https://www.sportest.ru/motorno-grebnaya-beskilevaya-lodka-stel-02-300-n-payol-knijka-p68605/</url>
+<price>36025</price>
+<currencyId>RUB</currencyId>
+<categoryId>147</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/07/08/Drrzus2.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Моторно-гребная бескилевая лодка Stel 02-300(n) натяжное дно</name>
+<description>Эксплуатационные особенности1. За счет увеличения размеров лодки увеличена пассажировместимость до 3-х человек. 2. Улучшены скоростные и ходовые качества лодки. 3. Снижены забрызгивание и перелив волны через борт. 4. Приподнятая носовая часть лодки улучшает эксплуатационные качества при использовании во время волны. 5. Увеличенный диаметр баллона придает уменьшенную осадку, это позволяет передвигаться по мелководью и тросте. 6. Сохраняет плавучесть при разгерметизации одного из отсеков. 7. За счёт уменьшения длины кокпита транцем и увеличения длины конуса увеличена устойчивость на воде и выход на глиссер. 8. Лодка имеет малую парусность, ветер не помеха даже на веслах. 9. Палуба-книжка позволяет использовать более мощный мотор и придает уверенность передвижения внутри лодки. 10. Реечный настил - позволяет собирать лодку вместе с настилом (влагостойкая фанера 9 мм). 11. Фанерная площадка (1-2-3 листа фанеры шириной 40 см)- позволяет Вам определить достаточное количество листов. Является наиболее дешевым и облегченным вариантом. 12. Реечный настил может быть удален для облегчения или мытья лодки. 13. Возможность подогнать лодку под себя (подвижные банки, подвижная втулка весла). 14. За счет большого баллона, можно долго находиться на воде, не затекают ноги, высоко расположенные банки. 15. Легка и удобна для переноски в рюкзаке. Конструкционные особенности1. Увеличены длина и ширина кокпита лодки. 2. Увеличена грузоподъемность до 400кг. 3. Увеличенн диаметр баллона до 38 см. 4. Три герметичных отсека. 5. Приподнятая носовая часть. 6. Стандартная комплектация без палубного настила, возможность комплектовать лодку 3-мя видами настила: реечный настил (9 мм), пайола-книжка (6,5 мм) и фанерной площадкой (6,5 мм). 7. Привальный брус с водоотливным гребешком. 8. Три ручки для переноски лодки. 9. Защита задней части баллонов и низ транца донным брусом и уголковым профилем ПВХ. 10. Подвижное крепление банок. 11. Транцевые накладки в месте крепления двигателя. 12. Рым болт на транце для крепления троса безопасности двигателя. 13. Упакована в высокопрочную сумку, удобную для быстрой упаковки, усиленную ременной лентой. 14. Банки из 15 мм фанеры. 15. Транец из влагостойкой фанеры 21 мм. 16. Надежный воздушный клапан фирмы Borika.</description>
+<param name="Вес" unit="кг" >29</param>
+<param name="Длина" unit="м" >3</param>
+<param name="Ширина" unit="м" >1.38</param>
+<param name="Диаметр баллона"  >0.38</param>
+<param name="Количество отсеков плавучести"  >3</param>
+<param name="Максимальная мощность подвесного мотора"  >6л.с.</param>
+<param name="Плотность"  >850 г/м2</param>
+<param name="Тип пайола"  >фанерный: книжка</param>
+<param name="Тип днища"  >плоское</param>
+<param name="Грузоподъемность" unit="кг" >310</param>
+<param name="Пассажировместимость"  >3</param>
+</offer>
+<offer id="68606" available="true" >
+<url>https://www.sportest.ru/motornaya-kilevaya-lodka-stel-03-275-light-payol-knijka-p68606/</url>
+<price>38692.50</price>
+<currencyId>RUB</currencyId>
+<categoryId>147</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/07/08/FvYdwL3.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Моторная килевая лодка Stel 03-275 Light пайол-книжка</name>
+<description>1. Небольшая, но имеющая все атрибуты моторной лодки: киль, комфортную в эксплуатации палубу-книжку с стрингерами, жестко вклеенный транец. 2. Приподнятая носовая часть лодки улучшает эксплуатационные качества лодки при использовании на волнах. 3. Ответная часть палубы увеличивает жесткость и управляемость лодки. 4. Меняющийся диаметр и обтекаемая форма баллона вместе с усиленной палубой придают лодке более динамические и спортивные характеристики. 5. Снижены забрызгивание и перелив волны через борт. 6. Возможность осушить лодку в случае захлестывания волной через сливной клапан. 7. Вполне подъемна по весу, так как упаковывается в две сумки. 8. Три отсека + надувной киль + защита всех основных мест возможных повреждений надувного корпуса обеспечит Вашу безопасность. 9. За счет большого баллона можно долго находиться на воде, не затекают ноги, высоко расположены банки.Конструкционные особенности1. Три герметичных отсека + надувной киль. 2. Увеличенный диаметр баллона до 42 см и ширина кокпита. 3. Приподнятая носовая часть. 4. Сливной клапан. 5. Палуба-книжкаиз влагостойкой перфорированной фанеры 9 мм с запорными стрингерами (1м). 6. Привальный брус с водоотливным гребешком. 7. Три ручки для переноски лодки. 8. Защита киля донным брусом ПВХ. 9. Подвижное крепление банок. 10. Транцевые накладки в месте крепления двигателя. 11. Рым болт на транце для крепления троса безопасности двигателя. 12. Упакована в высокопрочную сумку удобную для быстрой упаковки, усиленную ременной лентой и сумку пайолы. 13. Банки из 15 мм фанеры. 14. В носовой части баллона установлена ручка для переноса лодки и рым с направляющим роликом. 15. Надежный воздушный клапан от Российского производителя Голубев.</description>
+<param name="Вес" unit="кг" >42</param>
+<param name="Длина" unit="м" >2.75</param>
+<param name="Ширина" unit="м" >1.52</param>
+<param name="Диаметр баллона"  >0.42</param>
+<param name="Количество отсеков плавучести"  >3+1(киль)</param>
+<param name="Максимальная мощность подвесного мотора"  >9.8л.с.</param>
+<param name="Плотность"  >850 г/м2</param>
+<param name="Тип пайола"  >фанерный: книжка</param>
+<param name="Наличие стрингера"  >есть</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Грузоподъемность" unit="кг" >350</param>
+</offer>
+<offer id="63768" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-taymen-290-v-lx-p63768/</url>
+<price>29410</price>
+<currencyId>RUB</currencyId>
+<categoryId>34</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/02/04/VVj4aeN.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ Таймень 290 V (LX)</name>
+<vendor>Мастер Лодок</vendor>
+<param name="Длина" unit="м" >2.9</param>
+<param name="Ширина" unit="м" >1.45</param>
+<param name="Вес" unit="кг" >18</param>
+<param name="Длина кокпита" unit="м" >2.1</param>
+<param name="Ширина кокпита" unit="м" >0.65</param>
+<param name="Диаметр баллона"  >0.4</param>
+<param name="Пассажировместимость"  >2</param>
+<param name="Грузоподъемность" unit="кг" >220</param>
+<param name="Плотность"  >750</param>
+<param name="Количество отсеков плавучести"  >2</param>
+<param name="Габариты в транспортировочном состоянии, см"  >900/450/280</param>
+</offer>
+<offer id="66714" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-altair-hd-360-ndnd-p66714/</url>
+<price>69750</price>
+<currencyId>RUB</currencyId>
+<categoryId>146</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/05/18/TKEH5a1.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ ALTAIR HD-360 НДНД</name>
+<description>Лодка ПВХ надувная ALTAIR HD-360 НДНД заметно проще в эксплуатации и намного легче пайольных собратьев. И как следствие мы получили отличное скольжение по водной глади за счёт оригинальной конструкции надувного дна. С первых минут движения на лодке ПВХ с дном конструкции ALTAIR HD создается ощущение комфорта и безопасности. Чтобы прояснить ситуацию, заметим, что за основу при его разработке была взята известная конструкция “Морской дротик”. Таким образом удалось адаптировать жёсткий корпус в “надувном” формате. Другими словами мы получили уникальный корпус с уникальными характеристиками. Прежде всего это совокупность высоких скоростей с легким выходом на глиссер, а так же превосходная маневренность и управляемость. Поведение лодки определяется сложным рельефом дна ALTAIR HD и наличием в нем ярко выраженной килеватости. Что в последствии обеспечивает лодке ALTAIR HD отличную остойчивость и уверенный выход на глиссирование. Точно так же вместе с быстрым набором скорости  отметим отличную управляемость и курсовую устойчивость. Особенно актуален «мягкий» и чёткий отзыв на поворот румпеля, даже на полной скорости.  Так же лодки прекрасно справляются как с волной и порывами ветра, оставаясь на заданном курсе. Комфорт и безопасность – вот самое точное определение линейки ALTAIR HD. Лодка ПВХ ALTAIR HD-360 НДНД – гарантия Вашей безопасности на воде! </description>
+<param name="Вес"  >44.5кг</param>
+<param name="Длина" unit="м" >3.6</param>
+<param name="Ширина" unit="м" >1.71</param>
+<param name="Длина кокпита" unit="м" >2.52</param>
+<param name="Ширина кокпита" unit="м" >0.77</param>
+<param name="Диаметр баллона"  >0.47</param>
+<param name="Плотность"  >950 г/м2</param>
+<param name="Грузоподъемность" unit="кг" >700</param>
+<param name="Пассажировместимость"  >4+1</param>
+<param name="Максимальная мощность подвесного мотора"  >18л.с.</param>
+<param name="Количество отсеков плавучести"  >3+НДНД</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Тип пайола"  >НДНД</param>
+</offer>
+<offer id="68604" available="true" >
+<url>https://www.sportest.ru/motorno-grebnaya-beskilevaya-lodka-stel-02-280-n-bez-pola-p68604/</url>
+<price>34100</price>
+<currencyId>RUB</currencyId>
+<categoryId>147</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/07/09/VqDdbSq.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Моторно-гребная бескилевая лодка Stel 02-280(n) натяжное дно</name>
+<description>Эксплуатационные особенности1. Снижены забрызгивание и перелив волны через борт. 2. Приподнятая носовая часть лодки улучшает эксплуатационные качества при использовании во время волны. 3. Увеличенный диаметр баллона придает уменьшенную осадку, это позволяет передвигаться по мелководью и тросте. 4. Сохраняет плавучесть при разгерметизации одного из отсеков. 5. За счёт уменьшения длины кокпита транцем и увеличения длины конуса увеличена устойчивость на воде и выход на глиссер. 6. Лодка имеет малую парусность, ветер не помеха даже на веслах. 7. Палуба-книжка позволяет использовать более мощный мотор и придает уверенность передвижения внутри лодки. 8. Реечный настил - позволяет собирать лодку вместе с настилом (влагостойкая фанера 9 мм). 9. Фанерная площадка (1-2-3 листа фанеры шириной 40 см)- позволяет Вам определить достаточное количество листов. Является наиболее дешевым и облегченным вариантом. 10. Реечный настил может быть удален для облегчения или мытья лодки. 11. Возможность подогнать лодку под себя (подвижные банки, подвижная втулка весла). 12. За счет большого баллона, можно долго находиться на воде, не затекают ноги, высоко расположенные банки. 13. Легка и удобна для переноски в рюкзаке. Конструкционные особенности1. Увеличенный диаметр баллона до 38 см. 2. Три герметичных отсека. 3. Приподнятая носовая часть. 4. Стандартная комплектация без палубного настила, возможность комплектовать лодку 3-мя видами настила: реечный настил (9 мм), пайола-книжка (6,5 мм) и фанерной площадкой (6,5 мм). 5. Привальный брус с водоотливным гребешком. 6. Три ручки для переноски лодки. 7. Защита задней части баллонов и низ транца донным брусом и уголковым профилем ПВХ. 8. Подвижное крепление банок. 9. Транцевые накладки в месте крепления двигателя. 10. Рым болт на транце для крепления троса безопасности двигателя. 11. Упакована в высокопрочную сумку, удобную для быстрой упаковки, усиленную ременной лентой. 12. Банки из 15 мм фанеры. 13. Транец из влагостойкой фанеры 21 мм. 14. Надежный воздушный клапан фирмы Borika. </description>
+<param name="Вес" unit="кг" >27</param>
+<param name="Длина" unit="м" >2.8</param>
+<param name="Ширина" unit="м" >1.36</param>
+<param name="Диаметр баллона"  >0.38</param>
+<param name="Грузоподъемность" unit="кг" >280</param>
+<param name="Пассажировместимость"  >2</param>
+<param name="Количество отсеков плавучести"  >3</param>
+<param name="Плотность"  >850 г/м2</param>
+<param name="Вид транца"  >стационарный</param>
+</offer>
+<offer id="68602" available="true" >
+<url>https://www.sportest.ru/grebnaya-lodka-stel-01-255-n-payol-knijka-p68602/</url>
+<price>24035</price>
+<currencyId>RUB</currencyId>
+<categoryId>147</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/07/09/YW4cqi1.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Гребная лодка Stel 01-255(n) пайол-книжка</name>
+<description> Эксплуатационные особенности1. Сохраняет плавучесть при разгерметизации одного из отсеков. 2. Реечный настил может быть удален для облегчения или мытья лодки. 3. Возможность подогнать лодку под себя (подвижные банки, подвижная втулка весла). 4. Лодка имеет малую парусность, ветер не помеха даже на веслах. 5. Легка и удобна в переноске в рюкзаке. 6. Возможность установить навесной транец. 7. Крепление транца штатные в виде четырех рым шайб, позволяют без использования инструмента надежно и быстро установить навесной транец при сниженном давлении в кормовой части баллона. 8. Плоское положение транца позволяет, не снимая его, сложить лодку в упаковку. 9. Приподнятая носовая часть лодки улучшает эксплуатационные качества при использовании во время волны. 10. Снижены забрызгивание и перелив волны через борт. 11. Реечный настил – позволяет собирать лодку вместе с настилом (влагостойкая фанера 9 мм). 12. Пайола-книжка – позволяет получить в собранном состоянии сплошную фанерную палубу (влагостойкая фанера 6,5 мм). 13. Фанерная площадка (1-2-3 листа фанеры шириной 40 см) – позволяет определить пользователю достаточное количество листов. Является наиболее дешевым и облегченным вариантом. Конструкционные особенности1. Два герметичных отсека. 2. Надежный воздушный клапан фирмы Borika. 3. Уключина с подвижной осью (качающейся). 4. Разборное весло. 5. Сборка лодки в стык и перехлестным швом с усилением наружной ленты. 6. Ткань ПВХ 850 гр/кв.м производства Германия HeyTex, Mirasol (Корея). 7. Подвижное крепление банки. 8. Упакована в высокопрочную сумку-рюкзак, усиленную ременной лентой. 9. Подвижная втулка. 10. Штатное крепление навесного транца. 11. Увеличенный диаметр баллона до 38 см. 12. Приподнятая носовая часть. 13. Возможность комплектовать лодку тремя видами настила (реечный настил, пайола-книжка, фанерная площадка).</description>
+<param name="Вес" unit="кг" >16</param>
+<param name="Длина" unit="м" >2.55</param>
+<param name="Ширина" unit="м" >1.36</param>
+<param name="Диаметр баллона"  >0.38</param>
+<param name="Пассажировместимость"  >2</param>
+<param name="Количество отсеков плавучести"  >2</param>
+<param name="Плотность"  >750</param>
+<param name="Грузоподъемность" unit="кг" >200</param>
+<param name="Тип пайола"  >фанерный: книжка</param>
+<param name="Тип днища"  >плоское</param>
+</offer>
+<offer id="71835" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-apache-turist-325-nd-p71835/</url>
+<price>32940</price>
+<currencyId>RUB</currencyId>
+<categoryId>34</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/08/13/vEkljQG.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ Apache Турист 325 НД</name>
+<param name="Грузоподъемность" unit="кг" >350</param>
+<param name="Пассажировместимость"  >3</param>
+<param name="Диаметр баллона"  >0.4</param>
+<param name="Длина" unit="м" >3.25</param>
+<param name="Ширина" unit="м" >1.38</param>
+<param name="Длина кокпита" unit="м" >2.32</param>
+<param name="Ширина кокпита"  >0.54м</param>
+<param name="Тип"  >надувная ПВХ</param>
+<param name="Тип днища"  >плоское</param>
+<param name="Плотность ткани на балоне"  >750</param>
+<param name="Плотность ткани на днище"  >750</param>
+<param name="Тип крепления сиденья"  >ликтрос–ликпаз</param>
+<param name="Серия"  >Apache</param>
+<param name="Тип пайола"  >НДНД</param>
+</offer>
+<offer id="77051" available="true" >
+<url>https://www.sportest.ru/lodka-pvh-flagman-dk-370-igla-p77051/</url>
+<price>66800</price>
+<currencyId>RUB</currencyId>
+<categoryId>30</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/12/21/T6Dwvag.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка ПВХ Флагман DK 370 IGLA</name>
+<vendor>Флагман</vendor>
+<param name="Длина" unit="м" >3.7</param>
+<param name="Ширина" unit="м" >1.52</param>
+<param name="Длина кокпита" unit="м" >3.1</param>
+<param name="Ширина кокпита" unit="м" >0.72</param>
+<param name="Диаметр баллона"  >0.4</param>
+<param name="Количество отсеков плавучести"  >3+НДНД</param>
+<param name="Грузоподъемность" unit="кг" >700</param>
+<param name="Вес лодки"  >43</param>
+<param name="Вес комплекта" unit="кг" >52</param>
+<param name="Плотность"  >1050г/м2</param>
+<param name="Максимальная мощность подвесного мотора"  >20л.с.</param>
+<param name="Габариты"  >120X60X46см</param>
+</offer>
+<offer id="76747" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-smarine-air-max-380-cvet-seryy-p76747/</url>
+<price>78980</price>
+<currencyId>RUB</currencyId>
+<categoryId>141</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/11/24/Tbn0HAM.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ SMarine AIR MAX - 380 (Цвет: серый)</name>
+<vendor>Smarine</vendor>
+<param name="Вид транца"  >стационарный</param>
+<param name="Максимальная мощность" unit="л.с" >30</param>
+<param name="Диаметр баллона"  >0.46</param>
+<param name="Длина" unit="м" >3.8</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Плотность ткани ПВХ на баллоне"  >1100</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >1100</param>
+<param name="Ширина"  >1.84м</param>
+<param name="Вес комплекта" unit="кг" >55</param>
+<param name="Пассажировместимость"  >6</param>
+<param name="Высота транца"  >0.381 (S)</param>
+<param name="Грузоподъемность"  >730</param>
+<param name="Количество упаковочных сумок" unit="шт" >1</param>
+<param name="Тип пайола"  >НДНД</param>
+<param name="Серия"  >AIR MAX</param>
+<param name="Толщина транца" unit="мм" >35</param>
+<param name="Тип крепления сиденья"  >передвижное</param>
+</offer>
+<offer id="77065" available="true" >
+<url>https://www.sportest.ru/motornaya-alyuminievaya-lodka-wyatboat-390-dcm-p77065/</url>
+<price>309900</price>
+<currencyId>RUB</currencyId>
+<categoryId>150</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2022/02/07/1U1U7k0.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Моторная алюминиевая лодка Wyatboat-390 DCM (не окрашенная)</name>
+<vendor>WyatBoat</vendor>
+<description>Рым алюминиевый на форштевнеПодуключины в носовом кокпитеСиденье-рундук в носуДве алюминиевые консолиМежконсольная дверьПанорамное ветровое стекло с откидной секциейСкамья водителя и пассажира съёмнаяПолки вдоль бортовСиденье-рундук кормовоеСлани из влагостойкой фанерыРецесс самоотливной со сливными отверстиямиСливная пробка на транцеРулевое управление в сбореПолимерный кожух тросов в рецессеПанель переключателей с прикуривателемХодовые огни (красный и зеленый)Топовый огонь (складной)Площадка для установки ДУ подвесного мотораГофрированный кожух в борту для тросов Выключатель массыЭлектроподготовка с клеммами аккумулятораПомпа электрическая с дренажной системойПоддон алюминиевый для аккумулятораКоврик резиновый для аккумулятораРемень крепления аккумулятораБлоки плавучести пенополистирол ТехноплексСертификат соответствияРуководство по эксплуатации</description>
+<param name="Длина габаритная"  >4.0м</param>
+<param name="Ширина габаритная"  >1.5м</param>
+<param name="Высота борта на миделе"  >0.65м</param>
+<param name="Высота транца"  >S (380мм)</param>
+<param name="Килеватость корпуса на транце"  >8 градусов</param>
+<param name="Килеватость корпуса на миделе"  >13 градусов</param>
+<param name="Пассажировместимость"  >4</param>
+<param name="Масса лодки с оборудованием и снабжением (без мотора)"  >110кг</param>
+<param name="Грузоподъемность" unit="кг" >350</param>
+<param name="Максимальная мощность подвесного мотора"  >30 л.с.</param>
+<param name="Толщина борта"  >2мм</param>
+<param name="Толщина днища"  >3мм</param>
+</offer>
+<offer id="77066" available="true" >
+<url>https://www.sportest.ru/motornaya-alyuminievaya-lodka-wyatboat-430-dcm-p77066/</url>
+<price>349900</price>
+<currencyId>RUB</currencyId>
+<categoryId>150</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2022/02/07/lSdcchy.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Моторная алюминиевая лодка Wyatboat-430 DCM (не окрашенная)</name>
+<description>Рым алюминиевый на форштевнеНескользящая алюминиевая палубаРелинги в носовом кокпитеСиденье-рундук в носовом кокпитеПанорамное ветровое стекло с откидной секциейДве алюминиевые консолиМежконсольная дверцаСиденье-рундук водителяСиденье-рундук пассажираДиван-рундук кормовойРелинги в кормовой части кокпитаРецесс самоотливной с шпигатамиСливная пробка на транцеПодуключиныРулевое управление в сбореПолимерный кожух тросов в рецессеПанель переключателей с прикуривателемВольтметр аналоговыйХодовые огни (красный, зеленый)Топовый огонь (складной)Площадка для установки ДУ подвесного мотораПомпа электрическаяВыключатель массыЭлектроподготовка с клеммами аккумулятораПоддон алюминиевый для аккумулятораКоврик резиновый для аккумулятораРемень крепления аккумулятораСлани из влагостойкой фанерыБлоки плавучести пенополистирол ТехноплексСертификат соответствияРуководство по эксплуатации</description>
+<param name="Длина габаритная"  >4.3м</param>
+<param name="Ширина габаритная"  >1.6м</param>
+<param name="Высота борта на миделе"  >0.7м</param>
+<param name="Высота транца"  >S (380мм)</param>
+<param name="Килеватость корпуса на транце"  >8 градусов</param>
+<param name="Килеватость корпуса на миделе"  >13 градусов</param>
+<param name="Пассажировместимость"  >5</param>
+<param name="Масса лодки с оборудованием и снабжением (без мотора)"  >189 кг.</param>
+<param name="Грузоподъемность" unit="кг" >400</param>
+<param name="Максимальная мощность подвесного мотора"  >40 л.с.</param>
+<param name="Толщина борта"  >2мм</param>
+<param name="Толщина днища"  >3мм</param>
+</offer>
+<offer id="77067" available="true" >
+<url>https://www.sportest.ru/motornaya-alyuminievaya-lodka-neman-450-dc-new-p77067/</url>
+<price>499900</price>
+<currencyId>RUB</currencyId>
+<categoryId>150</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2022/01/14/cXsxCwc.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Моторная алюминиевая лодка Neman-450 DC NEW (Синяя/Серая)</name>
+<vendor>WyatBoat</vendor>
+<description>Рым алюминиевый на форштевнеЯкорная ниша в носуНосовые рундукиКонсоли алюминиевые 2 шт.Межконсольная дверь алюминиеваяПанорамное ветровое стекло с откидной секциейМягкие съемные кресла водителя и пассажира на стойкахБардачок в консоли со стороны пассажираРучка на консоли со стороны пассажираПолки вдоль бортов обшитые карпетомДиван-рундук кормовойУтки швартовые 4 шт.Консоль алюминиеваяКринолины увеличенныеКронштейн крепления эхолотаРецесс самоотливной с шпигатамиСливная пробка на транцеПодуключиныПолимерно-порошковая покраска бортов и палубыТопливная система в сбореРулевое управление в сбореПолимерный кожух тросов в рецессеПанель переключателей с прикуривателемВольтметр цифровойХодовые огни (красный и зеленый)Топовый огонь (на съемной стойке)Площадка для установки ДУ подвесного мотораПомпа электрическая с дренажной системойВыключатель массыЭлектроподготовка с клеммами аккумулятораПоддон алюминиевый для аккумулятораКоврик резиновый для аккумулятораРемень крепления аккумулятораСлани из влагостойкой фанерыБлоки плавучести пенополистирол ТехноплексСертификат соответствияРуководство по эксплуатации</description>
+<param name="Длина габаритная"  >4.6м</param>
+<param name="Ширина габаритная"  >1.95м</param>
+<param name="Высота борта на миделе"  >0,84 м.</param>
+<param name="Высота транца"  >S (380мм)</param>
+<param name="Килеватость корпуса на транце"  >12 градусов</param>
+<param name="Килеватость корпуса на миделе"  >15 градусов</param>
+<param name="Пассажировместимость"  >5</param>
+<param name="Масса лодки с оборудованием и снабжением (без мотора)"  >249 кг.</param>
+<param name="Грузоподъемность" unit="кг" >400</param>
+<param name="Максимальная мощность подвесного мотора"  >50 л.с.</param>
+<param name="Толщина борта"  >2мм</param>
+<param name="Толщина днища"  >3мм</param>
+</offer>
+</offers>
+</shop>
+        </yml_catalog>

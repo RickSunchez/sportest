@@ -1,0 +1,448 @@
+extensions:
+	cms: CMS\Core\Bridges\CMSExtension
+	menu:  CMS\Core\Bridges\MenuExtension
+	thumb: CMS\Core\Bridges\ThumbExtension
+	seo: CMS\SEO\Bridges\SEOExtension
+
+constants:
+    CMS_CONFIG: true
+
+application:
+	behaviors:
+		header: CMS\Core\Component\Header\HeaderControllerBehavior
+
+services:
+	register: \CMS\Core\Component\Register(%path.log%)
+
+
+#sitemaps:
+#	\CMS\Core\Component\Sitemaps\Controls\PageSitemaps:
+#		site: www
+#	\CMS\Core\Component\Sitemaps\Controls\EventSitemaps:
+#		site: www
+#		no_cid:
+#	\CMS\Core\Component\Sitemaps\Controls\ArticleSitemaps:
+#		site: www
+#		no_cid:
+#	\CMS\Core\Component\Sitemaps\Controls\NewsSitemaps:
+#		site: www
+#		no_cid:
+#	\CMS\Core\Component\Sitemaps\Controls\NewsCategorySitemaps:
+#		site: www
+#		no_cid:
+#	\CMS\Core\Component\Sitemaps\Controls\VideoSitemaps:
+#		site: www
+#		no_cid:
+#	\CMS\Core\Component\Sitemaps\Controls\VideoCategorySitemaps:
+#		site: www
+#		no_cid:
+#	\CMS\Core\Component\Sitemaps\Controls\GallerySitemaps:
+#		site: www
+#		no_cid:
+#	\CMS\Core\Component\Sitemaps\Controls\GalleryCategorySitemaps:
+#		site: www
+#		no_cid:
+
+attribute:
+	Admin: \CMS\Admin\Attribute\AdminAttribute
+	User: \CMS\Users\Attribute\UserAttribute
+	JsRemote: \CMS\Core\Attribute\JsRemoteAttribute
+	CssRemote: \CMS\Core\Attribute\CssRemoteAttribute
+	SetTitle: \CMS\Core\Attribute\SetTitleAttribute
+	AddTitle: \CMS\Core\Attribute\AddTitleAttribute
+
+
+cms:
+	domain:
+	 	multi: false # многодоменый сайт
+	 	show:
+	 		- www
+	visitor: true # в callback добавляте запись от куда пришел
+	news:
+		page: 20
+		layout: index
+		first:
+			name: Новости
+			router: [news]
+	event:
+		page: 20
+		layout: index
+		first:
+			name: События
+			router: [events]
+	article:
+		page: 20
+		layout: index
+		first:
+			name: Статьи
+			router: [articles]
+	gallery:
+		page: 20
+		layout: index
+		first:
+			name: Фотогалерея
+			router: [galleries]
+	video:
+		page: 20
+		layout: index
+		tags: false
+		first:
+			name: Видео
+			router: [videos]
+	error:
+		layout: index
+	review:
+		page: 20
+		layout: index
+		first:
+			name: Отзывы
+			router: [reviews]
+	question:
+		page: 20
+		layout: index
+	cabinet:
+		layout: index
+		template: cabinet
+		user_attrs: [] # коды аттребутов которые надо отображать
+	user:
+		form:
+			attrs: []
+		auth:
+			attrs: []
+		layout:
+			forms: no_auth
+			message: index
+		template:
+			forms: cabinet
+			message: cabinet
+	admin:
+		user:
+			attrs < user.auth.attrs: []
+
+
+menu:
+	cabinet:
+		user:
+			name: Профиль
+			links:
+				Тех. Поддержка: [cabinet_help_desk_list]
+				Редактировать: [cabinet]
+	admin:
+		content:
+			name: Материалы сайта
+			links:
+				Страницы: [admin_page,[action=list]]
+				Новости: [admin_news,[action=list]]
+				События: [admin_event,[action=list]]
+				Статьи: [admin_article,[action=list]]
+				Галерея: [admin_gallery,[action=list]]
+				Опросы: [admin_poll,[action=list]]
+				Вопросы: [admin_question,[action=list]]
+				Отзывы: [admin_review,[action=list]]
+				Документы: [admin_doc,[action=list]]
+				Изображение: [admin_image,[action=list]]
+				Видео: [admin_video,[action=list]]
+		config:
+			name: Настройки
+			links:
+				Категории: [admin_cms_category,[action=list]]
+				Теги: [admin_tags,[action=list]]
+				Баннеры: [admin_banner,[action=list]]
+				Слайдер: [admin_slider,[action=list]]
+				Меню: [admin_menu,[action=list]]
+				Шаблоны: [admin_tmp,[action=list]]
+		static:
+			name: Обратная связь
+			links:
+				Техподдержка: [admin_help_im,[action=list]]
+				Обратный звонок: [admin_callback,[action=list]]
+				Короткая ссылка: [admin_go,[action=list]]
+				Поиск: [admin_search,[action=list]]
+
+
+header:
+	admin:
+		title: 'Панель администрирование Delorius CMF'
+		description: 'Панель администрирование Delorius CMF'
+		separator: ' :: '
+		reverse_order: true
+		robots: 'NOINDEX'
+		meta:
+			viewport: 'width=device-width, initial-scale=1.0'
+
+webloader:
+	js:
+		default:
+			remoteFiles:
+			files:
+				- plugin/jquery-1.11.0.min.js
+				- plugin/jquery.magnific-popup.min.js
+				- plugin/jquery.pnotify.min.js
+				- plugin/jquery.maskedinput.min.js
+				- plugin/jquery.ui.totop.min.js
+				- plugin/slick.min.js
+				- bootstrap.min.js
+				- modernizr.js
+				- angular-1.3.15/angular.min.js
+				- app_common.js
+				- services.js
+				- controller/shop.js
+				- controller/site.js
+				- default.js
+		default_mobile: #for mobile
+			files:
+				- plugin/jquery-1.11.0.min.js
+				- plugin/jquery.maskedinput.min.js
+				- plugin/jquery.lazyload.mini.js
+				- plugin/cms.mobile.js
+				- bootstrap.min.js
+				- modernizr.js
+				- angular-1.3.15/angular.min.js
+				- app_common.js
+				- services.js
+				- controller/site.js
+				- controller/shop.js
+				- mobile/fastclick.js
+				- mobile/default.js
+				- common/df.js
+				- common/df.mobile.js
+				- mobile.js
+				- shop_mobile.js
+		admin:
+			files:
+				- plugin/jquery-2.0.2.min.js
+				- plugin/jquery-migrate-1.0.0.js
+				- plugin/jquery-ui-1.10.4.custom.min.js
+				- plugin/jquery.magnific-popup.min.js
+				- plugin/jquery.pnotify.min.js
+				- plugin/jquery.maskedinput.min.js
+				- plugin/jquery.datetimepicker.js
+				- plugin/jquery.ui.totop.min.js
+				- plugin/jquery.Jcrop.min.js
+				- plugin/select2.js
+				- bootstrap.min.js
+				- common/df.js
+				- upload/angular-file-upload-shim.min.js
+				- angular-1.3.15/angular.min.js
+				- angular-1.3.15/select2.js
+				- upload/angular-file-upload.js
+				- app.js
+				- directives.js
+				- services.js
+				- controller/admin.js
+				- controller/admin_seo.js
+				- modernizr.js
+				- common/df.js
+				- admin.js
+		cabinet:
+			files:
+				- plugin/jquery-2.0.2.min.js
+				- plugin/jquery-migrate-1.0.0.js
+				- plugin/jquery.magnific-popup.min.js
+				- plugin/jquery.pnotify.min.js
+				- plugin/jquery.maskedinput.min.js
+				- bootstrap.min.js
+				- plugin/select2.js
+				- upload/angular-file-upload-shim.min.js
+				- angular-1.3.15/angular.min.js
+				- angular-1.3.15/select2.js
+				- upload/angular-file-upload.js
+				- app.js
+				- directives.js
+				- services.js
+				- controller/cabinet.js
+				- modernizr.js
+				- common/df.js
+	css:
+		default: #for mobile
+			remoteFiles:
+			files:
+				- plugin/magnific-popup.css
+				- plugin/ui.totop.css
+				- plugin/slick.css
+				- plugin/jquery.pnotify.default.css
+				- default.css
+		default_mobile:  # Укажите названия совоего шаблона для мобильно1 версии
+			files:
+				- plugin/cms.mobile.css
+				- plugin/slick.css
+				- default_mobile.css
+		admin:
+			files:
+				- plugin/magnific-popup.css
+				- plugin/jquery-ui-1.10.4.custom.css
+				- plugin/jquery.pnotify.default.css
+				- plugin/ui.totop.css
+				- plugin/jquery.datetimepicker.css
+				- plugin/jquery.Jcrop.css
+				- plugin/select2.css
+				- plugin/select2-bootstrap.css
+				- admin.css
+		cabinet:
+			files:
+				- plugin/magnific-popup.css
+				- plugin/jquery.pnotify.default.css
+				- plugin/select2.css
+				- plugin/select2-bootstrap.css
+				- cabinet.css
+
+migration:
+	orm:
+		CMS\Admin\Entity\Admin:
+		    -
+		        login: admin
+		        password: 123456
+		        active: 1
+		- CMS\Core\Entity\Table
+		- CMS\Banners\Entity\Banner
+		- CMS\Catalog\Entity\Category
+		- CMS\Core\Entity\Page
+		- CMS\Core\Entity\News
+		- CMS\Core\Entity\Event
+		- CMS\Core\Entity\Video
+		- CMS\Core\Entity\Article
+		- CMS\Core\Entity\Review
+		- CMS\Core\Entity\Question
+		- CMS\Core\Entity\Meta
+		- CMS\Core\Entity\File
+		- CMS\Core\Entity\Image
+		- CMS\Core\Entity\Gallery
+		- CMS\Core\Entity\Callback
+		- CMS\Core\Entity\Document
+		- CMS\Core\Entity\Options
+		- CMS\Core\Entity\Tags
+		- CMS\Core\Entity\Comment
+		- CMS\Core\Entity\TagsObject
+		- CMS\Core\Entity\Poll
+		- CMS\Core\Entity\Register
+		- CMS\Core\Entity\ItemPoll
+		- CMS\Core\Entity\Config\RobotsTxt
+		- CMS\Core\Entity\Config\Analytics
+		- CMS\Core\Entity\Config\Menu
+		- CMS\Core\Entity\FileIndex
+		- CMS\Core\Entity\Slider
+		- CMS\Go\Entity\Go
+		- CMS\Go\Entity\GoStat
+		- CMS\HelpDesk\Entity\Task
+		- CMS\HelpDesk\Entity\TaskMessage
+		- CMS\Mail\Entity\SubscriptionBid
+		- CMS\Mail\Entity\Delivery
+		- CMS\Mail\Entity\SubscriberGroup
+		- CMS\Mail\Entity\Subscriber
+		- CMS\Mail\Entity\Subscription
+		- CMS\SEO\Entity\Template
+		- CMS\SEO\Entity\Search
+		- CMS\SEO\Entity\Redirect
+		- CMS\Users\Entity\User
+		- CMS\Users\Entity\AttrName
+		- CMS\Users\Entity\GroupAttr
+		- CMS\Users\Entity\UserAttr
+		- CMS\Users\Entity\Message
+		- CMS\Users\Entity\ACL
+		CMS\Users\Entity\Role:
+			-
+				name: Гость
+				code: %security.guestRole%
+				pid: 0
+				type: %security.namespace%
+				is_root: 0
+			-
+				name: Зарегистрированный
+				code: %security.authenticatedRole%
+				pid: 1
+				type: %security.namespace%
+				is_root: 0
+			-
+				name: Супер пользователь
+				code: %security.rootRole%
+				pid: 2
+				type: %security.namespace%
+				is_root: 1
+
+
+orm:
+	CMS\Core\Entity\Page:
+		behaviors:
+			optionsBehavior: CMS\Core\Behaviors\OptionsBehavior
+			helpPageBehavior: CMS\Core\Behaviors\HelpPageBehavior
+			editPageBehavior: CMS\Core\Behaviors\EditPageBehavior
+			imageBehavior:
+				class: CMS\Core\Behaviors\ImageBehavior
+				path: pages
+				ratio_fill: true
+				preview_width: 250
+				preview_height: 250
+	CMS\Core\Entity\Comment:
+		behaviors:
+			userBehavior: CMS\Users\Behaviors\UserBehavior
+		table_columns:
+			user_id:
+				column_name: user_id
+				data_type: int unsigned
+				display: 11
+				column_default: 0
+	CMS\Core\Entity\Article:
+		behaviors:
+			viewsBehavior: CMS\Core\Behaviors\ViewsBehavior
+		table_columns:
+			views:
+				column_name: views
+				data_type: int unsigned
+				display: 11
+				column_default: 0
+
+routing:
+	router:
+		CMS:
+			Front:
+#			Banners:
+#			Cabinet:
+#			HelpDesk:
+#			Mail:
+#			Users:
+#			Go:
+#				options:
+#					host: go
+			Admin:
+				options:
+					host: admin
+
+thumb:
+    no_photo: '/source/images/no.png'
+    path: %path.temp%/thumb
+    constants:
+        THUMB_CACHE_AGE: 86400 # Duration of cached files in seconds
+        THUMB_BROWSER_CACH: true # Browser cache true or false
+        SHARPEN_MIN: 12 # Minimum sharpen value
+        SHARPEN_MAX: 24 # Maximum sharpen value
+        ADJUST_ORIENTATION: false # Auto adjust orientation for JPEG true or false
+        JPEG_QUALITY: 75 #Quality of generated JPEGs (0 - 100; 100 being best)
+    set:
+        200: #  для orm /thumb/{set}/{image_id}
+            target: false # id orm
+            type: normal # preview|normal
+            size: 200x200
+            crop: 1
+            trim: 0
+            zoom: 1
+            align: c # c, t, r, b, l, tl, tr, br, bl
+            sharpen: 0 # 0-100
+            gray: 0
+            ignore: 0 # for gif
+        i200: # для картинок /thumb/{set}?src={src}
+            target: path
+            size: 200x200
+            crop: 1
+            trim: 0
+            zoom: 1
+            align: c # c, t, r, b, l, tl, tr, br, bl
+            sharpen: 0 # 0-100
+            gray: 0
+            ignore: 0 # for gif
+    rules:
+        - '/source/images/'
+        - '/upload/'
+
+
+seo:
+    enable: false

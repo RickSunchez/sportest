@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+               <yml_catalog date="2022-07-15 16:08">
+               <shop>
+<name>Интернет-магазин «СпортЕсть.Ру»</name>
+                <company>ООО Лодки Лиман</company>
+                <url>https://www.sportest.ru</url>
+                <platform>Delorius Framework</platform>
+                <version>2.0</version>
+                <agency>Седьмая группа</agency>
+                <email>info@7thgroup.ru</email>
+<currencies>
+<currency id="RUB" rate="1" plus="0" />
+<currency id="USD" rate="CBRF" plus="0" />
+<currency id="EUR" rate="CBRF" plus="0" />
+</currencies>
+<categories>
+<category id="20"  >Лодки</category>
+<category id="34" parentId="20" >Мастер Лодок</category>
+<category id="28" parentId="20" >SOLAR</category>
+<category id="27" parentId="20" >Prof Marin</category>
+<category id="31" parentId="20" >Адмирал</category>
+<category id="30" parentId="20" >Флагман</category>
+<category id="142" parentId="20" >МНЕВ и Ко + Посейдон</category>
+<category id="25" parentId="20" >WinBoat</category>
+<category id="132" parentId="20" >РИБ Stel</category>
+<category id="24" parentId="20" >Афалина</category>
+<category id="141" parentId="20" >SMarine</category>
+<category id="26" parentId="20" >RusBoat</category>
+<category id="146" parentId="20" >ALTAIR</category>
+<category id="134" parentId="20" >ORCA</category>
+<category id="32" parentId="20" >Хантер</category>
+<category id="147" parentId="20" >Stel</category>
+<category id="150" parentId="20" >Wyatboat</category>
+<category id="149" parentId="20" >ВЫДРА</category>
+<category id="102"  >Мототехника</category>
+<category id="106" parentId="102" >Мотобуксировщики БУРЛАК</category>
+<category id="103" parentId="102" >Снегоходы</category>
+<category id="105" parentId="102" >Мотобуксировщики НОРКА</category>
+<category id="77"  >Лодочные моторы</category>
+<category id="79" parentId="77" >TOHATSU</category>
+<category id="80" parentId="77" >HIDEA</category>
+<category id="84" parentId="77" >Электромоторы</category>
+<category id="136" parentId="77" >ALLFA</category>
+<category id="81" parentId="77" >YAMAHA</category>
+<category id="128" parentId="77" >Hangkai</category>
+<category id="143" parentId="77" >SEA-PRO</category>
+<category id="145" parentId="77" >Marlin</category>
+<category id="140" parentId="77" >Моторы б/у</category>
+<category id="85"  >ЗАПЧАСТИ ДЛЯ ЛОДОЧНЫХ МОТОРОВ</category>
+<category id="86" parentId="85" >TOHATSU</category>
+<category id="87" parentId="85" >HIDEA</category>
+<category id="89" parentId="85" >YAMAHA</category>
+<category id="90" parentId="85" >SUZUKI</category>
+<category id="88" parentId="85" >MERCURY</category>
+<category id="129" parentId="85" >HANGKAI</category>
+<category id="91" parentId="85" >Электрические моторы</category>
+<category id="139" parentId="85" >HONDA</category>
+<category id="137" parentId="85" >Sea-Pro</category>
+<category id="59"  >Аксессуары для лодок</category>
+<category id="71" parentId="59" >Фурнитура для лодок и навесное</category>
+<category id="61" parentId="59" >Алюминиевые профили</category>
+<category id="69" parentId="59" >Насосы для лодок</category>
+<category id="73" parentId="59" >Комплектующие для ремонта и усиления лодок</category>
+<category id="72" parentId="59" >Клапаны</category>
+<category id="75" parentId="59" >Мягкие накладки на сиденья</category>
+<category id="60" parentId="59" >Якоря</category>
+<category id="76" parentId="59" >Крепежные блоки и держатели удилищ</category>
+<category id="62" parentId="59" >Сиденья для лодок</category>
+<category id="65" parentId="59" >Транцевые колеса (шасси)</category>
+<category id="64" parentId="59" >Жилеты</category>
+<category id="63" parentId="59" >Весла для лодок</category>
+<category id="66" parentId="59" >Тенты</category>
+<category id="74" parentId="59" >Спасательные средства</category>
+<category id="70" parentId="59" >Запчасти для насосов</category>
+<category id="15" parentId="59" >Аксессуары для насосов</category>
+<category id="152" parentId="59" >Насосы осушительные</category>
+<category id="67" parentId="59" >Полы для лодок (пайолы)</category>
+<category id="68" parentId="59" >Сумки для лодок</category>
+<category id="92"  >Аксессуары для лодочных моторов</category>
+<category id="93" parentId="92" >Гребные винты</category>
+<category id="100" parentId="92" >Дистанционное управление</category>
+<category id="99" parentId="92" >Топливная система</category>
+<category id="96" parentId="92" >Масла и смазки</category>
+<category id="98" parentId="92" >Свечи</category>
+<category id="101" parentId="92" >Принадлежности для лодочных моторов</category>
+<category id="94" parentId="92" >Чехлы для моторов</category>
+<category id="95" parentId="92" >Тяговые аккумуляторы и ЗУ</category>
+<category id="148" parentId="92" >Тележки для моторов</category>
+<category id="97" parentId="92" >Остановочные лини (Чека)</category>
+<category id="107"  >Нужные мелочи</category>
+<category id="110" parentId="107" >Рыболовные снасти</category>
+<category id="112" parentId="107" >Ледянки</category>
+<category id="114" parentId="107" >Фонари</category>
+<category id="113" parentId="107" >Солнцезащитные очки</category>
+<category id="111" parentId="107" >Сумки спортивные</category>
+<category id="108" parentId="107" >Швейцарские ножи</category>
+<category id="120"  >Эхолоты и аксессуары</category>
+<category id="122" parentId="120" >Аксессуары для эхолотов и навигаторов</category>
+<category id="121" parentId="120" >Эхолоты</category>
+<category id="123" parentId="120" >Держатели датчика эхолота</category>
+<category id="124"  >Водные аттракционы</category>
+<category id="127" parentId="124" >Буксировочные тросы и крепления</category>
+<category id="125" parentId="124" >Надувные аттракционы</category>
+<category id="151" parentId="124" >Sup-доски</category>
+</categories>
+<offers>
+<offer id="55155" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-kayman-n-400-ndnd-p55155/</url>
+<price>81920</price>
+<oldprice>90020</oldprice>
+<currencyId>RUB</currencyId>
+<categoryId>142</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2020/06/15/x3V5Vc9.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ Кайман N-380 НДНД</name>
+<param name="Длина" unit="м" >3.8</param>
+<param name="Ширина" unit="м" >1.9</param>
+<param name="Длина кокпита" unit="м" >2.66</param>
+<param name="Ширина кокпита"  >0.93 м</param>
+<param name="Пассажировместимость"  >6</param>
+<param name="Вес" unit="кг" >65</param>
+<param name="Грузоподъемность" unit="кг" >750</param>
+<param name="Максимальная мощность подвесного мотора"  >20л.с.</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Тип пайола"  >НДНД</param>
+<param name="Количество отсеков плавучести"  >4 + НДНД</param>
+<param name="Плотность ткани ПВХ на баллоне"  >1100</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >1100</param>
+<param name="Тип шва"  >Сварной шов</param>
+</offer>
+<offer id="581" available="true" type="vendor.model">
+<url>https://www.sportest.ru/lodka-naduvnaya-poseydon-kasatka-385-marine-cvet-svetlo-seryy-temno-seryy-p581/</url>
+<price>95700</price>
+<oldprice>112600</oldprice>
+<currencyId>RUB</currencyId>
+<categoryId>142</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/07/09/7ZduRMj.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<typePrefix>МНЕВ и Ко + Посейдон</typePrefix>
+<vendor>МНЕВ и Ко</vendor>
+<model>Касатка 385</model>
+<description>Данная модель является мореходной модификацией Касатки-385. Корпус лодки остался без изменений. Увеличена килеватость на транце и в миделе, полностью изменено днище, что существенно повысило мореходность и комфорт хода по волне. Это позволило включить Касатку 385 Marine в разряд лодок повышенной мореходности. Как следствие увеличения килеватости отмечено снижение максимальной скорости на 2-4 км/ч по сравнению с базовой моделью.  Подготовив модельный ряд, который удовлетворил все возможные потребности покупателей, конструкторы компании Посейдон решили изготовить лодку, которая придется по душе не только рыбакам и охотникам, но и любителям отдыха на воде всей семьей. При изготовлении была использована оригинальная цветовая гамма высококачественных немецких материалов. Касатка несомненно привлекает к себе внимание не только внешней эстетикой и гармоничным дизайном, но, прежде всего, безукоризненной управляемостью на воде, обеспечивая тем самым безопасность и комфорт шкипера и пассажиров. В основу концепции формирования мореходных качеств легли наработки, ранее применявшиеся в лодках повышенной мореходности &quot;Антей&quot; &quot;Титан&quot; &quot;Посейдон&quot;. Семейство Касатка отличается традиционными для лодок компании Посейдон большой вместимостью и грамотно просчитанной эргономикой кокпита. Упрощенная сборка-разборка пайола и стрингеров является ещё одним существенным преимуществом новой Касатки. Все типоразмеры Касатки в стандартной комплектации оборудуются ручками пилота, причем как слева, так и справа, а для переднего пассажира установлен внутренний двухсторонний леер. Также предусмотрен клапан сброса избыточного давления. Для переноски лодки имеется отдельная носовая и бортовые ручки.Все модели серии Касатка обладают великолепной управляемостью, курсовой устойчивостью и высокими скоростными показателями. Конструктора смогли обеспечить общую надежность и отменные ходовые качества лодки.</description>
+<param name="Плотность ткани ПВХ на баллоне"  >1000</param>
+<param name="Толщина пайола" unit="мм" >12</param>
+<param name="Вес комплекта" unit="кг" >73</param>
+<param name="Вес в сборе" unit="кг" >69</param>
+<param name="Толщина транца" unit="мм" >27</param>
+<param name="Тип пайола"  >фанерный: на профиле</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Длина кокпита" unit="м" >2.79</param>
+<param name="Ширина кокпита" unit="м" >0.85</param>
+<param name="Максимальная мощность" unit="л.с" >30</param>
+<param name="Грузоподъемность" unit="кг" >740</param>
+<param name="Вид транца"  >стационарный</param>
+<param name="Пассажировместимость"  >6</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >1000</param>
+<param name="Тип крепления сиденья"  >передвижное</param>
+<param name="Тип"  >надувная ПВХ</param>
+<param name="Количество отсеков плавучести"  >3+1</param>
+<param name="Ширина" unit="м" >1.81</param>
+<param name="Диаметр баллона"  >0.47</param>
+<param name="Наличие стрингера"  >есть</param>
+<param name="Высота транца"  >405</param>
+<param name="Длина" unit="м" >3.85</param>
+<param name="Серия"  >Средний класс</param>
+</offer>
+<offer id="875" available="true" type="vendor.model">
+<url>https://www.sportest.ru/lodka-naduvnaya-poseydon-kasatka-335-cvet-svetlo-seryy-temno-seryy-p875/</url>
+<price>66700</price>
+<oldprice>82347</oldprice>
+<currencyId>RUB</currencyId>
+<categoryId>142</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2020/02/29/YbwNohj.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<typePrefix>МНЕВ и Ко + Посейдон</typePrefix>
+<vendor>МНЕВ и Ко</vendor>
+<model>Касатка 335</model>
+<description>Подготовив модельный ряд, который удовлетворил все возможные потребности покупателей, конструкторы компании ПОСЕЙДОН решили изготовить лодку, которая придется по душе, не только рыбакам и охотникам, но и любителям отдыха на воде всей семьей. При изготовлении была использована оригинальная цветовая гамма высококачественных немецких материалов. «Касатка» несомненно привлекает к себе внимание не только внешней эстетикой и гармоничным дизайном, что притягивает взгляды и заставляет неотступно следить за её движением, но и безукоризненной управляемостью на воде, обеспечивая безопасность и комфорт штурмана и пассажиров. В основу концепции мореходных качеств легли наработки, ранее применяемые в лодках повышенной мореходности – «Антей», «Титан», «Посейдон». Семейство «Касаток» отличается традиционными для лодок компании «Посейдон» большой вместимостью и грамотно просчитанной эргономикой кокпита. Упрощенная сборка-разборка пайол и стрингеров является ещё одним существенным преимуществом новой «Касатки». Все типоразмеры «Касаток» в стандартной комплектации оборудуются ручками пилота, причем как слева, так и справа, а для переднего пассажира установлен внутренний двухсторонний леер. Также предусмотрен клапан сброса избыточного давления. Для переноски лодки имеется отдельная носовая и бортовые ручки. Все модели серии «Касатка» обладают великолепной управляемостью, курсовой устойчивостью и высокими скоростными показателями. Конструкторы смогли обеспечить общую надежность и отменные ходовые качества лодки. Необходимо отдать должное опыту специалистов компании, лодка получилась выше всяких похвал и успешно прошла все испытания. Материал произ-во Германия HEYTEX, плотность 1050г/м2. Касатка 335. Дополнительная скидка. Одна из самых продаваемых лодок со спортивным характером и ярким дизайном. В дополнительной комплектации носовой тент с окном, регулируемый по высоте транец из нержавеющей стали, комплект мягких накладок на банки с сумкой и коврик с креплением бензобака.</description>
+<param name="Тип пайола"  >фанерный: на профиле</param>
+<param name="Вес комплекта" unit="кг" >55</param>
+<param name="Максимальная мощность" unit="л.с" >15</param>
+<param name="Длина кокпита" unit="м" >2.4</param>
+<param name="Ширина" unit="м" >1.56</param>
+<param name="Ширина кокпита" unit="м" >0.71</param>
+<param name="Пассажировместимость"  >4</param>
+<param name="Тип"  >надувная ПВХ</param>
+<param name="Количество отсеков плавучести"  >3+1</param>
+<param name="Длина" unit="м" >3.35</param>
+<param name="Вес в сборе" unit="кг" >51</param>
+<param name="Толщина транца" unit="мм" >27</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Тип крепления сиденья"  >передвижное</param>
+<param name="Вид транца"  >стационарный</param>
+<param name="Количество упаковочных сумок" unit="шт" >2</param>
+<param name="Грузоподъемность" unit="кг" >450</param>
+<param name="Высота транца"  >405</param>
+<param name="Диаметр баллона"  >0.43</param>
+<param name="Толщина пайола" unit="мм" >12</param>
+<param name="Плотность ткани ПВХ на баллоне"  >1000</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >1000</param>
+<param name="Наличие стрингера"  >есть</param>
+<param name="Серия"  >Средний класс</param>
+</offer>
+<offer id="878" available="true" type="vendor.model">
+<url>https://www.sportest.ru/lodka-naduvnaya-poseydon-kasatka-365-cvet-belo-seryy-p878/</url>
+<price>88000</price>
+<oldprice>103434</oldprice>
+<currencyId>RUB</currencyId>
+<categoryId>142</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2018/07/04/BUwEVkU.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<typePrefix>МНЕВ и Ко + Посейдон</typePrefix>
+<vendor>МНЕВ и Ко</vendor>
+<model>Касатка 365</model>
+<description>Подготовив модельный ряд, который удовлетворил все возможные потребности покупателей, конструкторы компании ПОСЕЙДОН решили изготовить лодку, которая придется по душе, не только рыбакам и охотникам, но и любителям отдыха на воде всей семьей. При изготовлении была использована оригинальная цветовая гамма высококачественных немецких материалов. КАСАТКА несомненно привлекает к себе внимание не только внешней эстетикой и гармоничным дизайном, но, прежде всего, безукоризненной управляемостью на воде, обеспечивая тем самым, безопасность и комфорт шкипрера и пассажиров. В основу концепции формирования мореходных качеств легли наработки, ранее применявшиеся в лодках повышенной мореходности – «Антей», «Титан», «Посейдон». Семейство КАСАТКА отличается традиционными для лодок компании «Посейдон» большой вместимостью и грамотно просчитанной эргономикой кокпита. Упрощенная сборка-разборка пайола и стрингеров является ещё одним существенным преимуществом новой КАСАТКИ. Все типоразмеры КАСАТКИ в стандартной комплектации оборудуются ручками пилота, причем как слева, так и справа, а для переднего пассажира установлен внутренний двухсторонний леер. Также предусмотрен клапан сброса избыточного давления. Для переноски лодки имеется отдельная носовая и бортовые ручки. Все модели серии КАСАТКА обладают великолепной управляемостью, курсовой устойчивостью и высокими скоростными показателями. Конструкторы смогли обеспечить общую надежность и отменные ходовые качества лодки. Необходимо отдать должное опыту специалистов компании, лодка получилась выше всяких похвал и успешно прошла все испытания. Рекомендуемые районы плавания – прибрежная морская зона, внутренние водные акватории. Касатка 365. Дополнительная скидка! Лодка с непревзойдёнными скоростными характеристиками и маневренностью, многократный победитель гонок маломерных судов. Одна из самых продаваемых лодок. В дополнительной комплектации носовой тент с окном, регулируемый по высоте транец из нержавеющей стали, перекидные</description>
+<param name="Толщина пайола" unit="мм" >12</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Диаметр баллона"  >0.48</param>
+<param name="Толщина транца" unit="мм" >27</param>
+<param name="Пассажировместимость"  >5</param>
+<param name="Вес в сборе" unit="кг" >62</param>
+<param name="Длина кокпита" unit="м" >2.6</param>
+<param name="Ширина кокпита" unit="м" >0.81</param>
+<param name="Максимальная мощность" unit="л.с" >25</param>
+<param name="Вид транца"  >стационарный</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >1000</param>
+<param name="Наличие стрингера"  >есть</param>
+<param name="Тип крепления сиденья"  >передвижное</param>
+<param name="Грузоподъемность" unit="кг" >660</param>
+<param name="Ширина" unit="м" >1.77</param>
+<param name="Длина" unit="м" >3.65</param>
+<param name="Количество отсеков плавучести"  >3+1</param>
+<param name="Вес комплекта" unit="кг" >66</param>
+<param name="Высота транца"  >405</param>
+<param name="Плотность ткани ПВХ на баллоне"  >1000</param>
+<param name="Тип пайола"  >фанерный: на профиле</param>
+<param name="Тип"  >надувная ПВХ</param>
+<param name="Серия"  >Средний класс</param>
+</offer>
+<offer id="879" available="true" type="vendor.model">
+<url>https://www.sportest.ru/lodka-naduvnaya-poseydon-kasatka-365-cvet-svetlo-seryy-temno-seryy-p879/</url>
+<price>88000</price>
+<oldprice>103434</oldprice>
+<currencyId>RUB</currencyId>
+<categoryId>142</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2020/02/29/gezaJHa.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<typePrefix>МНЕВ и Ко + Посейдон</typePrefix>
+<vendor>МНЕВ и Ко</vendor>
+<model>Касатка 365</model>
+<description>Серия Касатка отлично зарекомендовала себя и как лодка для семейного отдыха и развлечений на воде, и как лодка для рыбалки.Рекомендованные районы плавания – прибрежная зона морей и внутренние водоемы без ограничений.Став обладателем этой красивой и технически совершенной лодки вам не избежать повышенного внимания владельцев других брендов.</description>
+<param name="Длина" unit="м" >3.65</param>
+<param name="Ширина" unit="м" >1.77</param>
+<param name="Длина кокпита" unit="м" >2.6</param>
+<param name="Ширина кокпита" unit="м" >0.81</param>
+<param name="Пассажировместимость"  >5</param>
+<param name="Вес"  >64кг</param>
+<param name="Грузоподъемность" unit="кг" >480</param>
+<param name="Максимальная мощность подвесного мотора"  >25л.с.</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Тип пайола"  >фанерный: на профиле</param>
+<param name="Количество отсеков плавучести"  >3+1</param>
+<param name="Плотность ткани ПВХ на баллоне"  >1000г/м2</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >1000</param>
+<param name="Тип шва"  >Сварной шов</param>
+<param name="Диаметр баллона"  >0.48</param>
+</offer>
+<offer id="51923" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-kayman-n-330-ndnd-p51923/</url>
+<price>52600</price>
+<oldprice>57790</oldprice>
+<currencyId>RUB</currencyId>
+<categoryId>142</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2020/02/29/jmX8sB5.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ Кайман N-330 НДНД</name>
+<param name="Длина" unit="м" >3.3</param>
+<param name="Ширина" unit="м" >1.52</param>
+<param name="Длина кокпита" unit="м" >2.36</param>
+<param name="Ширина кокпита" unit="м" >0.67</param>
+<param name="Пассажировместимость"  >3+1</param>
+<param name="Вес" unit="кг" >35</param>
+<param name="Грузоподъемность" unit="кг" >420</param>
+<param name="Максимальная мощность подвесного мотора"  >15л.с.</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Тип пайола"  >НДНД</param>
+<param name="Количество отсеков плавучести"  >3+НДНД</param>
+<param name="Плотность ткани ПВХ на баллоне"  >850 г/м.кв</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >850</param>
+<param name="Тип шва"  >Сварной шов</param>
+</offer>
+<offer id="63530" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-kayman-n-420-ndnd-p63530/</url>
+<price>90600</price>
+<oldprice>99540</oldprice>
+<currencyId>RUB</currencyId>
+<categoryId>142</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/02/11/qFHojPG.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ Кайман N-420 НДНД</name>
+<param name="Длина" unit="м" >4.2</param>
+<param name="Ширина" unit="м" >1.9</param>
+<param name="Длина кокпита" unit="м" >3.11</param>
+<param name="Ширина кокпита"  >0.93 м</param>
+<param name="Пассажировместимость"  >8</param>
+<param name="Вес" unit="кг" >72</param>
+<param name="Грузоподъемность" unit="кг" >900</param>
+<param name="Максимальная мощность подвесного мотора"  >30 л.с.</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Тип пайола"  >НДНД</param>
+<param name="Количество отсеков плавучести"  >4 + НДНД</param>
+<param name="Плотность ткани ПВХ на баллоне"  >1100</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >1100</param>
+<param name="Тип шва"  >Сварной шов</param>
+</offer>
+<offer id="4671" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-viking-vn-340-h-cvet-sero-chernaya-p4671/</url>
+<price>61967</price>
+<currencyId>RUB</currencyId>
+<categoryId>142</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/02/11/G10OrqG.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная Викинг VN 340 H (Цвет: серо-черная)</name>
+<vendor>МНЕВ и Ко</vendor>
+<description>Серия лодок ПВХ &quot;Викинг&quot; относится к лодкам лайт-класса и демонстрирует универсальный, без оглядки на эконом-класс, подход к проектированию надувных моторно-гребных лодок, в первую очередь с точки зрения отработки отличных потребительских и ходовых качеств. Лодка серии &quot;Викинг&quot; была сознательно разработана, как лодка среднего класса по ходовым и эксплуатационным характеристикам, но выгодно отличающаяся весом и ценой. Достигнуто это не за счет упрощения формы баллона и днища, или применения ткани малой плотности, а путем использования облегченного пайола из 9-ти миллиметровой фанеры и оптимально подобранной толщины транца. При этом всесторонне учтены пожелания обширной аудитории потенциальных покупателей. В итоге получилась в меру компактная, легкая лодка с высокими ходовыми и эксплуатационными характеристиками. При изготовлении лодки ПВХ &quot;Викинг&quot; используется ткань плотностью 850-900 г/м2 ведущих мировых производителей. Для придания лодке продольной жесткости, установлен специальный стрингер нового образца. А на стыках пайол - профиль шип-паз, что существенно упрощает сборку.</description>
+<param name="Толщина пайола" unit="мм" >9</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >900</param>
+<param name="Плотность ткани ПВХ на баллоне"  >850</param>
+<param name="Высота транца"  >395</param>
+<param name="Толщина транца" unit="мм" >27</param>
+<param name="Вид транца"  >стационарный</param>
+<param name="Количество отсеков плавучести"  >3+1</param>
+<param name="Тип крепления сиденья"  >ликтрос–ликпаз</param>
+<param name="Тип"  >надувная ПВХ</param>
+<param name="Ширина кокпита" unit="м" >0.75</param>
+<param name="Ширина" unit="м" >1.67</param>
+<param name="Вес комплекта" unit="кг" >46</param>
+<param name="Количество упаковочных сумок" unit="шт" >2</param>
+<param name="Размер упаковки пайола"  >0.91/0.69/0.07</param>
+<param name="Размер упаковки лодки"  >0.95/0.52/0.3</param>
+<param name="Пассажировместимость"  >4</param>
+<param name="Максимальная мощность" unit="л.с" >15</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Тип пайола"  >фанерный: на профиле</param>
+<param name="Длина кокпита" unit="м" >2.4</param>
+<param name="Длина" unit="м" >3.4</param>
+<param name="Диаметр баллона"  >0.46</param>
+<param name="Грузоподъемность" unit="кг" >460</param>
+</offer>
+<offer id="55497" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-kayman-n-330-payol-12-mm-cvet-seryy-p55497/</url>
+<price>54600</price>
+<oldprice>57390</oldprice>
+<currencyId>RUB</currencyId>
+<categoryId>142</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2020/12/09/0rpsUpX.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ Кайман N-330 пайол 9 мм. (Цвет: серый)</name>
+<description>Легендарная лодка КАЙМАН – эталон надувной моторной лодки в Российском маломерном судостроении.Изготовленная в соответствии с основными правилами конструирования надувных моторных лодок, она показала оптимальные скоростные и мореходные характеристики, непревзойдённые и по сей день.Стремительные обводы и переменный диаметр надувного корпуса, умеренная килеватость натянутого как струна днища, качественные материалы и надёжные комплектующие – всё это неизменные признаки надувной лодки КАЙМАН.Надувная моторная лодка КАЙМАН – всегда правильный выбор.</description>
+<param name="Длина" unit="м" >3.3</param>
+<param name="Ширина" unit="м" >1.52</param>
+<param name="Длина кокпита" unit="м" >2.36</param>
+<param name="Ширина кокпита" unit="м" >0.67</param>
+<param name="Диаметр баллона"  >0.42</param>
+<param name="Вес" unit="кг" >48</param>
+<param name="Грузоподъемность" unit="кг" >420</param>
+<param name="Максимальная мощность подвесного мотора"  >18л.с.</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Тип пайола"  >фанерный: на профиле</param>
+<param name="Количество отсеков плавучести"  >3+1(киль)</param>
+<param name="Плотность ткани ПВХ на баллоне"  >850 г/м.кв</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >850</param>
+<param name="Тип шва"  >Сварной шов</param>
+</offer>
+<offer id="51924" available="true" >
+<url>https://www.sportest.ru/lodka-naduvnaya-pvh-kayman-n-360-ndnd-p51924/</url>
+<price>63600</price>
+<oldprice>69890</oldprice>
+<currencyId>RUB</currencyId>
+<categoryId>142</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2020/02/29/NQEt1rw.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Лодка надувная ПВХ Кайман N-360 НДНД</name>
+<param name="Длина" unit="м" >3.6</param>
+<param name="Ширина" unit="м" >1.72</param>
+<param name="Длина кокпита" unit="м" >2.46</param>
+<param name="Ширина кокпита" unit="м" >0.78</param>
+<param name="Пассажировместимость"  >5+1</param>
+<param name="Вес" unit="кг" >44</param>
+<param name="Грузоподъемность" unit="кг" >420</param>
+<param name="Максимальная мощность подвесного мотора"  >20л.с.</param>
+<param name="Тип днища"  >килевое</param>
+<param name="Тип пайола"  >НДНД</param>
+<param name="Количество отсеков плавучести"  >3+НДНД</param>
+<param name="Плотность ткани ПВХ на баллоне"  >1000г/м2</param>
+<param name="Плотность ткани ПВХ на днище" unit="г/м2" >1000</param>
+<param name="Тип шва"  >Сварной шов</param>
+</offer>
+</offers>
+</shop>
+        </yml_catalog>

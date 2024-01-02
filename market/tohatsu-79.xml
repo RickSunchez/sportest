@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+               <yml_catalog date="2022-07-20 15:10">
+               <shop>
+<name>Интернет-магазин «СпортЕсть.Ру»</name>
+                <company>ООО Лодки Лиман</company>
+                <url>https://www.sportest.ru</url>
+                <platform>Delorius Framework</platform>
+                <version>2.0</version>
+                <agency>Седьмая группа</agency>
+                <email>info@7thgroup.ru</email>
+<currencies>
+<currency id="RUB" rate="1" plus="0" />
+<currency id="USD" rate="CBRF" plus="0" />
+<currency id="EUR" rate="CBRF" plus="0" />
+</currencies>
+<categories>
+<category id="20"  >Лодки</category>
+<category id="34" parentId="20" >Мастер Лодок</category>
+<category id="28" parentId="20" >SOLAR</category>
+<category id="27" parentId="20" >Prof Marin</category>
+<category id="31" parentId="20" >Адмирал</category>
+<category id="30" parentId="20" >Флагман</category>
+<category id="142" parentId="20" >МНЕВ и Ко + Посейдон</category>
+<category id="25" parentId="20" >WinBoat</category>
+<category id="132" parentId="20" >РИБ Stel</category>
+<category id="24" parentId="20" >Афалина</category>
+<category id="141" parentId="20" >SMarine</category>
+<category id="26" parentId="20" >RusBoat</category>
+<category id="146" parentId="20" >ALTAIR</category>
+<category id="134" parentId="20" >ORCA</category>
+<category id="32" parentId="20" >Хантер</category>
+<category id="147" parentId="20" >Stel</category>
+<category id="150" parentId="20" >Wyatboat</category>
+<category id="149" parentId="20" >ВЫДРА</category>
+<category id="102"  >Мототехника</category>
+<category id="106" parentId="102" >Мотобуксировщики БУРЛАК</category>
+<category id="103" parentId="102" >Снегоходы</category>
+<category id="105" parentId="102" >Мотобуксировщики НОРКА</category>
+<category id="77"  >Лодочные моторы</category>
+<category id="79" parentId="77" >TOHATSU</category>
+<category id="80" parentId="77" >HIDEA</category>
+<category id="84" parentId="77" >Электромоторы</category>
+<category id="136" parentId="77" >ALLFA</category>
+<category id="81" parentId="77" >YAMAHA</category>
+<category id="128" parentId="77" >Hangkai</category>
+<category id="143" parentId="77" >SEA-PRO</category>
+<category id="145" parentId="77" >Marlin</category>
+<category id="140" parentId="77" >Моторы б/у</category>
+<category id="85"  >ЗАПЧАСТИ ДЛЯ ЛОДОЧНЫХ МОТОРОВ</category>
+<category id="86" parentId="85" >TOHATSU</category>
+<category id="87" parentId="85" >HIDEA</category>
+<category id="89" parentId="85" >YAMAHA</category>
+<category id="90" parentId="85" >SUZUKI</category>
+<category id="88" parentId="85" >MERCURY</category>
+<category id="129" parentId="85" >HANGKAI</category>
+<category id="91" parentId="85" >Электрические моторы</category>
+<category id="139" parentId="85" >HONDA</category>
+<category id="137" parentId="85" >Sea-Pro</category>
+<category id="59"  >Аксессуары для лодок</category>
+<category id="71" parentId="59" >Фурнитура для лодок и навесное</category>
+<category id="61" parentId="59" >Алюминиевые профили</category>
+<category id="69" parentId="59" >Насосы для лодок</category>
+<category id="73" parentId="59" >Комплектующие для ремонта и усиления лодок</category>
+<category id="72" parentId="59" >Клапаны</category>
+<category id="75" parentId="59" >Мягкие накладки на сиденья</category>
+<category id="60" parentId="59" >Якоря</category>
+<category id="76" parentId="59" >Крепежные блоки и держатели удилищ</category>
+<category id="62" parentId="59" >Сиденья для лодок</category>
+<category id="65" parentId="59" >Транцевые колеса (шасси)</category>
+<category id="64" parentId="59" >Жилеты</category>
+<category id="63" parentId="59" >Весла для лодок</category>
+<category id="66" parentId="59" >Тенты</category>
+<category id="74" parentId="59" >Спасательные средства</category>
+<category id="70" parentId="59" >Запчасти для насосов</category>
+<category id="15" parentId="59" >Аксессуары для насосов</category>
+<category id="152" parentId="59" >Насосы осушительные</category>
+<category id="67" parentId="59" >Полы для лодок (пайолы)</category>
+<category id="68" parentId="59" >Сумки для лодок</category>
+<category id="92"  >Аксессуары для лодочных моторов</category>
+<category id="93" parentId="92" >Гребные винты</category>
+<category id="100" parentId="92" >Дистанционное управление</category>
+<category id="99" parentId="92" >Топливная система</category>
+<category id="96" parentId="92" >Масла и смазки</category>
+<category id="98" parentId="92" >Свечи</category>
+<category id="101" parentId="92" >Принадлежности для лодочных моторов</category>
+<category id="94" parentId="92" >Чехлы для моторов</category>
+<category id="95" parentId="92" >Тяговые аккумуляторы и ЗУ</category>
+<category id="148" parentId="92" >Тележки для моторов</category>
+<category id="97" parentId="92" >Остановочные лини (Чека)</category>
+<category id="107"  >Нужные мелочи</category>
+<category id="110" parentId="107" >Рыболовные снасти</category>
+<category id="112" parentId="107" >Ледянки</category>
+<category id="114" parentId="107" >Фонари</category>
+<category id="113" parentId="107" >Солнцезащитные очки</category>
+<category id="111" parentId="107" >Сумки спортивные</category>
+<category id="108" parentId="107" >Швейцарские ножи</category>
+<category id="120"  >Эхолоты и аксессуары</category>
+<category id="122" parentId="120" >Аксессуары для эхолотов и навигаторов</category>
+<category id="121" parentId="120" >Эхолоты</category>
+<category id="123" parentId="120" >Держатели датчика эхолота</category>
+<category id="124"  >Водные аттракционы</category>
+<category id="127" parentId="124" >Буксировочные тросы и крепления</category>
+<category id="125" parentId="124" >Надувные аттракционы</category>
+<category id="151" parentId="124" >Sup-доски</category>
+</categories>
+<offers>
+<offer id="271" available="true" >
+<url>https://www.sportest.ru/dvuhtaktnyy-podvesnoy-lodochnyy-motor-tohatsu-m9-9d2-s-p271/</url>
+<price>220000</price>
+<oldprice>242000</oldprice>
+<currencyId>RUB</currencyId>
+<categoryId>79</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2019/08/28/GFFhb00.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Двухтактный подвесной лодочный мотор TOHATSU M9.9D2 S</name>
+<vendor>Tohatsu</vendor>
+<description>При покупке мотора мы дарим обкатку. Для моторов купленных не в нашем магазине эта услуга стоит от 2500 до 4500р. Вы платите только за горючее (смесь 1/25), которое необходимо независимо от того кто обкатывает мотор, и мы сразу делаем первое ТО ,которое оплачивается отдельно и включает регулировку мотора уже на стандартной смеси 1/50.Мотор не подлежит регистрации и управление лодки с ним не требует наличия прав. Возможно увеличить мощность до 15л.с. путем замены пластины газа, арт. 3M3-63718-0 и регулировкой угла опережения зажигания. В нашем сервисе эта услуга стоит 1500р. Система смазки Pre-Mixing Рекоменуемый тип топлива Неэтилированный Аи-92 Простота в эксплуатации • Петлевая продувка обеспечивает ровную работу мотора и небольшой расход топлива • Цифровая система зажигания (CD) обеспечивает быстрый старт  • Выпуск отработанных газов через винт обеспечивает тихую работу • Термостат стабилизирует температуру двигателя во время работы • Водяная помпа из нержавеющей стали повышает надежность • Алюминиевый сплав гарантирует длительную эксплуатацию мотора без возникновения коррозии • Цинковое покрытие обеспечивает хорошую защиту даже в морской воде Предупреждения и защита  Страховочный шнур остановки двигателя • Защита от запуска при включенной трансмиссииФорсировать мотор до 15 л.с. можно в нашем сервисном центре за 1500р. </description>
+<param name="Система управления"  >ручное</param>
+<param name="Изменение наклона двигателя"  >ручное</param>
+<param name="Мощность"  >9.9 л.с/7.28 кВт</param>
+<param name="Тактность"  >двухтактный</param>
+<param name="Вес" unit="кг" >41</param>
+<param name="Система смазки"  >Pre-Mixing</param>
+<param name="Маслянный бак"  >0</param>
+<param name="Система охлаждения"  >водяное охлаждение</param>
+<param name="Объем топливного бака" unit="л" >25</param>
+<param name="Система зажигания"  >CDI</param>
+<param name="Диаметр цилиндра/ход поршня" unit="мм" >55/52</param>
+<param name="Мощность генератора переменного тока"  >12V 80W 7A</param>
+<param name="Наличие передач"  >F-N-R (вперед-нейтраль-назад)</param>
+<param name="Передаточное отношение"  >1.82:1</param>
+<param name="Тип двигателя"  >бензиновый</param>
+<param name="Объем камеры сгорания" unit="см3" >247</param>
+<param name="Число цилиндров"  >2</param>
+<param name="Длина дейдвуда (ноги)"  >381мм (S)</param>
+<param name="Свеча зажигания"  >NGK B7HS-10 . BR7HS-10</param>
+<param name="Рекомендуемый тип масла"  >TCW-3</param>
+<param name="Топливный бак"  >выносной</param>
+<param name="Система запуска"  >Ручной стартер</param>
+<param name="Габариты" unit="мм" >1067/435/739</param>
+<param name="Максимальный рабочий диапазон" unit="об/мин" >4500-5300</param>
+<param name="Страна происхождения"  >Япония</param>
+</offer>
+<offer id="15374" available="true" type="vendor.model">
+<url>https://www.sportest.ru/chetyrehtaktnyy-podvesnoy-lodochnyy-motor-tohatsu-mfs-20e-eptl-p15374/</url>
+<price>399000</price>
+<oldprice>472500</oldprice>
+<currencyId>RUB</currencyId>
+<categoryId>79</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/10/09/K2ZS0LI.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<typePrefix>TOHATSU</typePrefix>
+<vendor>Tohatsu</vendor>
+<model>ЦБ-1201132</model>
+<description>4- тактный мотор с гидроподъемом и длиной дейдвуда &quot;L&quot;</description>
+<param name="Тип двигателя"  >бензиновый</param>
+<param name="Тактность"  >четырехтактный</param>
+<param name="Производитель"  >Tohatsu</param>
+<param name="Страна происхождения"  >Япония</param>
+<param name="Мощность"  >20 л.с/14.71 кВт</param>
+<param name="Вес" unit="кг" >52.5</param>
+<param name="Объем камеры сгорания" unit="см3" >333</param>
+<param name="Число цилиндров"  >2</param>
+<param name="Максимальный рабочий диапазон" unit="об/мин" >5400-6100</param>
+<param name="Маслянный бак" unit="л" >1</param>
+<param name="Топливный бак" unit="л" >Внешний 12</param>
+<param name="Передаточное отношение"  >2.15:1</param>
+<param name="Рекомендуемый тип масла"  >NMMA Certified FC-W® 4-stroke oil SAE 10W-30/40 (SF. SG. SH. SJ)</param>
+<param name="Наличие передач"  >F-N-R (вперед-нейтраль-назад)</param>
+<param name="Система зажигания"  >Электрический стартер</param>
+<param name="Система смазки"  >Трохоидный насос</param>
+<param name="Диаметр цилиндра/ход поршня" unit="мм" >61/57</param>
+<param name="Свеча зажигания"  >NGK DCPR6E</param>
+<param name="Катушка зажигания/Генератор тока"  >12V 145W 12A</param>
+<param name="Система управления"  >дистанционная</param>
+<param name="Изменение наклона двигателя"  >гидропривод</param>
+</offer>
+<offer id="1078" available="true" >
+<url>https://www.sportest.ru/chetyrehtaktnyy-podvesnoy-lodochnyy-motor-tohatsu-mfs-9-8a3-s-p1078/</url>
+<price>278300</price>
+<currencyId>RUB</currencyId>
+<categoryId>79</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2019/08/28/jw3AZgA.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Четырехтактный подвесной лодочный мотор TOHATSU MFS 9.8 BS</name>
+<vendor>Tohatsu</vendor>
+<description>Основным преимуществом лодочного мотора Tohatsu MFS 9.8 является компактность и легкость, которые всегда ассоциируются с именем TOHATSU. Мотор надежен и прост в эксплуатации, а также легко перевозится с место на место.</description>
+<param name="Тактность"  >четырехтактный</param>
+<param name="Число цилиндров"  >2</param>
+<param name="Максимальный рабочий диапазон" unit="об/мин" >5000-6000</param>
+<param name="Тип двигателя"  >бензиновый</param>
+<param name="Система управления"  >ручное</param>
+<param name="Маслянный бак" unit="л" >0.8</param>
+<param name="Система смазки"  >Трохоидный насос</param>
+<param name="Мощность генератора переменного тока"  >12V 80W 6A</param>
+<param name="Система запуска"  >Ручной стартер</param>
+<param name="Система зажигания"  >CDI</param>
+<param name="Передаточное отношение"  >2.08 (27:13)</param>
+<param name="Рекомендуемый тип масла"  >10W-30/40</param>
+<param name="Шаг гребного винта"  >8.3</param>
+<param name="Мощность"  >9.8 л.с/7.21 кВт</param>
+<param name="Объем камеры сгорания" unit="см3" >209</param>
+<param name="Объем топливного бака" unit="л" >12</param>
+<param name="Диаметр цилиндра/ход поршня" unit="мм" >55/44</param>
+<param name="Длина дейдвуда (ноги)"  >381мм (S)</param>
+<param name="Наличие передач"  >F-N-R (вперед-нейтраль-назад)</param>
+<param name="Система питания"  >карбюратор с автоматическим подсосом</param>
+<param name="Вес" unit="кг" >37</param>
+<param name="Изменение наклона двигателя"  >ручное</param>
+<param name="Габариты" unit="мм" >1035/435/709</param>
+<param name="Система охлаждения"  >водяное охлаждение</param>
+<param name="Топливный бак"  >выносной</param>
+<param name="Свеча зажигания"  >NGK DCPR6E</param>
+<param name="Страна происхождения"  >Япония</param>
+</offer>
+<offer id="2474" available="true" >
+<url>https://www.sportest.ru/dvuhtaktnyy-podvesnoy-lodochnyy-motor-tohatsu-m9-8-bs-p2474/</url>
+<price>165000</price>
+<oldprice>196000</oldprice>
+<currencyId>RUB</currencyId>
+<categoryId>79</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2019/08/28/ow5SPTP.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Двухтактный подвесной лодочный мотор TOHATSU M9.8 BS</name>
+<vendor>Tohatsu</vendor>
+<description>Мотор не подлежит регистрации и управление лодки с ним не требует наличия прав. При покупке мотора мы дарим обкатку. Для моторов купленных не в нашем магазине эта услуга стоит от 2500 до 4500р. Вы платите только за горючее (смесь 1/25), которое необходимо независимо от того кто обкатывает мотор, и мы сразу делаем первое ТО ,которое оплачивается отдельно и включает регулировку мотора уже на стандартной смеси 1/50. Tohatsu является лидером в производстве моторов средней мощности. Мотор, мощностью 9,8 весит всего 26 кг. Этот мотор можно использовать на различных лодках. Он легко транспортируется, надежен в эксплуатации. Преимущества мотора Tohatsu, мощностью 9,8 л.с. Использование надежных и отработанных технологий при производстве моторов. Простота эксплуатации и легкость управления. Высокая степень защиты от воды. Выпуск отработанных газов через ступицу винта обеспечивает тихую работу мотора. Наличие термостата гарантирует оптимальную температуру работы мотора. Водяной насос из нержавеющей стали увеличивает степень надежности. Высококачественный морской алюминиевый сплав обеспечивает высокую степень защиты от коррозии. Цинковое покрытие внутренней части системы охлаждения защищает от коррозии. Алюминиевый винт. Шнур безопасности (стандартно поставляется для всех моторов Tohatsu). Безопасный старт, запуск мотора возможен только в положении рычага трансмиссии нейтраль.  </description>
+<param name="Объем топливного бака" unit="л" >12</param>
+<param name="Система запуска"  >Ручной стартер</param>
+<param name="Система охлаждения"  >водяное охлаждение</param>
+<param name="Передаточное отношение"  >2.08 (27:13)</param>
+<param name="Система зажигания"  >CDI</param>
+<param name="Рекомендуемый тип масла"  >TCW-3</param>
+<param name="Топливный бак"  >выносной</param>
+<param name="Диаметр цилиндра/ход поршня" unit="мм" >50/43</param>
+<param name="Длина дейдвуда (ноги)"  >381мм (S)</param>
+<param name="Состояние"  >новый</param>
+<param name="Максимальный рабочий диапазон" unit="об/мин" >5000-6000</param>
+<param name="Число цилиндров"  >2</param>
+<param name="Объем камеры сгорания" unit="см3" >169</param>
+<param name="Вес" unit="кг" >26</param>
+<param name="Тактность"  >двухтактный</param>
+<param name="Мощность"  >9.8 л.с/7.21 кВт</param>
+<param name="Тип двигателя"  >бензиновый</param>
+<param name="Изменение наклона двигателя"  >ручное</param>
+<param name="Мощность генератора переменного тока"  >0</param>
+<param name="Система смазки"  >Pre-Mixing</param>
+<param name="Свеча зажигания"  >NGK BP7HS-10 илиBPR7HS-10</param>
+<param name="Наличие передач"  >F-N-R (вперед-нейтраль-назад)</param>
+<param name="Система управления"  >ручное</param>
+<param name="Система питания"  >карбюратор</param>
+<param name="Страна происхождения"  >Япония</param>
+</offer>
+<offer id="2922" available="true" >
+<url>https://www.sportest.ru/dvuhtaktnyy-podvesnoy-lodochnyy-motor-tohatsu-m3-5b2-s-p2922/</url>
+<price>49900</price>
+<oldprice>73900</oldprice>
+<currencyId>RUB</currencyId>
+<categoryId>79</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2019/08/28/OSjMX39.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Двухтактный подвесной лодочный мотор TOHATSU M3,5B2 S</name>
+<vendor>Tohatsu</vendor>
+<description>При покупке мотора мы дарим обкатку. Для моторов купленных не в нашем магазине эта услуга стоит от 2500 до 4500р. Вы платите только за горючее (смесь 1/25), которое необходимо независимо от того кто обкатывает мотор, и мы сразу делаем первое ТО ,которое оплачивается отдельно и включает регулировку мотора уже на стандартной смеси 1/50. Tohatsu M 3.5 B2 S прост в эксплуатации и легко транспортируется. Высококачественный морской алюминиевый сплав обеспечивает высокую степень защиты от коррозии. Цинковое покрытие внутренней части системы охлаждения защищает от коррозии. Пластиковый винт. Встроенный топливный бак 1,4 литра  </description>
+<param name="Система охлаждения"  >водяное охлаждение</param>
+<param name="Рекомендуемый тип масла"  >TCW-3</param>
+<param name="Тип двигателя"  >бензиновый</param>
+<param name="Вес" unit="кг" >12.5</param>
+<param name="Передаточное отношение"  >2.15:1</param>
+<param name="Длина дейдвуда (ноги)"  >381мм (S)</param>
+<param name="Объем камеры сгорания" unit="см3" >74.6</param>
+<param name="Диаметр цилиндра/ход поршня" unit="мм" >47/43</param>
+<param name="Свеча зажигания"  >NGK BP6HS-10 или BPR6HS-10</param>
+<param name="Состояние"  >новый</param>
+<param name="Максимальный рабочий диапазон" unit="об/мин" >4200-5300</param>
+<param name="Мощность"  >3.5 л.с/2.57 кВт</param>
+<param name="Число цилиндров"  >1</param>
+<param name="Тактность"  >двухтактный</param>
+<param name="Изменение наклона двигателя"  >ручное</param>
+<param name="Наличие передач"  >F-N (вперед-нейтраль)</param>
+<param name="Система управления"  >ручное</param>
+<param name="Система смазки"  >Pre-Mixing</param>
+<param name="Объем топливного бака" unit="л" >1.4</param>
+<param name="Топливный бак"  >встроенный</param>
+<param name="Система зажигания"  >CDI</param>
+<param name="Система питания"  >карбюратор</param>
+<param name="Система запуска"  >Ручной стартер</param>
+<param name="Габариты" unit="мм" >995/435/573</param>
+<param name="Страна происхождения"  >Япония</param>
+</offer>
+<offer id="3179" available="true" >
+<url>https://www.sportest.ru/dvuhtaktnyy-podvesnoy-lodochnyy-motor-tohatsu-m18e2-s-p3179/</url>
+<price>210000</price>
+<oldprice>228000</oldprice>
+<currencyId>RUB</currencyId>
+<categoryId>79</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2019/08/28/1nDHZ4C.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Двухтактный подвесной лодочный мотор TOHATSU M18E2 S</name>
+<vendor>Tohatsu</vendor>
+<description>МОТОРЫ 2020г.в.</description>
+<param name="Год выпуска"  >2020</param>
+<param name="Длина дейдвуда (ноги)"  >381мм (S)</param>
+<param name="Система смазки"  >Pre-Mixing</param>
+<param name="Вес" unit="кг" >41</param>
+<param name="Число цилиндров"  >2</param>
+<param name="Изменение наклона двигателя"  >ручное</param>
+<param name="Габариты" unit="мм" >1067/435/739</param>
+<param name="Мощность генератора переменного тока"  >12V 80W 7A</param>
+<param name="Наличие передач"  >F-N-R (вперед-нейтраль-назад)</param>
+<param name="Объем топливного бака" unit="л" >25</param>
+<param name="Передаточное отношение"  >1.85:1</param>
+<param name="Диаметр цилиндра/ход поршня" unit="мм" >60/52</param>
+<param name="Рекомендуемый тип масла"  >TCW-3</param>
+<param name="Топливный бак"  >выносной</param>
+<param name="Система охлаждения"  >водяное охлаждение</param>
+<param name="Тактность"  >двухтактный</param>
+<param name="Тип двигателя"  >бензиновый</param>
+<param name="Система зажигания"  >CDI</param>
+<param name="Система управления"  >ручное</param>
+<param name="Свеча зажигания"  >NGK B7HS-10 или BR7HS-10</param>
+<param name="Максимальный рабочий диапазон" unit="об/мин" >5200-5800</param>
+<param name="Система запуска"  >Ручной стартер</param>
+<param name="Мощность"  >18 л.с/13.24 кВт</param>
+<param name="Страна происхождения"  >Япония</param>
+<param name="Объем камеры сгорания" unit="см3" >294</param>
+</offer>
+<offer id="3329" available="true" >
+<url>https://www.sportest.ru/dvuhtaktnyy-podvesnoy-lodochnyy-motor-tohatsu-m5bd-s-p3329/</url>
+<price>84900</price>
+<oldprice>124900</oldprice>
+<currencyId>RUB</currencyId>
+<categoryId>79</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/08/24/9toSEXL.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Двухтактный подвесной лодочный мотор TOHATSU M5BD S</name>
+<vendor>Tohatsu</vendor>
+<description>При покупке мотора мы дарим обкатку. Для моторов купленных не в нашем магазине эта услуга стоит от 2500 до 4500р. Вы платите только за горючее (смесь 1/25), которое необходимо независимо от того кто обкатывает мотор, и мы сразу делаем первое ТО ,которое оплачивается отдельно и включает регулировку мотора уже на стандартной смеси 1/50. Tohаtsu стремится сделать свои моторы более совершенными - больше мощности, меньше вес. Так, этот мотор мощностью 5 л.с. весит всего 19 кг. Стандартная комплектация: Бак, запасная свеча, набор инструментов, шнур для аварийного запуска, шплинт Преимущества мотора Tohatsu, мощностью 5 л.с.: Использование надежных и отработанных технологий при производстве моторов Простота в эксплуатации и управлении Хорошая защита от воды Легкое управление Высококачественный морской алюминиевый сплав обеспечивает высокую степень защиты от коррозии Цинковое покрытие внутренней части системы охлаждения защищает от коррозии Алюминиевый винт Встроенный топливный бак 2,5 литра и внешний на 12 литров. Шнур безопасности (стандартно поставляется для всех моторов Tohatsu).</description>
+<param name="Вес" unit="кг" >20</param>
+<param name="Система питания"  >карбюратор</param>
+<param name="Система охлаждения"  >водяное охлаждение</param>
+<param name="Тип двигателя"  >бензиновый</param>
+<param name="Топливный бак"  >выносной</param>
+<param name="Состояние"  >новый</param>
+<param name="Максимальный рабочий диапазон" unit="об/мин" >4500-5500</param>
+<param name="Мощность генератора переменного тока"  >12V 60W 5A (опция)</param>
+<param name="Система смазки"  >Pre-Mixing</param>
+<param name="Объем топливного бака" unit="л" >12</param>
+<param name="Система запуска"  >Ручной стартер</param>
+<param name="Наличие передач"  >F-N-R (вперед-нейтраль-назад)</param>
+<param name="Мощность"  >5 л.с/3.68 кВт</param>
+<param name="Объем камеры сгорания" unit="см3" >102</param>
+<param name="Число цилиндров"  >1</param>
+<param name="Длина дейдвуда (ноги)"  >381мм (S)</param>
+<param name="Система смазки двигателя"  >Смесь бензина с маслом 50/1</param>
+<param name="Рекомендуемый тип масла"  >TCW-3</param>
+<param name="Передаточное отношение"  >2.15:1</param>
+<param name="Система зажигания"  >CDI</param>
+<param name="Диаметр цилиндра/ход поршня" unit="мм" >55/43</param>
+<param name="Система управления"  >ручное</param>
+<param name="Тактность"  >двухтактный</param>
+<param name="Свеча зажигания"  >NGK BP7HS-10 или BPR7HS-10</param>
+<param name="Изменение наклона двигателя"  >ручное</param>
+<param name="Страна происхождения"  >Япония</param>
+</offer>
+<offer id="3645" available="true" >
+<url>https://www.sportest.ru/chetyrehtaktnyy-podvesnoy-lodochnyy-motor-tohatsu-mfs-5c-ss-p3645/</url>
+<price>128400</price>
+<oldprice>145500</oldprice>
+<currencyId>RUB</currencyId>
+<categoryId>79</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2020/11/01/YCfAMbj.png</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Четырехтактный подвесной лодочный мотор TOHATSU MFS 5C DDS</name>
+<vendor>Tohatsu</vendor>
+<description>Лодочный мотор Tohatsu MFS5CSS прекрасно отражает философию японского производителя, который во главу угла ставит прежде всего надежность и долговечность вкупе с достойными техническими характеристиками. Мотор Tohatsu MFS5CSS создан на базе 4х тактной технологии, имеет 1 цилиндр и развивает мощность в 5 л.с., рабочий объем двигателя 123 куб.см. Эта модель имеет низкий уровень выбросов вредных веществ в атмосферу, удовлетворяющий нормам EPA и CARB. Топливный бак встроен в двигатель и имеет емкость 1.3 литра. Данный двигатель можно использовать на «мелкой воде», имеется индикатор уровня масла.Теперь Вам не надо вспоминать на какую сторону положить мотор. Уникальный картер разработанный Tohatsu и улучшенная конструкция нижнего поддона, позволяет хранить и перевозить подвесной мотор на любой стороне, полностью исключив вытекание масла или топлива.</description>
+<param name="Год выпуска"  >2020</param>
+<param name="Максимальный рабочий диапазон" unit="об/мин" >4500-5500</param>
+<param name="Объём масла в картере"  >0.45</param>
+<param name="Система управления"  >ручное</param>
+<param name="Система охлаждения"  >водяное охлаждение</param>
+<param name="Мощность"  >5 л.с/3.68 кВт</param>
+<param name="Изменение наклона двигателя"  >ручное</param>
+<param name="Система зажигания"  >CDI</param>
+<param name="Система запуска"  >Ручной стартер</param>
+<param name="Объем камеры сгорания" unit="см3" >123</param>
+<param name="Число цилиндров"  >1</param>
+<param name="Тип двигателя"  >бензиновый</param>
+<param name="Тактность"  >четырехтактный</param>
+<param name="Рекомендуемый тип масла"  >10W-30/40</param>
+<param name="Система смазки"  >Трохоидный насос</param>
+<param name="Наличие передач"  >F-N-R (вперед-нейтраль-назад)</param>
+<param name="Мощность генератора переменного тока"  >12V 60W 5A (опция)</param>
+<param name="Диаметр цилиндра/ход поршня" unit="мм" >59/45</param>
+<param name="Габариты" unit="мм" >103/435/658</param>
+<param name="Шаг гребного винта"  >8</param>
+<param name="Передаточное отношение"  >2.15:1</param>
+<param name="Длина дейдвуда (ноги)"  >381мм (S)</param>
+<param name="Свеча зажигания"  >NGK DCPR6E</param>
+<param name="Страна происхождения"  >Япония</param>
+<param name="Вес" unit="кг" >26.1</param>
+<param name="Объем топливного бака" unit="л" >1.3 встроенный</param>
+</offer>
+<offer id="3798" available="true" >
+<url>https://www.sportest.ru/chetyrehtaktnyy-podvesnoy-lodochnyy-motor-tohatsu-mfs-6c-ss-p3798/</url>
+<price>131400</price>
+<oldprice>156400</oldprice>
+<currencyId>RUB</currencyId>
+<categoryId>79</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2020/11/01/1QKdvrM.png</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Четырехтактный подвесной лодочный мотор TOHATSU MFS 6C DSS</name>
+<vendor>Tohatsu</vendor>
+<description>Одноцилиндровый TOHATSU экономит топливо, работает бесшумно, экологичен, прост в эксплуатации. Визитная карточка бренда – легкость и компактность. Мотор надежен в работе, его легко транспортировать и переносить вручную. Термостат позволяет двигателю работать наиболее эффективно. Есть система безопасности: защита от запуска на скорости, шнур безопасности, индикатор низкого давления масла.Теперь Вам не надо вспоминать на какую сторону положить мотор. Уникальный картер разработанный Tohatsu и улучшенная конструкция нижнего поддона, позволяет хранить и перевозить подвесной мотор на любой стороне, полностью исключив вытекание масла или топлива.</description>
+<param name="Вес" unit="кг" >25.6</param>
+<param name="Мощность генератора переменного тока"  >12V 60W 5A (опция)</param>
+<param name="Наличие передач"  >F-N-R (вперед-нейтраль-назад)</param>
+<param name="Система управления"  >ручное</param>
+<param name="Система смазки"  >Трохоидный насос</param>
+<param name="Маслянный бак" unit="л" >0.45</param>
+<param name="Рекомендуемый тип масла"  >10W-30/40</param>
+<param name="Система запуска"  >Ручной стартер</param>
+<param name="Топливный бак"  >выносной</param>
+<param name="Объем топливного бака" unit="л" >12</param>
+<param name="Передаточное отношение"  >2.15:1</param>
+<param name="Система охлаждения"  >водяное охлаждение</param>
+<param name="Система зажигания"  >CDI</param>
+<param name="Диаметр цилиндра/ход поршня" unit="мм" >59/45</param>
+<param name="Шаг гребного винта"  >8</param>
+<param name="Максимальный рабочий диапазон" unit="об/мин" >5000-6000</param>
+<param name="Свеча зажигания"  >NGK DCPR6E</param>
+<param name="Изменение наклона двигателя"  >ручное</param>
+<param name="Габариты" unit="мм" >1039/435/658</param>
+<param name="Длина дейдвуда (ноги)"  >381мм (S)</param>
+<param name="Число цилиндров"  >1</param>
+<param name="Объем камеры сгорания" unit="см3" >123</param>
+<param name="Тип двигателя"  >бензиновый</param>
+<param name="Мощность"  >6 л.с/4.41 кВт</param>
+<param name="Тактность"  >четырехтактный</param>
+<param name="Страна происхождения"  >Япония</param>
+</offer>
+<offer id="3806" available="true" >
+<url>https://www.sportest.ru/dvuhtaktnyy-podvesnoy-lodochnyy-motor-tohatsu-m18e2-eps-p3806/</url>
+<price>279000</price>
+<oldprice>329900</oldprice>
+<currencyId>RUB</currencyId>
+<categoryId>79</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/02/22/bG15MGZ.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Двухтактный подвесной лодочный мотор TOHATSU M18E2 EPS</name>
+<vendor>Tohatsu</vendor>
+<description>При покупке мотора мы дарим обкатку. Для моторов купленных не в нашем магазине эта услуга стоит от 2500 до 4500р. Вы платите только за горючее (смесь 1/25), которое необходимо независимо от того кто обкатывает мотор, и мы сразу делаем первое ТО ,которое оплачивается отдельно и включает регулировку мотора уже на стандартной смеси 1/50. Фирменная гарантия на моторы Alfa 4 года! Полностью поддерживается нашим Сервисным Центром! Лодочный мотор Tohatsu M 18 EPS благодаря своим прекрасным техническим характеристикам стал во главе семейства подвесных моторов с дистанционным и рулевым управлением. К тому же он позволяет установить румпель и превратиться в комбинированный с обычным (S=15&quot;) и удлиненным (L=20&quot;) дейдвудом. Модель Tohatsu M 18 EFL, например, имеет румпельное управление и электростартер, в комплекте с Tohatsu M18 EPS поставляется пульт дистанционного управления со всеми соединительными электропроводами и рулевым рычагом. При установке на катер необходимо приобрести троса ДУ и дооснастить систему РУ лодкой рулевым тросом нужной длины и аккумуляторной батареей. Лодочный мотор Tohatsu M18 EPS имеет все новые технические преимущества 2-х тактных двигателей, предлагаемые Tohatsu Corporation®: электронная CDI микропроцессорная система зажигания и облегченный старт, вывод выхлопных газов через гребной винт, термостат для поддержания независимой от воды температуры двигателя, водопомпу из нержавеющей стали, оцинкованное покрытие внутренних каналов охлаждения для воды, обеспечивающее максимальную защиту от коррозии в морской воде, гребной винт из сплава алюминия и титана, защиту от непреднамеренного старта, компактный размер, - и прекрасно подойдет на среднюю лодку с ограничением по мощности до 20 л.с!</description>
+<param name="Длина дейдвуда (ноги)"  >381мм (S)</param>
+<param name="Диаметр цилиндра/ход поршня" unit="мм" >60/52</param>
+<param name="Система смазки"  >Pre-Mixing</param>
+<param name="Объем камеры сгорания" unit="см3" >294</param>
+<param name="Рекомендуемый тип масла"  >TCW-3</param>
+<param name="Маслянный бак"  >0</param>
+<param name="Система управления"  >дистанционная</param>
+<param name="Число цилиндров"  >2</param>
+<param name="Передаточное отношение"  >1.85:1</param>
+<param name="Вес" unit="кг" >44</param>
+<param name="Свеча зажигания"  >NGK B7HS-10 или BR7HS-10</param>
+<param name="Тип двигателя"  >бензиновый</param>
+<param name="Система зажигания"  >CDI</param>
+<param name="Максимальный рабочий диапазон" unit="об/мин" >5200-5800</param>
+<param name="Наличие передач"  >F-N-R (вперед-нейтраль-назад)</param>
+<param name="Мощность генератора переменного тока"  >12V 80W 7A</param>
+<param name="Изменение наклона двигателя"  >ручное</param>
+<param name="Габариты" unit="мм" >1067/435/739</param>
+<param name="Объем топливного бака" unit="л" >25</param>
+<param name="Топливный бак"  >выносной</param>
+<param name="Система запуска"  >Электрический стартер</param>
+<param name="Страна происхождения"  >Япония</param>
+<param name="Мощность"  >18 л.с/13.24 кВт</param>
+<param name="Тактность"  >двухтактный</param>
+<param name="Система охлаждения"  >водяное охлаждение</param>
+</offer>
+<offer id="3821" available="true" >
+<url>https://www.sportest.ru/chetyrehtaktnyy-podvesnoy-lodochnyy-motor-tohatsu-mfs-5c-ds-p3821/</url>
+<price>129400</price>
+<oldprice>150100</oldprice>
+<currencyId>RUB</currencyId>
+<categoryId>79</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2020/11/01/VNluFOQ.png</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Четырехтактный подвесной лодочный мотор TOHATSU MFS 5C DSS</name>
+<vendor>Tohatsu</vendor>
+<description>Новые особенности лодочных четырехтактных моторов Tohatsu: • Обновленный внешний вид: дизайн нижней и верхней крышки, маркировка • Расположенный спереди рычаг переключения передач • Удлиненная на 110 мм рукоятка румпеля (для моделей с маркировкой «В») • Большие и удобные ручки спереди и сзади для переноски мотора • Горловина топливного бака расположена спереди мотора • Новая форма крышки топливного бака • Обновленная защелка заднего кожуха • Обрезиненная рифленая рукоятка румпеля • Новая система шумопоглощения • Фильтр для отделения водыТеперь Вам не надо вспоминать на какую сторону положить мотор. Уникальный картер разработанный Tohatsu и улучшенная конструкция нижнего поддона, позволяет хранить и перевозить подвесной мотор на любой стороне, полностью исключив вытекание масла или топлива.</description>
+<param name="Год выпуска"  >2020</param>
+<param name="Изменение наклона двигателя"  >ручное</param>
+<param name="Наличие передач"  >F-N-R (вперед-нейтраль-назад)</param>
+<param name="Мощность генератора переменного тока"  >12V 60W 5A (опция)</param>
+<param name="Система управления"  >ручное</param>
+<param name="Система смазки"  >Трохоидный насос</param>
+<param name="Объём масла в картере"  >0.45</param>
+<param name="Рекомендуемый тип масла"  >10W-30/40</param>
+<param name="Система запуска"  >Ручной стартер</param>
+<param name="Объем топливного бака" unit="л" >12</param>
+<param name="Топливный бак"  >выносной</param>
+<param name="Передаточное отношение"  >2.15:1</param>
+<param name="Система охлаждения"  >водяное охлаждение</param>
+<param name="Страна происхождения"  >Япония</param>
+<param name="Система зажигания"  >CDI</param>
+<param name="Диаметр цилиндра/ход поршня" unit="мм" >59/45</param>
+<param name="Шаг гребного винта"  >8</param>
+<param name="Максимальный рабочий диапазон" unit="об/мин" >4500-5500</param>
+<param name="Свеча зажигания"  >NGK DCPR6E</param>
+<param name="Длина дейдвуда (ноги)"  >381мм (S)</param>
+<param name="Число цилиндров"  >1</param>
+<param name="Объем камеры сгорания" unit="см3" >123</param>
+<param name="Тактность"  >четырехтактный</param>
+<param name="Мощность"  >5 л.с/3.68 кВт</param>
+<param name="Тип двигателя"  >бензиновый</param>
+<param name="Вес" unit="кг" >25.6</param>
+<param name="Габариты" unit="мм" >1039/435/658</param>
+</offer>
+<offer id="3889" available="true" >
+<url>https://www.sportest.ru/chetyrehtaktnyy-podvesnoy-lodochnyy-motor-tohatsu-mfs-6c-sail-pro-p3889/</url>
+<price>175850</price>
+<currencyId>RUB</currencyId>
+<categoryId>79</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2018/07/04/b2oOMaV.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Четырехтактный подвесной лодочный мотор TOHATSU MFS 6C Sail Pro</name>
+<vendor>Tohatsu</vendor>
+<description>Одноцилиндровый TOHATSU экономит топливо, работает бесшумно, экологичен, прост в эксплуатации. Визитная карточка бренда – легкость и компактность. Мотор надежен в работе, его легко транспортировать и переносить вручную. Термостат позволяет двигателю работать наиболее эффективно. Есть система безопасности: защита от запуска на скорости, шнур безопасности, индикатор низкого давления масла.</description>
+<param name="Вес" unit="кг" >26.6</param>
+<param name="Тактность"  >четырехтактный</param>
+<param name="Мощность"  >6 л.с/4.41 кВт</param>
+<param name="Тип двигателя"  >бензиновый</param>
+<param name="Объем камеры сгорания" unit="см3" >123</param>
+<param name="Число цилиндров"  >1</param>
+<param name="Длина дейдвуда (ноги)"  >381мм (S)</param>
+<param name="Свеча зажигания"  >NGK DCPR6E</param>
+<param name="Максимальный рабочий диапазон" unit="об/мин" >5000-6000</param>
+<param name="Шаг гребного винта"  >6</param>
+<param name="Диаметр цилиндра/ход поршня" unit="мм" >59/45</param>
+<param name="Система зажигания"  >CDI</param>
+<param name="Система охлаждения"  >водяное охлаждение</param>
+<param name="Передаточное отношение"  >2.15:1</param>
+<param name="Объем топливного бака" unit="л" >12</param>
+<param name="Топливный бак"  >выносной</param>
+<param name="Система запуска"  >Ручной стартер</param>
+<param name="Рекомендуемый тип масла"  >10W-30/40</param>
+<param name="Маслянный бак" unit="л" >0.45</param>
+<param name="Система смазки"  >Маслянный картер</param>
+<param name="Система управления"  >ручное</param>
+<param name="Наличие передач"  >F-N-R (вперед-нейтраль-назад)</param>
+<param name="Мощность генератора переменного тока"  >12V 60W 5A</param>
+<param name="Изменение наклона двигателя"  >ручное</param>
+<param name="Габариты" unit="мм" >1293/689/858</param>
+<param name="Страна происхождения"  >Япония</param>
+</offer>
+</offers>
+</shop>
+        </yml_catalog>

@@ -1,0 +1,26 @@
+<?php
+
+return array(
+    'Page not found'=>'Страница не найдена',
+    'Home'=>'Главная',
+    'Specify Home page'=>'Укажите главную страницу',
+    'Page with the id="{0}" does not exist'=>'Страница с id="{0}" не существует',
+    'Application site'=>'Заявка с сайта ',
+    'phone'=>'Телефон',
+    'name'=>'Имя',
+    'note'=>'Комментарий',
+    'comment'=>'Комментарий',
+    'time'=>'Время звонка',
+    'page'=>'страница ',
+    'page all'=>'Весь список',
+    'email'=>'Почта',
+    'Message is sent'=>'Сообщение отправлено',
+    'Your review added'=>'Ваш отзыв принят',
+    'Your question added'=>'Ваш вопрос принят',
+    'Request a call was sent'=>'Заявка на звонок была отправлена',
+    'Your message has been sent'=>'Ваше сообщение было отправлено',
+    'Request a Callback' => 'Запрос на обратный звонок',
+    'subject' => 'Тема',
+    'object' => 'Ремонтируемый объект',
+    'part' => 'Запчасть',
+);

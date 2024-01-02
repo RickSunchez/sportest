@@ -1,0 +1,178 @@
+# Общии настройки
+common:
+    includes:
+        - config.local.neon
+        - project/cms.neon
+        - project/shop.neon
+        - project/location.neon
+        - project/boat.neon
+
+    parameters:
+        site:
+            templates:
+                www:
+                    template: boat
+                    layout: index
+                    mobile: mobile
+
+    header: # для формирования head
+        www: # название сайта поумолчанию для всех default
+            title: 'Магазин лодок, моторов и спортивного оборудования'
+            description: 'Производство и продажа ПВХ лодок и лодочных моторов. Приемлемые цены на ПВХ лодки и доставка в любую точку России - официальный сайт SportEst.ru'
+#            keys: [лодки,моторы,мототехника,сервис]
+            separator: ' / '
+            reverse_order: true
+            robots: 'index,follow'
+            meta:
+                #viewport: 'width=device-width, initial-scale=1.0'
+            open.graf: #http://ogp.me/
+                type: website
+                image: /source/images/boat/logo_300.png
+                title: 'Магазин лодок, моторов и спортивного оборудования'
+                site_name: 'Интернет-магазин SportEst.ru'
+                description: 'Лодки, моторы, спортивное оборудование'
+
+    webloader:
+        js:
+            boat: # Укажите названия совоего шаблона
+                files:
+                    - plugin/jquery-ui-1.10.4.custom.min.js
+                    - plugin/jquery.magnific-popup.min.js
+                    - plugin/jquery.pnotify.min.js
+                    - plugin/jquery.maskedinput.min.js
+                    - plugin/jquery.ui.totop.min.js
+                    - plugin/jquery.lazyload.mini.js
+                    - plugin/slick.min.js
+                    - plugin/auto-complete.js
+                    - plugin/hr.js
+                    - common/df.js
+                    - common/df.site.js
+                    - common/df.shop.js
+                    - angular-1.3.15/angular.min.js
+                    - app_common.js
+                    - services.js
+                    - controller/boat_site.js
+                    - controller/boat_shop.js
+                    - boat.js
+            mobile: #for mobile
+                files:
+                    - plugin/jquery.magnific-popup.min.js
+                    - plugin/jquery.maskedinput.min.js
+                    - plugin/jquery.pnotify.min.js
+                    - plugin/jquery.lazyload.mini.js
+                    - plugin/slick.min.js
+                    - plugin/hr.js
+                    - angular-1.3.15/angular.min.js
+                    - app_common.js
+                    - services.js
+                    - mobile/fastclick.js
+                    - mobile/default.js
+                    - common/df.js
+                    - common/df.site.js
+                    - common/df.shop.js
+                    - controller/boat_site.js
+                    - controller/boat_shop.js
+                    - mobile.js
+                    - shop_mobile.js
+        css:
+            boat:  # Укажите названия совоего шаблона
+                files:
+                    - plugin/jquery-ui-1.10.4.custom.css
+                    - bootstrap/bootstrap.css
+                    - plugin/magnific-popup.css
+                    - plugin/auto-complete.css
+                    - plugin/auto-complete.css
+                    - plugin/ui.totop.css
+                    - plugin/slick.css
+                    - plugin/jquery.pnotify.default.css
+                    - boat.css
+            mobile:
+                files:
+                    - bootstrap/bootstrap.css
+                    - plugin/magnific-popup.css
+                    - plugin/slick.css
+                    - plugin/jquery.pnotify.default.css
+                    - shop_mobile.css
+
+# настройки продакшена
+production < common:
+    includes:
+        - common/pro_domain.php
+    mail:
+        type: smtp
+        smtp: # type = smtp
+            auth: true
+            secure: tls
+            host: smtp.yandex.ru
+            port: 25
+            user: sportest96@yabdex.ru
+            password: bm8tCWkFas777
+        from: # кто отправляет
+            name: Отправлено с сайта %host%
+            email: info@sportest.ru
+        system: # куда отправлять
+            name: Отправлено с сайта %host%
+            email: info@sportest.ru
+            cc:
+                irina: irina@sportest.ru
+
+    #база данных
+    database:
+        default:
+            connection:
+                hostname: localhost
+                database: u1616_df2
+                username: u1616
+                password: ce9zEAyyWu342
+
+    #настроки gzip js и css
+    webloader: # для загрузки
+        gzip:
+            init: true
+            sufix: false
+            ext: gz
+    cache:
+        init: true
+
+# настрокйи для сервера разработчиков
+development < common:
+    includes:
+        - common/domain.php
+#    mail:
+#        debugger: true
+
+    constants:
+        DEBUG_MODE: TRUE
+
+    mail:
+        debugger: true
+        type: smtp
+        from: # кто отправляет
+            name: Отправлено с сайта %host%
+            email: ahalyapov@gmail.com
+        system: # куда отправлять
+            name: Отправлено с сайта %host%
+            email: ahalyapov@gmail.com
+
+    database:
+        default:
+            connection:
+                hostname: localhost
+                database: lodki
+                username: root
+                password: root
+        old:
+            type: MySQL
+            connection:
+                hostname: localhost
+                database: lodki_old
+                username: root
+                password: root
+                persistent: FALSE
+            table_prefix:
+            charset: utf8
+            caching: TRUE
+            profiling: TRUE
+
+    cache:
+        init: true

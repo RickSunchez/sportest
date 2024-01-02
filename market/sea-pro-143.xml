@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+               <yml_catalog date="2022-07-20 18:10">
+               <shop>
+<name>Интернет-магазин «СпортЕсть.Ру»</name>
+                <company>ООО Лодки Лиман</company>
+                <url>https://www.sportest.ru</url>
+                <platform>Delorius Framework</platform>
+                <version>2.0</version>
+                <agency>Седьмая группа</agency>
+                <email>info@7thgroup.ru</email>
+<currencies>
+<currency id="RUB" rate="1" plus="0" />
+<currency id="USD" rate="CBRF" plus="0" />
+<currency id="EUR" rate="CBRF" plus="0" />
+</currencies>
+<categories>
+<category id="20"  >Лодки</category>
+<category id="34" parentId="20" >Мастер Лодок</category>
+<category id="28" parentId="20" >SOLAR</category>
+<category id="27" parentId="20" >Prof Marin</category>
+<category id="31" parentId="20" >Адмирал</category>
+<category id="30" parentId="20" >Флагман</category>
+<category id="142" parentId="20" >МНЕВ и Ко + Посейдон</category>
+<category id="25" parentId="20" >WinBoat</category>
+<category id="132" parentId="20" >РИБ Stel</category>
+<category id="24" parentId="20" >Афалина</category>
+<category id="141" parentId="20" >SMarine</category>
+<category id="26" parentId="20" >RusBoat</category>
+<category id="146" parentId="20" >ALTAIR</category>
+<category id="134" parentId="20" >ORCA</category>
+<category id="32" parentId="20" >Хантер</category>
+<category id="147" parentId="20" >Stel</category>
+<category id="150" parentId="20" >Wyatboat</category>
+<category id="149" parentId="20" >ВЫДРА</category>
+<category id="102"  >Мототехника</category>
+<category id="106" parentId="102" >Мотобуксировщики БУРЛАК</category>
+<category id="103" parentId="102" >Снегоходы</category>
+<category id="105" parentId="102" >Мотобуксировщики НОРКА</category>
+<category id="77"  >Лодочные моторы</category>
+<category id="79" parentId="77" >TOHATSU</category>
+<category id="80" parentId="77" >HIDEA</category>
+<category id="84" parentId="77" >Электромоторы</category>
+<category id="136" parentId="77" >ALLFA</category>
+<category id="81" parentId="77" >YAMAHA</category>
+<category id="128" parentId="77" >Hangkai</category>
+<category id="143" parentId="77" >SEA-PRO</category>
+<category id="145" parentId="77" >Marlin</category>
+<category id="140" parentId="77" >Моторы б/у</category>
+<category id="85"  >ЗАПЧАСТИ ДЛЯ ЛОДОЧНЫХ МОТОРОВ</category>
+<category id="86" parentId="85" >TOHATSU</category>
+<category id="87" parentId="85" >HIDEA</category>
+<category id="89" parentId="85" >YAMAHA</category>
+<category id="90" parentId="85" >SUZUKI</category>
+<category id="88" parentId="85" >MERCURY</category>
+<category id="129" parentId="85" >HANGKAI</category>
+<category id="91" parentId="85" >Электрические моторы</category>
+<category id="139" parentId="85" >HONDA</category>
+<category id="137" parentId="85" >Sea-Pro</category>
+<category id="59"  >Аксессуары для лодок</category>
+<category id="71" parentId="59" >Фурнитура для лодок и навесное</category>
+<category id="61" parentId="59" >Алюминиевые профили</category>
+<category id="69" parentId="59" >Насосы для лодок</category>
+<category id="73" parentId="59" >Комплектующие для ремонта и усиления лодок</category>
+<category id="72" parentId="59" >Клапаны</category>
+<category id="75" parentId="59" >Мягкие накладки на сиденья</category>
+<category id="60" parentId="59" >Якоря</category>
+<category id="76" parentId="59" >Крепежные блоки и держатели удилищ</category>
+<category id="62" parentId="59" >Сиденья для лодок</category>
+<category id="65" parentId="59" >Транцевые колеса (шасси)</category>
+<category id="64" parentId="59" >Жилеты</category>
+<category id="63" parentId="59" >Весла для лодок</category>
+<category id="66" parentId="59" >Тенты</category>
+<category id="74" parentId="59" >Спасательные средства</category>
+<category id="70" parentId="59" >Запчасти для насосов</category>
+<category id="15" parentId="59" >Аксессуары для насосов</category>
+<category id="152" parentId="59" >Насосы осушительные</category>
+<category id="67" parentId="59" >Полы для лодок (пайолы)</category>
+<category id="68" parentId="59" >Сумки для лодок</category>
+<category id="92"  >Аксессуары для лодочных моторов</category>
+<category id="93" parentId="92" >Гребные винты</category>
+<category id="100" parentId="92" >Дистанционное управление</category>
+<category id="99" parentId="92" >Топливная система</category>
+<category id="96" parentId="92" >Масла и смазки</category>
+<category id="98" parentId="92" >Свечи</category>
+<category id="101" parentId="92" >Принадлежности для лодочных моторов</category>
+<category id="94" parentId="92" >Чехлы для моторов</category>
+<category id="95" parentId="92" >Тяговые аккумуляторы и ЗУ</category>
+<category id="148" parentId="92" >Тележки для моторов</category>
+<category id="97" parentId="92" >Остановочные лини (Чека)</category>
+<category id="107"  >Нужные мелочи</category>
+<category id="110" parentId="107" >Рыболовные снасти</category>
+<category id="112" parentId="107" >Ледянки</category>
+<category id="114" parentId="107" >Фонари</category>
+<category id="113" parentId="107" >Солнцезащитные очки</category>
+<category id="111" parentId="107" >Сумки спортивные</category>
+<category id="108" parentId="107" >Швейцарские ножи</category>
+<category id="120"  >Эхолоты и аксессуары</category>
+<category id="122" parentId="120" >Аксессуары для эхолотов и навигаторов</category>
+<category id="121" parentId="120" >Эхолоты</category>
+<category id="123" parentId="120" >Держатели датчика эхолота</category>
+<category id="124"  >Водные аттракционы</category>
+<category id="127" parentId="124" >Буксировочные тросы и крепления</category>
+<category id="125" parentId="124" >Надувные аттракционы</category>
+<category id="151" parentId="124" >Sup-доски</category>
+</categories>
+<offers>
+<offer id="57982" available="true" >
+<url>https://www.sportest.ru/vodometnaya-nasadka-sea-pro-wt15-p57982/</url>
+<price>80000</price>
+<currencyId>RUB</currencyId>
+<categoryId>143</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2020/07/30/EIOkuzJ.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Водометная насадка Sea-pro WT15</name>
+<description> ‍SEA-PRO WT15 совместима с лодочными моторами 9.9-15  л.с. YAMAHA 9.9GF, 15F, SEA-PRO ОТН9.9, Т15, Т18 и аналоги Yamaha других китайских производителей. Данная водомётная насадка поставляется в сборе с узлом охлаждения мотора (помпа в комплекте). Импеллер изготовлен из нержавеющей стали, что препятствует быстрому износу.      Цена и качество данной насадке ни оставляет конкурентам ни малейшего шанса, все ныне су ществующие на рынке насадки используют силуминовый импеллер.  Вес - 15кг.      Лодка оснащенная мотором с такой насадкой сможет залезть на пологий берег, а затем что называется сдать назад. Также удобна для рыбаков и охотников забирающихся за добычей в болотистые места.      Еще не маловажный момент это безопасность для людей и животных, которые не нароком могли оказаться в зоне роботы гребного винта. У водомета нет вращающихся деталей и механизмов с наружи. Этим пользуются МЧС и военные службы. </description>
+<param name="Вес" unit="кг" >15</param>
+<param name="Подходит для моторов"  >YAMAHA / SEA-PRO / PARSUN / HDX / GOLFSTREAM / HIDEA / YAMABISI / SEANOVA / TOYAMA / MARLIN / MIKATSU / SHARMAX / HANKAI / БЕЛУГА /</param>
+</offer>
+<offer id="5532" available="true" >
+<url>https://www.sportest.ru/dvuhtaktnyy-podvesnoy-lodochnyy-motor-sea-pro-t-2-5s-p5532/</url>
+<price>23000</price>
+<oldprice>28600</oldprice>
+<currencyId>RUB</currencyId>
+<categoryId>143</categoryId>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Двухтактный подвесной  лодочный мотор SEA-PRO Т 2.6S</name>
+<vendor>SEA-PRO</vendor>
+<param name="Страна происхождения"  >Китай</param>
+<param name="Вес" unit="кг" >10</param>
+<param name="Тактность"  >двухтактный</param>
+<param name="Мощность"  >2.5 л.с/1.84 кВт</param>
+<param name="Тип двигателя"  >бензиновый</param>
+<param name="Объем камеры сгорания" unit="см3" >50</param>
+<param name="Число цилиндров"  >1</param>
+<param name="Длина дейдвуда (ноги)"  >381мм (S)</param>
+<param name="Диаметр цилиндра/ход поршня" unit="мм" >42/36</param>
+<param name="Система зажигания"  >CDI</param>
+<param name="Система охлаждения"  >водяное охлаждение</param>
+<param name="Передаточное отношение"  >2.08 (27:13)</param>
+<param name="Объем топливного бака" unit="л" >1.2</param>
+<param name="Наличие передач"  >F (вперед)</param>
+<param name="Система управления"  >ручное</param>
+</offer>
+<offer id="5760" available="true" >
+<url>https://www.sportest.ru/dvuhtaktnyy-podvesnoy-lodochnyy-motor-sea-pro-oth-9-9s-p5760/</url>
+<price>78900</price>
+<oldprice>95900</oldprice>
+<currencyId>RUB</currencyId>
+<categoryId>143</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/03/31/VuelIky.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Двухтактный подвесной  лодочный мотор Tarpon OТH 9.9S</name>
+<vendor>SEA-PRO</vendor>
+<description>  Tarpon OTH 9.9 S - это новинка 2020 г. от известного производителя лодочных моторов Sea-Pro под брендом Tarpon.          Новая линейка отличается контролем изготовления. Проводятся более 5 межоперационных тестирований: обкатка мотоголовы, опрессовка двигателя и редуктора, проверка помпы, контроль на биение валов и, конечно, финишное тестирование в воде.‍    По большому счету  Тарпон OTH 9.9 S как Sea Pro ОТН 9.9 является хорошей копией Yamaha 9.9-15, и запчасти взаимозаменяемые.‍</description>
+<param name="Страна происхождения"  >Китай</param>
+<param name="Вес" unit="кг" >36</param>
+<param name="Тактность"  >двухтактный</param>
+<param name="Мощность"  >9.9 л.с/7.28 кВт</param>
+<param name="Тип двигателя"  >бензиновый</param>
+<param name="Объем камеры сгорания" unit="см3" >246</param>
+<param name="Число цилиндров"  >2</param>
+<param name="Длина дейдвуда (ноги)"  >381мм (S)</param>
+<param name="Диаметр цилиндра/ход поршня" unit="мм" >56/50</param>
+<param name="Система зажигания"  >CDI</param>
+<param name="Система охлаждения"  >водяное охлаждение</param>
+<param name="Передаточное отношение"  >2.08 (27:13)</param>
+<param name="Объем топливного бака" unit="л" >24</param>
+<param name="Наличие передач"  >F-N-R (вперед-нейтраль-назад)</param>
+<param name="Максимальный рабочий диапазон" unit="об/мин" >4500-5500</param>
+</offer>
+<offer id="5761" available="true" >
+<url>https://www.sportest.ru/dvuhtaktnyy-podvesnoy-lodochnyy-motor-sea-pro-t-9-8s-p5761/</url>
+<price>64700</price>
+<oldprice>81300</oldprice>
+<currencyId>RUB</currencyId>
+<categoryId>143</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2021/03/31/PdPSkbh.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Двухтактный подвесной  лодочный мотор SEA-PRO Т 9.8S</name>
+<vendor>SEA-PRO</vendor>
+<description>Является хорошей копией мотора Tohatsu M 9.8. Новый мотор отличается контролем изготовления. На заводе проводятся более 5 межоперационных тестирований: обкатка мотоголовы, опрессовка двигателя и редуктора, проверка помпы, контроль на биение валов и, конечно, финишное тестирование в воде.Sea-Pro T 9.8 S new имеет румпельное управление (ручка газа на румпеле). Запуск двигателя производится вручную шнуром. Мотор Sea-Pro T 9.8 S имеет 3 передачи - переднюю, нейтраль и заднюю. Также есть режим для передвижения по мелководью. Подвесной лодочный мотор Sea-Pro T 9.8 S рассчитан под стандартную высоту транца 381 мм. Предусмотрен внешний топливный бак объемом 24 литра.</description>
+<param name="Топливная смесь"  >50/1</param>
+<param name="Система запуска"  >Ручной стартер</param>
+<param name="Страна происхождения"  >Китай</param>
+<param name="Состояние"  >новый</param>
+<param name="Рекомендуемый тип масла"  >TC-W3</param>
+<param name="Система смазки двигателя"  >премикс</param>
+<param name="Система питания"  >карбюратор</param>
+<param name="Вес" unit="кг" >26</param>
+<param name="Тактность"  >двухтактный</param>
+<param name="Мощность"  >9.8 л.с/7.21 кВт</param>
+<param name="Тип двигателя"  >бензиновый</param>
+<param name="Объем камеры сгорания" unit="см3" >169</param>
+<param name="Число цилиндров"  >2</param>
+<param name="Длина дейдвуда (ноги)"  >381мм (S)</param>
+<param name="Диаметр цилиндра/ход поршня" unit="мм" >50/43</param>
+<param name="Система зажигания"  >CDI</param>
+<param name="Система охлаждения"  >водяное охлаждение</param>
+<param name="Передаточное отношение"  >2.08 (27:13)</param>
+<param name="Объем топливного бака" unit="л" >12</param>
+<param name="Система управления"  >ручное</param>
+<param name="Наличие передач"  >F-N-R (вперед-нейтраль-назад)</param>
+<param name="Изменение наклона двигателя"  >ручное</param>
+</offer>
+<offer id="6001" available="true" >
+<url>https://www.sportest.ru/dvuhtaktnyy-podvesnoy-lodochnyy-motor-sea-pro-t-5s-p6001/</url>
+<price>46700</price>
+<oldprice>58500</oldprice>
+<currencyId>RUB</currencyId>
+<categoryId>143</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2022/03/26/HqVhW5m.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Двухтактный подвесной  лодочный мотор SEA-PRO Т 5S</name>
+<vendor>SEA-PRO</vendor>
+<description>Подвесной лодочный мотор Sea-Pro T5S (Сиа Про Т5) при весе 21 кг, обеспечивает уверенный ход лодки как на водоемах без течения, так и на реках с хорошим течением. Имеет румпельное управление, ручка газа на румпеле. Запуск двигателя производится вручную шнуром. Мотор имеет 3 передачи: переднюю, нейтраль и заднюю. Подвесной лодочный мотор SEA-PRO (TARPON) Т 5S рассчитан под стандартную высоту транца 381 мм . Имеется режим для передвижения по мелководью. Предусмотрен встроенный топливный бак объемом 2,8 л + 12 (внешний). Двухтактный лодочный мотор SEA-PRO Т 5S поставляется в следующей комплектации: 1. Мотор – 1 шт. 2. ЗиП (запасные инструменты и принадлежности) – 1 комплект. 3. Паспорт изделия, гарантийный талон, сервисная книга ... (документы)– 1 комплект. Гарантия на мотор Sea-Pro T5S (TARPON) 2 года! </description>
+<param name="Вес" unit="кг" >21</param>
+<param name="Тактность"  >двухтактный</param>
+<param name="Мощность"  >5 л.с/3.68 кВт</param>
+<param name="Тип двигателя"  >бензиновый</param>
+<param name="Объем камеры сгорания" unit="см3" >103</param>
+<param name="Число цилиндров"  >1</param>
+<param name="Длина дейдвуда (ноги)"  >381мм (S)</param>
+<param name="Диаметр цилиндра/ход поршня" unit="мм" >54/45</param>
+<param name="Система зажигания"  >CDI</param>
+<param name="Система охлаждения"  >водяное охлаждение</param>
+<param name="Передаточное отношение"  >2.08 (27:13)</param>
+<param name="Объем топливного бака" unit="л" >2.8 + 12 (опция)</param>
+<param name="Система управления"  >ручное</param>
+<param name="Страна происхождения"  >Китай</param>
+</offer>
+</offers>
+</shop>
+        </yml_catalog>

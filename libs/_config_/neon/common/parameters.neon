@@ -1,0 +1,34 @@
+parameters:
+	path:
+		libs: %libDir%
+		temp: %tempDir%
+		log: %path.temp%/log
+		cron: %path.temp%/cron
+		config: %path.temp%/config
+		upload: %wwwDir%/upload
+		source: %wwwDir%/source
+		export: %wwwDir%/export
+		export_tmp: %wwwDir%/export_tmp
+		sitemaps: %wwwDir%/sitemaps
+		market: %wwwDir%/market
+		template: %libDir%/templates
+	site:
+		template: default
+		layout: index
+		mobile: false
+		templates:
+#			www:
+#				template: default
+#				layout: index
+#				mobile: false
+			admin:
+				template: admin
+				layout: index
+				mobile: false
+	watermark:
+		normal:
+		 	path: # ./path/watermark.png
+		 	type: # BL, BR, TL, TR, rand
+		preview:
+			path: # ./path/watermark.png
+			type: # BL, BR, TL, TR, rand

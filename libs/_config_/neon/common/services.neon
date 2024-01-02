@@ -1,0 +1,24 @@
+services:
+	configFile: Delorius\Configure\File\Config( %path.config% , common )
+	config: @configFile
+	logger:
+		class: Delorius\Tools\ILogger
+		factory: Delorius\Tools\LoggerFiles( %path.log% )
+	language:
+		class: \CMS\Core\Component\Language
+		setup:
+			- init
+	breadcrumbRenderer:
+		class: Delorius\Page\Breadcrumb\IBreadcrumbRenderer
+		factory: Delorius\Page\Breadcrumb\Rendering\DefaultBreadcrumbRenderer
+	breadCrumbs:
+		class: \Delorius\Page\Breadcrumb\BreadcrumbBuilder
+		factory: \Delorius\Page\Breadcrumb\BreadcrumbBuilder('breadcrumb')
+		setup:
+			- setFirstItem(@language::translate('CMS:Core', 'Home'), '/', null, false)
+			- setRenderer( @breadcrumbRenderer )
+	paginationRenderer:
+		class: Delorius\Page\Pagination\IPaginationRenderer
+		factory: Delorius\Page\Pagination\Rendering\DefaultPaginationRenderer
+	schema: \CMS\Core\Component\Marking\SchenaORG\Schema
+	browser: Delorius\View\Browser

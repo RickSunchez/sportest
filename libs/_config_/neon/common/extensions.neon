@@ -1,0 +1,86 @@
+extensions: #новые приложения https://doc.nette.org/en/2.3/di-extensions
+    orm: Delorius\Core\Bridges\ORMExtension
+    webloader: CMS\Core\Component\WebLoader\WebLoaderExtension
+    header: CMS\Core\Component\Header\Bridges\HeaderExtension
+    parser:  CMS\Core\Component\Snippet\Bridges\ParserExtension
+    mail: CMS\Mail\Model\Notification\Bridges\MailExtension
+    sitemaps: CMS\Core\Component\Sitemaps\Bridges\SitemapsExtension
+
+parser:
+	tags:
+		page: CMS\Core\Component\Snippet\Controls\PageTag
+		news: CMS\Core\Component\Snippet\Controls\NewsTag
+		article: CMS\Core\Component\Snippet\Controls\ArticleTag
+		doc: CMS\Core\Component\Snippet\Controls\DocTag
+		link: CMS\Core\Component\Snippet\Controls\LinkTag
+		gallery: CMS\Core\Component\Snippet\Controls\GalleryTag
+		video: CMS\Core\Component\Snippet\Controls\VideoTag
+		tmptext: CMS\SEO\Component\Snippet\Controls\TmpTextTag
+		image: CMS\Core\Component\Snippet\Controls\ImageTag
+		form: CMS\Core\Component\Snippet\Controls\FormTag
+		config: CMS\Core\Component\Snippet\Controls\ConfigTag
+
+mail:
+	debugger: false
+	type: mail # smtp,sendmail,mail
+	charset: UTF-8
+	smtp: # type = smtp
+		auth: true
+		secure: tls
+		host: smtp.gmail.com
+		port: 587
+		user: mailservicesend7
+		password: mailservicesend
+	from: # кто отправляет
+		name: Отправлено с сайта %host%
+		email: mailservicesend7@gmail.com
+	system: # куда отправлять
+		name: Отправлено с сайта %host%
+		email: mailservicesend7@gmail.com
+		cc: #копися сообщений
+#			user1: mail1@site.com
+#			user2: mail2@site.com
+	signature:
+		- '<br /><br ><hr />'
+		- '<p>ВНИМАНИЕ!!! Не отвечайте на данное письмо, оно выслано автоматически!</p>'
+		- '<p>С уважением, администрация сайта</p>'
+		- '<p>Наш сайт: http://%host%</p>'
+
+header: # для формирования head
+	default: # название сайта поумолчанию для всех default
+		title: 'Заголовок сайта'
+		#description: 'Описане сайта'
+		#keys: [key1,key2]
+		separator: ' :: '
+		reverse_order: true
+		robots: 'index,follow'
+		meta:
+			#viewport: 'width=device-width, initial-scale=1.0'
+		open.graf: #http://ogp.me/
+			#type: website
+			#image: /source/images/no.png
+			#title: 'Заголовок сайта'
+			#site_name: 'Название сайта'
+			#description: 'Короткое описание сайта'
+
+
+webloader: # для загрузки
+	temp: %wwwDir%/theme
+	path: /theme
+	source:
+		js: %path.source%/js
+		css: %path.source%/css
+	gzip:
+		init: false
+		sufix: false
+		ext: gz
+
+
+#{class orm}:
+#	behaviors: #update|delete behaviors in orm
+#		{name behavior}: {class behavior}
+#	table_columns: #update|delete table_columns in orm
+#		{name column}: #delete column
+#		{name column}: #update|insert column
+#			{field}: {value}
+orm:

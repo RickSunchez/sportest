@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+               <!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+               <yml_catalog date="2022-07-20 17:05">
+               <shop>
+<name>Интернет-магазин «СпортЕсть.Ру»</name>
+                <company>ООО Лодки Лиман</company>
+                <url>https://www.sportest.ru</url>
+                <platform>Delorius Framework</platform>
+                <version>2.0</version>
+                <agency>Седьмая группа</agency>
+                <email>info@7thgroup.ru</email>
+<currencies>
+<currency id="RUB" rate="1" plus="0" />
+<currency id="USD" rate="CBRF" plus="0" />
+<currency id="EUR" rate="CBRF" plus="0" />
+</currencies>
+<categories>
+<category id="20"  >Лодки</category>
+<category id="34" parentId="20" >Мастер Лодок</category>
+<category id="28" parentId="20" >SOLAR</category>
+<category id="27" parentId="20" >Prof Marin</category>
+<category id="31" parentId="20" >Адмирал</category>
+<category id="30" parentId="20" >Флагман</category>
+<category id="142" parentId="20" >МНЕВ и Ко + Посейдон</category>
+<category id="25" parentId="20" >WinBoat</category>
+<category id="132" parentId="20" >РИБ Stel</category>
+<category id="24" parentId="20" >Афалина</category>
+<category id="141" parentId="20" >SMarine</category>
+<category id="26" parentId="20" >RusBoat</category>
+<category id="146" parentId="20" >ALTAIR</category>
+<category id="134" parentId="20" >ORCA</category>
+<category id="32" parentId="20" >Хантер</category>
+<category id="147" parentId="20" >Stel</category>
+<category id="150" parentId="20" >Wyatboat</category>
+<category id="149" parentId="20" >ВЫДРА</category>
+<category id="102"  >Мототехника</category>
+<category id="106" parentId="102" >Мотобуксировщики БУРЛАК</category>
+<category id="103" parentId="102" >Снегоходы</category>
+<category id="105" parentId="102" >Мотобуксировщики НОРКА</category>
+<category id="77"  >Лодочные моторы</category>
+<category id="79" parentId="77" >TOHATSU</category>
+<category id="80" parentId="77" >HIDEA</category>
+<category id="84" parentId="77" >Электромоторы</category>
+<category id="136" parentId="77" >ALLFA</category>
+<category id="81" parentId="77" >YAMAHA</category>
+<category id="128" parentId="77" >Hangkai</category>
+<category id="143" parentId="77" >SEA-PRO</category>
+<category id="145" parentId="77" >Marlin</category>
+<category id="140" parentId="77" >Моторы б/у</category>
+<category id="85"  >ЗАПЧАСТИ ДЛЯ ЛОДОЧНЫХ МОТОРОВ</category>
+<category id="86" parentId="85" >TOHATSU</category>
+<category id="87" parentId="85" >HIDEA</category>
+<category id="89" parentId="85" >YAMAHA</category>
+<category id="90" parentId="85" >SUZUKI</category>
+<category id="88" parentId="85" >MERCURY</category>
+<category id="129" parentId="85" >HANGKAI</category>
+<category id="91" parentId="85" >Электрические моторы</category>
+<category id="139" parentId="85" >HONDA</category>
+<category id="137" parentId="85" >Sea-Pro</category>
+<category id="59"  >Аксессуары для лодок</category>
+<category id="71" parentId="59" >Фурнитура для лодок и навесное</category>
+<category id="61" parentId="59" >Алюминиевые профили</category>
+<category id="69" parentId="59" >Насосы для лодок</category>
+<category id="73" parentId="59" >Комплектующие для ремонта и усиления лодок</category>
+<category id="72" parentId="59" >Клапаны</category>
+<category id="75" parentId="59" >Мягкие накладки на сиденья</category>
+<category id="60" parentId="59" >Якоря</category>
+<category id="76" parentId="59" >Крепежные блоки и держатели удилищ</category>
+<category id="62" parentId="59" >Сиденья для лодок</category>
+<category id="65" parentId="59" >Транцевые колеса (шасси)</category>
+<category id="64" parentId="59" >Жилеты</category>
+<category id="63" parentId="59" >Весла для лодок</category>
+<category id="66" parentId="59" >Тенты</category>
+<category id="74" parentId="59" >Спасательные средства</category>
+<category id="70" parentId="59" >Запчасти для насосов</category>
+<category id="15" parentId="59" >Аксессуары для насосов</category>
+<category id="152" parentId="59" >Насосы осушительные</category>
+<category id="67" parentId="59" >Полы для лодок (пайолы)</category>
+<category id="68" parentId="59" >Сумки для лодок</category>
+<category id="92"  >Аксессуары для лодочных моторов</category>
+<category id="93" parentId="92" >Гребные винты</category>
+<category id="100" parentId="92" >Дистанционное управление</category>
+<category id="99" parentId="92" >Топливная система</category>
+<category id="96" parentId="92" >Масла и смазки</category>
+<category id="98" parentId="92" >Свечи</category>
+<category id="101" parentId="92" >Принадлежности для лодочных моторов</category>
+<category id="94" parentId="92" >Чехлы для моторов</category>
+<category id="95" parentId="92" >Тяговые аккумуляторы и ЗУ</category>
+<category id="148" parentId="92" >Тележки для моторов</category>
+<category id="97" parentId="92" >Остановочные лини (Чека)</category>
+<category id="107"  >Нужные мелочи</category>
+<category id="110" parentId="107" >Рыболовные снасти</category>
+<category id="112" parentId="107" >Ледянки</category>
+<category id="114" parentId="107" >Фонари</category>
+<category id="113" parentId="107" >Солнцезащитные очки</category>
+<category id="111" parentId="107" >Сумки спортивные</category>
+<category id="108" parentId="107" >Швейцарские ножи</category>
+<category id="120"  >Эхолоты и аксессуары</category>
+<category id="122" parentId="120" >Аксессуары для эхолотов и навигаторов</category>
+<category id="121" parentId="120" >Эхолоты</category>
+<category id="123" parentId="120" >Держатели датчика эхолота</category>
+<category id="124"  >Водные аттракционы</category>
+<category id="127" parentId="124" >Буксировочные тросы и крепления</category>
+<category id="125" parentId="124" >Надувные аттракционы</category>
+<category id="151" parentId="124" >Sup-доски</category>
+</categories>
+<offers>
+<offer id="57718" available="true" >
+<url>https://www.sportest.ru/dvuhtaktnyy-podvesnoy-lodochnyy-motor-gl-marine-t3-5-gibridnoe-ohlajdenie-p57718/</url>
+<price>19000</price>
+<currencyId>RUB</currencyId>
+<categoryId>80</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2020/12/09/xetS4ZH.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Двухтактный подвесной лодочный мотор Gl Marine T3.5 гибридное охлаждение</name>
+<vendor>Hidea</vendor>
+<param name="Вес" unit="кг" >9.7</param>
+<param name="Объем камеры сгорания" unit="см3" >49</param>
+<param name="Мощность"  >3.5 л.с/2.57 кВт</param>
+<param name="Максимальный рабочий диапазон" unit="об/мин" >5500</param>
+<param name="Система управления"  >ручное</param>
+<param name="Топливный бак"  >встроенный</param>
+<param name="Объем топливного бака" unit="л" >1.4</param>
+<param name="Габариты"  >920 x 380 x 240 mm</param>
+</offer>
+<offer id="278" available="true" >
+<url>https://www.sportest.ru/dvuhtaktnyy-podvesnoy-lodochnyy-motor-hidea-hd5fhs-2-h-taktnyy-p278/</url>
+<price>68600</price>
+<oldprice>76900</oldprice>
+<currencyId>RUB</currencyId>
+<categoryId>80</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2018/07/04/GhArTgw.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Двухтактный подвесной лодочный мотор HIDEA HD5FHS</name>
+<vendor>Hidea</vendor>
+<description>При покупке мотора мы дарим обкатку. Для моторов купленных не в нашем магазине эта услуга стоит от 2500 до 4500р. Вы платите только за горючее (смесь 1/25), которое необходимо независимо от того кто обкатывает мотор, и мы сразу делаем первое ТО ,которое оплачивается отдельно и включает регулировку мотора уже на стандартной смеси 1/50. Лодочный мотор Hidea HD 5 FHS - легкий, двухтактный подвесной двигатель, водяного охлаждения, мощность - 5 л.с., 3,67 кВт, 1 цилиндр, F-N-R (вперед-нейтраль-назад). Мотор НЕ комплектуются внешним баком. Вы можете купить его отдельно.</description>
+<param name="Тактность"  >двухтактный</param>
+<param name="Система зажигания"  >CDI</param>
+<param name="Топливная смесь"  >50/1</param>
+<param name="Наличие передач"  >F-N-R (вперед-нейтраль-назад)</param>
+<param name="Объем топливного бака" unit="л" >2.5</param>
+<param name="Система запуска"  >Ручной стартер</param>
+<param name="Система охлаждения"  >водяное охлаждение</param>
+<param name="Система управления"  >ручное</param>
+<param name="Максимальный рабочий диапазон" unit="об/мин" >4200-5300</param>
+<param name="Свеча зажигания"  >NGK BR6HS</param>
+<param name="Вес" unit="кг" >21</param>
+<param name="Длина дейдвуда (ноги)"  >S</param>
+<param name="Мощность"  >5 л.с/3.68 кВт</param>
+<param name="Состояние"  >новый</param>
+<param name="Число цилиндров"  >1</param>
+<param name="Мощность генератора переменного тока"  >0</param>
+<param name="Изменение наклона двигателя"  >ручное</param>
+<param name="Диаметр цилиндра/ход поршня" unit="мм" >55/43</param>
+<param name="Объем камеры сгорания" unit="см3" >102</param>
+<param name="Габариты" unit="мм" >793/320/996</param>
+<param name="Тип двигателя"  >бензиновый</param>
+<param name="Страна происхождения"  >Китай</param>
+</offer>
+<offer id="1519" available="true" >
+<url>https://www.sportest.ru/dvuhtaktnyy-podvesnoy-lodochnyy-motor-hidea-hd9-8fhs-2-h-taktn-p1519/</url>
+<price>108900</price>
+<oldprice>122200</oldprice>
+<currencyId>RUB</currencyId>
+<categoryId>80</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2020/06/02/NYFNouU.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Двухтактный подвесной лодочный мотор HIDEA HD9.8FHS 2-х тактн.</name>
+<vendor>Hidea</vendor>
+<description>При покупке мотора мы дарим обкатку. Для моторов купленных не в нашем магазине эта услуга стоит от 2500 до 4500р. Вы платите только за горючее (смесь 1/25), которое необходимо независимо от того кто обкатывает мотор, и мы сразу делаем первое ТО ,которое оплачивается отдельно и включает регулировку мотора уже на стандартной смеси 1/50. Лодочный мотор Hidea HD 9.8 FHS - легкий, мощный, двухтактный подвесной двигатель, водяного охлаждения, мощность - 9.8 л.с., 7.2 кВт, 2 цилиндра, F-N-R (вперед-нейтраль-назад), выносной бак в комплекте - 12 л., вес - 26 кг, длина ноги S-381 мм. Скопирован с Tohatsu M9.8 получилось не плохо. Hidea - образец китайского производства высокого качества.  </description>
+<param name="Тип двигателя"  >бензиновый</param>
+<param name="Число цилиндров"  >2</param>
+<param name="Длина дейдвуда (ноги)"  >381мм (S)</param>
+<param name="Мощность"  >9.8 л.с/7.21 кВт</param>
+<param name="Максимальный рабочий диапазон" unit="об/мин" >5000-6000</param>
+<param name="Система запуска"  >Ручной стартер</param>
+<param name="Система охлаждения"  >водяное охлаждение</param>
+<param name="Диаметр цилиндра/ход поршня" unit="мм" >56/50</param>
+<param name="Система управления"  >ручное</param>
+<param name="Габариты" unit="мм" >1090/690/380</param>
+<param name="Мощность генератора переменного тока"  >0</param>
+<param name="Наличие передач"  >F-N-R (вперед-нейтраль-назад)</param>
+<param name="Объем камеры сгорания" unit="см3" >169</param>
+<param name="Объем топливного бака" unit="л" >12</param>
+<param name="Свеча зажигания"  >NGK BP7HS-10/BPR7HS-10</param>
+<param name="Система зажигания"  >CDI</param>
+<param name="Изменение наклона двигателя"  >ручное</param>
+<param name="Тактность"  >двухтактный</param>
+<param name="Вес" unit="кг" >26</param>
+<param name="Страна происхождения"  >Китай</param>
+</offer>
+<offer id="4055" available="true" >
+<url>https://www.sportest.ru/dvuhtaktnyy-podvesnoy-lodochnyy-motor-hidea-hd9-9fhs-2-h-taktn-p4055/</url>
+<price>133700</price>
+<oldprice>137900</oldprice>
+<currencyId>RUB</currencyId>
+<categoryId>80</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2020/06/02/cy49FrY.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Двухтактный подвесной лодочный мотор HIDEA HD9.9FHS 2-х тактн.</name>
+<vendor>Hidea</vendor>
+<description>При покупке мотора мы дарим обкатку. Для моторов купленных не в нашем магазине эта услуга стоит от 2500 до 4500р. Вы платите только за горючее (смесь 1/25), которое необходимо независимо от того кто обкатывает мотор, и мы сразу делаем первое ТО ,которое оплачивается отдельно и включает регулировку мотора уже на стандартной смеси 1/50. Лодочный мотор Hidea HD 9.9 FHS хорошо подходит для любителей рыбалки и владельцам яхт, которые любят длительные прогулки. Двухтактный двигатель позволяет заправить масло и топливо одновременно. Выхлопные газы выводятся через винт, что обеспечивает высокую мощность и более тихую работу. Особенности: - Выносной бензобак 24 л. - Ручной запуск. - Управление с румпеля. - Стандартная высота транца. - Передачи - вперед-нейтраль-назад.</description>
+<param name="Система запуска"  >Ручной стартер</param>
+<param name="Объем камеры сгорания" unit="см3" >246</param>
+<param name="Число цилиндров"  >2</param>
+<param name="Мощность"  >9.9 л.с/7.28 кВт</param>
+<param name="Тип двигателя"  >бензиновый</param>
+<param name="Вес" unit="кг" >38</param>
+<param name="Наличие передач"  >F-N-R (вперед-нейтраль-назад)</param>
+<param name="Система управления"  >ручное</param>
+<param name="Система зажигания"  >CDI</param>
+<param name="Система охлаждения"  >водяное охлаждение</param>
+<param name="Диаметр цилиндра/ход поршня" unit="мм" >56/50</param>
+<param name="Мощность генератора переменного тока"  >0</param>
+<param name="Изменение наклона двигателя"  >ручное</param>
+<param name="Габариты" unit="мм" >873/332/1040</param>
+<param name="Длина дейдвуда (ноги)"  >381мм (S)</param>
+<param name="Свеча зажигания"  >NGK BR7HS</param>
+<param name="Максимальный рабочий диапазон" unit="об/мин" >4500-5500</param>
+<param name="Объем топливного бака" unit="л" >24</param>
+<param name="Тактность"  >двухтактный</param>
+<param name="Страна происхождения"  >Китай</param>
+</offer>
+<offer id="41267" available="true" >
+<url>https://www.sportest.ru/dvuhtaktnyy-podvesnoy-lodochnyy-motor-hidea-hd9-9fhs-pro-326-sm3-p41267/</url>
+<price>148200</price>
+<oldprice>157700</oldprice>
+<currencyId>RUB</currencyId>
+<categoryId>80</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2020/04/20/QhIqHwo.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Двухтактный подвесной лодочный мотор HIDEA HD9.9FHS PRO (326 см3)</name>
+<vendor>Hidea</vendor>
+<description>При покупке мотора мы дарим обкатку. Для моторов купленных не в нашем магазине эта услуга стоит от 2500 до 4500р. Вы платите только за горючее (смесь 1/25), которое необходимо независимо от того кто обкатывает мотор, и мы сразу делаем первое ТО ,которое оплачивается отдельно и включает регулировку мотора уже на стандартной смеси 1/50.</description>
+<param name="Длина дейдвуда (ноги)"  >435мм</param>
+<param name="Свеча зажигания"  >NGK В7НS-10/ВR7НS-10</param>
+<param name="Объем топливного бака" unit="л" >24</param>
+<param name="Вес" unit="кг" >41</param>
+<param name="Система охлаждения"  >водяное охлаждение</param>
+<param name="Объем камеры сгорания" unit="см3" >326</param>
+<param name="Число цилиндров"  >2</param>
+<param name="Мощность"  >9.9 л.с/7.28 кВт</param>
+<param name="Тактность"  >двухтактный</param>
+<param name="Страна происхождения"  >Китай</param>
+</offer>
+<offer id="4924" available="true" >
+<url>https://www.sportest.ru/chetyrehtaktnyy-podvesnoy-lodochnyy-motor-hidea-hdf6hs-4-h-taktnyy-p4924/</url>
+<price>91400</price>
+<oldprice>96200</oldprice>
+<currencyId>RUB</currencyId>
+<categoryId>80</categoryId>
+<picture>https://www.sportest.ru/upload/goods/2018/07/04/AAGZdSe.jpg</picture>
+<store>true</store>
+<pickup>true</pickup>
+<delivery>true</delivery>
+<name>Четырехтактный подвесной лодочный мотор HIDEA HDF6HS 4-х тактный</name>
+<vendor>Hidea</vendor>
+<param name="Максимальный рабочий диапазон" unit="об/мин" >5500</param>
+<param name="Система зажигания"  >CDI</param>
+<param name="Система запуска"  >Ручной стартер</param>
+<param name="Тактность"  >четырехтактный</param>
+<param name="Вес" unit="кг" >27</param>
+<param name="Мощность"  >6 л.с/4.4 кВт</param>
+<param name="Тип двигателя"  >бензиновый</param>
+<param name="Габариты" unit="мм" >793/320/996</param>
+<param name="Система управления"  >ручное</param>
+<param name="Объем камеры сгорания" unit="см3" >139</param>
+<param name="Число цилиндров"  >1</param>
+<param name="Длина дейдвуда (ноги)"  >381мм (S)</param>
+<param name="Объём масла в картере"  >0.45</param>
+<param name="Наличие передач"  >F-N-R (вперед-нейтраль-назад)</param>
+<param name="Страна происхождения"  >Китай</param>
+</offer>
+</offers>
+</shop>
+        </yml_catalog>

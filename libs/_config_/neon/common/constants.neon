@@ -1,0 +1,8 @@
+constants: #константы name:value
+    ADMIN_PER_PAGE: 20
+    IMAGE_WIDTH: 1200
+    IMAGE_HEIGHT: 800
+    IMAGE_PREVIEW_WIDTH: 300
+    IMAGE_PREVIEW_HEIGHT: 300
+    DEBUG_MODE: FALSE
+

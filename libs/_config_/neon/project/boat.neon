@@ -1,0 +1,526 @@
+constants: #константы name:value
+    PRICE_DELIVERY_FREE: 10000
+    PRICE_CREDIT: 10000
+    SHOP_CODE_PREFIX: 'SE-'
+    EXCHANGE_NOT: 0
+    EXCHANGE_QUERY: 1
+    EXCHANGE_FINISH: 2
+    PAGE_ID_CONTACT: 36
+    PAGE_ID_DELIVERY: 35
+
+parameters:
+    product_select_list:
+        - shop_goods.goods_id
+        - shop_goods.name
+        - shop_goods.short_name
+        - shop_goods.url
+        - shop_goods.article
+        - shop_goods.code
+        - shop_goods.value
+        - shop_goods.value_old
+        - shop_goods.is_amount
+        - shop_goods.cid
+        - shop_goods.delivery
+seo:
+    enable: true
+
+routing:
+	router:
+		Boat:
+			Admin:
+				options:
+					host: admin
+			Store:
+			Core:
+
+menu:
+	admin:
+		content:
+			links!:
+				Страницы: [admin_page,[action=list]]
+				Статьи: [admin_article,[action=list]]
+				Галерея: [admin_gallery,[action=list]]
+				Документы: [admin_doc,[action=list]]
+				Изображение: [admin_image,[action=list]]
+				Видео: [admin_video,[action=list]]
+		config:
+			links!:
+#				Категории: [admin_cms_category,[action=list]]
+#				Теги: [admin_tags,[action=list]]
+#				Баннеры: [admin_banner,[action=list]]
+				Слайдер: [admin_slider,[action=list]]
+				Меню: [admin_menu,[action=list]]
+#				Шаблоны: [admin_tmp,[action=list]]
+		static:
+			links!:
+				Обратный звонок: [admin_callback,[action=list]]
+				Короткая ссылка: [admin_go,[action=list]]
+		shop:
+			links!:
+				Яндекс Маркет: [admin_yml,[action=list]]
+				Заказы: [admin_order,[action=list]]
+				Схемы: [admin_schema,[action=list]]
+				Категории: [admin_category,[action=list]]
+				Товар: [admin_goods,[action=list]]
+				Выборки товаров: [admin_line_product,[action=list]]
+				Типы товаров: [admin_goods_type,[action=list]]
+				Группы товаров: [admin_product_collection,[action=list]]
+				Характеристики: [admin_chara,[action=list]]
+				Единицы измерений: [admin_unit,[action=list]]
+				Производители: [admin_vendor,[action=list]]
+				Валюта: [admin_currency,[action=list]]
+				Выгрузка 1С: [admin_1c,[action=index]]
+#				Отзывы к товарам: [admin_reviews,[action=list]]
+		location:
+			links!:
+#				Страны: [admin_country,[action=list]]
+				Города: [admin_city,[action=list]]
+
+shop:
+	shop: # Shop:Shop
+		init: true
+		type!:
+			1:
+				colletcion: false # первоначально показывать коллекции
+				page: 21
+				paginationRenderer:
+				router: shop_category_list
+				first: false
+				layout:
+					collection: index
+					catalog: index
+					nothing: index
+					goods: index
+					type: index
+				show:
+					types: false
+					vendor: false
+					images: true
+					characteristics: false
+				view:
+					category: shop/category
+					goods: shop/goods
+					filter: shop/filters
+
+	commodity: # Shop:Commodity
+		type!:
+			1: #type_goods
+				page: 21
+				paginationRenderer:
+				router: shop_category_list
+				first: false
+				layout:
+					goods: index
+					collection: index
+					search: index
+				show:
+					types: false
+					images: true
+					sections: true
+					vendor: false
+					characteristics: false
+				view:
+					goods: shop/goods
+					option: shop/options
+		types!:
+			1:
+				id: 1
+				name: Хит продаж
+			2:
+				id: 2
+				name: Новинки
+			3:
+				id: 3
+				name: Рекомендуемые товары
+			4:
+				id: 4
+				name: Акции
+
+	you_watched: 3 #кол-во просмотреных товаров
+	after_by:
+		limit: 6
+		type_id: 6
+	payment: #Shop:Payment
+		layout: index
+		sberbank!:
+			login: P666100269610-api
+			pass: '19079Vovqqww'
+			test: false
+			method: POST
+	store:
+		minimum: 0 # минимальная стоимость заказа
+		order_auth: false #обезательно ли быть авторизованым при оформлении и просмотре заказа
+
+		currency:
+			init: true
+			code: RUB
+			decimal_point: '.'
+			thousand_point: &nbsp;
+
+		layout:
+			cart: index
+			order: index
+		#
+		# Cart
+		# все что касается оформления корзины
+		#
+		# Доставка
+		delivery_default: 1
+		delivery!:
+			1:
+				id: 1
+				name: Самовывоз
+				desc:
+				value: 0
+				status: true
+				type: \Shop\Store\Component\Cart\Delivery\Pickup
+			2:
+				id: 2
+				name: Доставка по г. Екатеринбургу
+				desc:
+				value: 500
+				status: true
+				type: \Boat\Store\Component\Cart\Delivery\DeliveryToCity
+			3:
+				id: 3
+				name: Транспортной компанией
+				desc:
+				value: 0
+				status: true
+				type: \Shop\Store\Component\Cart\Delivery\DeliveryDefault
+			4:
+				id: 4
+				name: Почтой России
+				desc:
+				value: 0
+				status: true
+				type: \Shop\Store\Component\Cart\Delivery\DeliveryDefault
+
+		#Города
+		city_default: 0
+		cities_type: \Shop\Store\Component\Cart\City\CityDefault
+		cities:
+#			1:
+#				id: 1
+#				name: Названия города
+#				value: 450
+#				points:
+#					1:
+#						id: 1
+#						address: 'Адрес'
+#						locations: [56.796299,60.61006]
+#						info: 'Информация'
+		#Способ оплаты
+		payment_method_default: 2
+		payment_method!:
+			1:
+				id: 1
+				name: On-line оплата картой банка
+				status: true
+				type: \Shop\Store\Component\Cart\Payment\PaymentSberbank
+			2:
+				id: 2
+				name: Оплата в магазине
+				status: true
+				type: \Shop\Store\Component\Cart\Payment\Payment
+			3:
+				id: 3
+				name: Наложенный платеж
+				status: true
+				type: \Shop\Store\Component\Cart\Payment\Payment
+			4:
+				id: 4
+				name: Оплата на расчетный счет
+				status: true
+				type: \Shop\Store\Component\Cart\Payment\Payment
+			5:
+				id: 5
+				name: Кредит
+				status: true
+				type: \Boat\Store\Component\Cart\Payment\PaymentPochtaBank
+
+cms:
+	news:
+		page: 20
+		layout: index
+		first:
+			name: Новости
+			router: [news]
+	article:
+		page: 20
+		layout: index
+		first:
+			name: Статьи
+			router: [articles]
+	gallery:
+		page: 20
+		layout: index
+		first:
+			name: Портфолио
+			router: [galleries]
+
+orm:
+	Shop\Catalog\Entity\Category:
+		behaviors:
+			imageBehavior:
+				class: CMS\Core\Behaviors\ImageBehavior
+				path: category
+				ratio_fill: true
+				preview_width: 300
+				preview_height: 300
+			metaDataBehavior:
+				class: CMS\Core\Behaviors\MetaDataBehavior
+				title: 'Купить {header_title} в [city:name?v=2] | {name} цены'
+				desc: '{header_title} с доставкой по всей России от производителей «СпортЕсть.Ру»'
+		table_columns:
+			owner_id:
+				column_name: owner_id
+				data_type: int unsigned
+				display: 11
+				column_default: 0
+
+	Shop\Commodity\Entity\CollectionProduct:
+		table_columns:
+			owner_id:
+				column_name: owner_id
+				data_type: int unsigned
+				display: 11
+				column_default: 0
+			external_id:
+				column_name: external_id
+				data_type: varchar
+				character_maximum_length: 36
+				collation_name: utf8_general_ci
+
+	Shop\Commodity\Entity\Goods:
+		behaviors:
+		    galleryBehavior:
+		        class: CMS\Core\Behaviors\GalleryBehavior
+		        path: goods
+		        ratio_fill: true
+		        preview_width: 300
+		        preview_height: 300
+		    metaDataBehavior:
+		        class: CMS\Core\Behaviors\MetaDataBehavior
+		        title: '{name} [city:name] | {article}'
+		        desc: '{name} купить с доставкой - магазин «Спорт Есть»'
+		table_columns:
+			owner_id:
+				column_name: owner_id
+				data_type: int unsigned
+				display: 11
+				column_default: 0
+			parent_id:
+				column_name: parent_id
+				data_type: int unsigned
+				display: 11
+				column_default: 0
+			parent_external_id:
+				column_name: parent_external_id
+				data_type: varchar
+				character_maximum_length: 36
+				collation_name: utf8_general_ci
+			delivery:
+				column_name: delivery
+				data_type: int unsigned
+				display: 11
+				column_default: 0
+
+	Shop\Store\Entity\Order:
+		behaviors:
+		    accountBehavior:
+		        class: Shop\Payment\Behaviors\AccountBehavior
+		        desc: 'Оплата заказа {number}'
+		        field_price: value
+		        callback: Boat\Store\Payment\Callback\OrdersCallback
+		table_columns:
+			exchange_status:
+				column_name: exchange_status
+				data_type: tinyint unsigned
+				display: 1
+				column_default: 0
+
+	CMS\Core\Entity\Page:
+		behaviors:
+			imageBehavior:
+				class: CMS\Core\Behaviors\ImageBehavior
+				path: page
+				crop: true
+				preview_width: 300
+				preview_height: 300
+	CMS\Core\Entity\Article:
+		behaviors:
+			imageBehavior:
+				class: CMS\Core\Behaviors\ImageBehavior
+				path: article
+				crop: true
+				preview_width: 300
+				preview_height: 300
+	CMS\Core\Entity\Gallery:
+		behaviors:
+			galleryBehavior!:
+				class: CMS\Core\Behaviors\GalleryBehavior
+				path: gallery
+				ratio_fill: FALSE
+				crop: FALSE
+				preview_width: 400
+				preview_height: 0
+
+location:
+	city!:
+		phone: 'Телефон'
+		wt: 'Whatsapp'
+		wt_raw: 'Whatsapp link'
+		time_work: 'Время работы пн,пт'
+		time_work2: 'Время работы сб,вс'
+		street: 'Улица'
+		cID: 'ID PAGE: Контактов'
+		dID: 'ID PAGE: Доставки'
+
+thumb:
+    constants:
+         JPEG_QUALITY: 90
+         THUMB_BROWSER_CACH: true
+    set!:
+        x105:
+            target: path
+            size: x105
+            crop: 0
+            trim: 1
+            zoom: 0
+            align: c # c, t, r, b, l, tl, tr, br, bl
+            sharpen: 12 # 0-100
+            gray: 0
+            ignore: 0 # for gif
+        x120:
+            target: path
+            size: x120
+            crop: 0
+            trim: 1
+            zoom: 0
+            align: c # c, t, r, b, l, tl, tr, br, bl
+            sharpen: 12 # 0-100
+            gray: 0
+            ignore: 0 # for gif
+        x200:
+            target: path
+            size: x200
+            crop: 0
+            trim: 1
+            zoom: 0
+            align: c # c, t, r, b, l, tl, tr, br, bl
+            sharpen: 12 # 0-100
+            gray: 0
+            ignore: 0 # for gif
+        180: #  для orm /thumb/{image_id}/200
+            target: false # id orm
+            type: preview # preview|normal
+            size: 180x180
+            crop: 0
+            trim: 1
+            zoom: 1
+            align: c # c, t, r, b, l, tl, tr, br, bl
+            sharpen: 0 # 0-100
+            gray: 0
+            ignore: 0 # for gif
+        196: #  для orm /thumb/{image_id}/200
+            target: false # id orm
+            type: preview # preview|normal
+            size: 196x196
+            crop: 0
+            trim: 1
+            zoom: 1
+            align: c # c, t, r, b, l, tl, tr, br, bl
+            sharpen: 0 # 0-100
+            gray: 0
+            ignore: 0 # for gif
+        146: #  для orm /thumb/{image_id}/200
+            target: false # id orm
+            type: preview # preview|normal
+            size: 146x146
+            crop: 0
+            trim: 1
+            zoom: 1
+            align: c # c, t, r, b, l, tl, tr, br, bl
+            sharpen: 0 # 0-100
+            gray: 0
+            ignore: 0 # for gif
+        100: #  для orm /thumb/{image_id}/200
+            target: false # id orm
+            type: preview # preview|normal
+            size: 100x100
+            crop: 0
+            trim: 1
+            zoom: 1
+            align: c # c, t, r, b, l, tl, tr, br, bl
+            sharpen: 0 # 0-100
+            gray: 0
+            ignore: 0 # for gif
+        30: #  для orm /thumb/{image_id}/200
+            target: false # id orm
+            type: preview # preview|normal
+            size: 30x30
+            crop: 0
+            trim: 1
+            zoom: 1
+            align: c # c, t, r, b, l, tl, tr, br, bl
+            sharpen: 0 # 0-100
+            gray: 0
+            ignore: 0 # for gif
+        40: #  для orm /thumb/{image_id}/200
+            target: false # id orm
+            type: preview # preview|normal
+            size: 40x40
+            crop: 0
+            trim: 1
+            zoom: 1
+            align: c # c, t, r, b, l, tl, tr, br, bl
+            sharpen: 0 # 0-100
+            gray: 0
+            ignore: 0 # for gif
+        300: #  для orm /thumb/{image_id}/200
+            target: false # id orm
+            type: normal # preview|normal
+            size: 300x300
+            crop: 0
+            trim: 1
+            zoom: 0
+            align: c # c, t, r, b, l, tl, tr, br, bl
+            sharpen: 12 # 0-100
+            gray: 0
+            ignore: 0 # for gif
+
+
+sitemaps:
+	\CMS\Core\Component\Sitemaps\Controls\PageSitemaps:
+		site: www
+	\CMS\Core\Component\Sitemaps\Controls\ArticleSitemaps:
+		site: www
+		no_cid:
+	\Location\Store\Component\Sitemaps\Collections\CategoryCollectionSitemaps:
+		site: www
+		type_id: 1
+		default_router: default_shop_category_list
+		router: shop_category_list
+	\Location\Store\Component\Sitemaps\Collections\CollectionCollectionSitemaps:
+		site: www
+		type_id: 1
+		default_router: default_shop_category_collection
+		router: shop_category_collection
+	\Location\Store\Component\Sitemaps\Collections\GoodsCollectionSitemaps:
+		site: www
+		type_id: 1
+		default_router: default_shop_goods
+		router: shop_goods
+
+migration:
+	orm:
+		- Boat\Core\Entity\Note
+		- Boat\Core\Entity\NoteItem
+		- Boat\Core\Entity\Schema
+
+webloader:
+	js:
+		admin:
+			files:
+				- controller/admin_boat.js

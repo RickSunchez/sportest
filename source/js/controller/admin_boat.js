@@ -1,0 +1,436 @@
+angular.module('df.admin')
+    .controller('SchemaController',
+        ['$scope', '$http', 'dfLoading', '$window', 'dfImage',
+            function ($scope, $http, dfLoading, $window, dfImage) {
+                $scope.categories = [];
+                $scope.schema = {};
+                $scope.product = {};
+                $scope.vendors = [];
+                $scope.notes = [];
+                $scope.meta = {};
+                $scope.image = {};
+                $scope.form = {};
+
+                $scope.init = function () {
+                    $scope.schema = $window._schema;
+                    $scope.meta = $window._meta;
+                    $scope.product = $window._product;
+                    $scope.vendors = $window._vendors;
+                    $scope.image = $window._image;
+                    if ($scope.schema.id) {
+                        $scope.load();
+                    }
+
+                    $scope.getCategories(1);
+                }
+
+                $scope.onFileSelect = function ($files, id) {
+                    for (var i = 0; i < $files.length; i++) {
+                        var file = $files[i];
+                        dfLoading.loading();
+                        dfImage.set(file, id,
+                            '\\Boat\\Core\\Entity\\Schema',
+                            function (data, status, headers, config) {
+                                dfLoading.ready();
+                                if (data.error) {
+                                    dfNotice.error(data.error);
+                                }
+                                else {
+                                    $scope.image = data;
+                                }
+                            });
+                    }
+                };
+
+
+                $scope.load = function () {
+                    dfLoading.loading('load');
+                    $http.post('[[link:admin_schema_data?action=loadNote]]', {
+                        id: $scope.schema.id
+                    })
+                        .success(function (response) {
+                            dfLoading.ready('load');
+                            $scope.notes = response.notes;
+
+                        });
+                }
+
+                $scope.$on('selectGoods', function (ev, goods) {
+                    $scope.product = goods;
+                    $scope.schema.pid = goods.goods_id;
+                    $.magnificPopup.close();
+                });
+
+
+                $scope.add = function () {
+                    if (!$scope.form.name) {
+                        return;
+                    }
+
+                    $scope.form.sid = $scope.schema.id;
+                    $scope.form.status = 0;
+                    $scope.form.pos = $scope.form.pos || 0;
+                    dfLoading.loading();
+                    $http.post('[[link:admin_schema_data?action=saveNote]]', {
+                        note: $scope.form
+                    })
+                        .success(function (response) {
+                            dfLoading.ready();
+                            if (response.error) {
+                                dfNotice.error(response.error);
+                                return;
+                            }
+                            if (response.ok) {
+                                $scope.form = {};
+                                $scope.load();
+                            }
+                        });
+                }
+
+                $scope.delete = function (id) {
+                    if (!confirm('Вы действительно хотите удалить?')) {
+                        return false;
+                    }
+                    dfLoading.loading();
+                    $http.post('[[link:admin_schema_data?action=deleteNote]]', {id: id})
+                        .success(function (response) {
+                            dfLoading.ready();
+                            if (response.error) {
+                                alert(response.error);
+                                return;
+                            }
+                            if (response.ok) {
+                                $scope.load();
+                            }
+                        });
+                };
+
+                $scope.status = function (note, status) {
+                    note.status = status;
+                    $scope.edit(note);
+                }
+
+                $scope.edit = function (note) {
+                    dfLoading.loading();
+                    $http.post('[[link:admin_schema_data?action=saveNote]]', {
+                        note: note
+                    })
+                        .success(function (response) {
+                            dfLoading.ready();
+                            if (response.error) {
+                                dfNotice.error(response.error);
+                                return;
+                            }
+                            if (response.ok) {
+                                $scope.load();
+                            }
+                        });
+                };
+
+
+                $scope.save = function () {
+                    dfLoading.loading();
+                    $http.post('[[link:admin_schema_data?action=save]]', {
+                        schema: $scope.schema,
+                        meta: $scope.meta
+                    })
+                        .success(function (response) {
+                            dfLoading.ready();
+                            if (response.error) {
+                                dfNotice.error(response.error);
+                                return;
+                            }
+
+                            if (response.ok) {
+                                var href = '[[link:admin_schema?action=edit]]?id=' + response.schema.id;
+                                window.location.href = href;
+                            }
+                        });
+                };
+
+                $scope.getCategories = function (typeId) {
+                    dfLoading.show('.category_load', 'getCategories');
+                    $scope.categories = [];
+                    $http.post('[link:admin_category_data?action=categoriesSelect]', {
+                        type_id: typeId,
+                        placeholder: 'Без категории'
+                    })
+                        .success(function (response) {
+                            dfLoading.hide('.category_load', 'getCategories');
+                            $scope.categories = response.categories;
+                        });
+                }
+
+            }])
+    .controller('NoteController',
+        ['$scope', '$http', 'dfLoading', '$window', 'dfImage',
+            function ($scope, $http, dfLoading, $window, dfImage) {
+                $scope.note = {};
+                $scope.schema = {};
+                $scope.items = [];
+                $scope.products = [];
+                $scope.meta = {};
+                $scope.form = {};
+                $scope.image = {};
+
+                $scope.init = function () {
+                    $scope.note = $window._note;
+                    $scope.schema = $window._schema;
+                    $scope.meta = $window._meta;
+                    $scope.image = $window._image;
+
+                    $scope.load();
+                }
+
+                $scope.onFileSelect = function ($files, id) {
+                    for (var i = 0; i < $files.length; i++) {
+                        var file = $files[i];
+                        dfLoading.loading();
+                        dfImage.set(file, id,
+                            '\\Boat\\Core\\Entity\\Note',
+                            function (data, status, headers, config) {
+                                dfLoading.ready();
+                                if (data.error) {
+                                    dfNotice.error(data.error);
+                                }
+                                else {
+                                    $scope.image = data;
+                                }
+                            });
+                    }
+                };
+
+                $scope.get_product = function (pid) {
+                    if ($scope.products[pid]) {
+                        return $scope.products[pid].name;
+                    } else {
+                        return '';
+                    }
+                }
+
+                $scope.load = function (resolve) {
+                    dfLoading.loading('load');
+                    $http.post('[[link:admin_schema_data?action=loadNoteItems]]', {
+                        id: $scope.note.id
+                    })
+                        .success(function (response) {
+                            dfLoading.ready('load');
+                            $scope.items = response.items;
+                            $scope.products = response.products;
+
+                            if (resolve != undefined) resolve();
+                        });
+                }
+
+                // #NK
+                $scope.load_product = function (item) {
+                    var url = '[link:admin_goods_data?action=goodsList&type_id=1]&option=';
+                    // load_ajax_popup(url + item.id); // backup
+                    load_ajax_popup(url + (item ? item.id : "new")); // del
+                }
+
+                $scope.$on('selectGoods', function (ev, goods) {
+                    $scope.form.name = goods.name; // del
+                    var savedIds = new Set();
+                    if (goods.option == "new") {
+                        if ($scope.items) {
+                            $scope.items.forEach((elem)=>{ savedIds.add(elem.id) });
+                        }    
+                        
+                        new Promise(resolve => {
+                            $scope.add(resolve)
+                        }).then(()=>{
+                            $scope.items.forEach((elem)=>{
+                                if (savedIds.has(elem.id)) {
+                                    savedIds.delete(elem.id) 
+                                } else {
+                                    savedIds.add(elem.id) 
+                                }
+                            })
+
+                            var note_id = savedIds.values().next().value;
+
+                            $scope.edit({id: note_id, pid: goods.goods_id, article: goods.article});
+                            $scope.load();
+                            $.magnificPopup.close();
+                        })
+                    } else {
+                        var note_id = goods.option;
+
+                        $scope.edit({id: note_id, pid: goods.goods_id});
+                        $.magnificPopup.close();
+                    }                    
+                });
+
+                // #NK
+                $scope.add = function (resolveAdd) {
+                    if (!$scope.form.name) {
+                        return;
+                    }
+                    
+                    $scope.form.nid = $scope.note.id;
+                    $scope.form.status = 0;
+                    $scope.form.pos = $scope.form.pos || 0;
+                    dfLoading.loading();
+                    $http.post('[[link:admin_schema_data?action=saveNoteItem]]', {
+                        note: $scope.form
+                    })
+                        .success(function (response) {
+                            dfLoading.ready();
+                            if (response.error) {
+                                dfNotice.error(response.error);
+                                return;
+                            }
+                            if (response.ok) {
+                                $scope.form = {};
+                                
+                                if (resolveAdd == undefined) {
+                                    $scope.load();
+                                } else {
+                                    new Promise(resolveLoad => {
+                                        $scope.load(resolveLoad);
+                                    }).then(()=>{
+                                        resolveAdd();
+                                    })
+                                }
+                            }
+                        });
+                }
+
+                $scope.delete = function (id) {
+                    if (!confirm('Вы действительно хотите удалить?')) {
+                        return false;
+                    }
+                    dfLoading.loading();
+                    $http.post('[[link:admin_schema_data?action=deleteNoteItem]]', {id: id})
+                        .success(function (response) {
+                            dfLoading.ready();
+                            if (response.error) {
+                                alert(response.error);
+                                return;
+                            }
+                            if (response.ok) {
+                                $scope.load();
+                            }
+                        });
+                };
+
+                $scope.status = function (note, status) {
+                    note.status = status;
+                    $scope.edit(note);
+                }
+
+                $scope.edit = function (note) {
+                    console.log($scope.form)
+                    dfLoading.loading();
+                    $http.post('[[link:admin_schema_data?action=saveNoteItem]]', {
+                        note: note
+                    })
+                        .success(function (response) {
+                            dfLoading.ready();
+                            if (response.error) {
+                                dfNotice.error(response.error);
+                                return;
+                            }
+                            if (response.ok) {
+                                $scope.load();
+                            }
+                        });
+                };
+
+
+                $scope.save = function () {
+                    dfLoading.loading();
+                    $http.post('[[link:admin_schema_data?action=saveNote]]', {
+                        note: $scope.note,
+                        meta: $scope.meta
+                    })
+                        .success(function (response) {
+                            dfLoading.ready();
+                            if (response.error) {
+                                dfNotice.error(response.error);
+                                return;
+                            }
+
+                            if (response.ok) {
+                                var href = '[[link:admin_schema?action=note]]?id=' + response.note.id;
+                                // window.location.href = href;
+                            }
+                        });
+                };
+
+
+            }])
+    .controller('SchemaListCtrl',
+        ['$scope', '$http', 'dfLoading', '$window', 'dfNotice',
+            function ($scope, $http, dfLoading, $window, dfNotice) {
+
+                $scope.schemes = [];
+
+                $scope.init = function () {
+                    $scope.schemes = $window._schemes;
+
+                }
+
+                $scope.status = function (id, status) {
+                    dfLoading.loading();
+                    $http.post('[link:admin_schema_data?action=status]', {id: id, status: status})
+                        .success(function (response) {
+                            dfLoading.ready();
+                            if (response.error) {
+                                dfNotice.error(response.error);
+                                return;
+                            }
+                            if (response.ok) {
+                                $.each($scope.schemes, function (index, scheme) {
+                                    if (scheme.id == id) {
+                                        $scope.schemes[index].status = status;
+                                        return;
+                                    }
+                                });
+                            }
+                        });
+                }
+
+                $scope.copy = function (id) {
+                    dfLoading.loading();
+                    $http.post('[link:admin_schema_data?action=copy]', {id: id})
+                        .success(function (response) {
+                            dfLoading.ready();
+                            if (response.error) {
+                                dfNotice.error(response.error);
+                                return;
+                            }
+                            if (response.ok) {
+                                var href = '[[link:admin_schema?action=edit]]?id=' + response.schema.id;
+                                window.location.href = href;
+                            }
+                        });
+                }
+
+                $scope.delete = function (id) {
+                    if (!confirm('Вы действительно хотите удалить?')) {
+                        return false;
+                    }
+                    dfLoading.loading();
+                    $http.post('[link:admin_schema_data?action=delete]', {id: id})
+                        .success(function (response) {
+                            dfLoading.ready();
+                            if (response.error) {
+                                dfNotice.error(response.error);
+                                return;
+                            }
+                            if (response.ok) {
+                                $.each($scope.schemes, function (index, scheme) {
+                                    if (scheme.id == id) {
+                                        $scope.schemes.splice(index, 1);
+                                        return false;
+                                    }
+                                });
+                                dfNotice.ok(response.ok);
+                                return;
+                            }
+                        });
+                }
+
+            }]);

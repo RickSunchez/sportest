@@ -1,0 +1,93 @@
+constants:
+	LOC_CONFIG: true
+
+
+services:
+	city: \Location\Core\Model\CitiesBuilder
+
+
+parser:
+	tags:
+		city: \Location\Core\Component\Snippet\Controls\CityTag
+		shop: \Location\Core\Component\Snippet\Controls\ShopTag
+
+extensions:
+	location: Location\Core\Bridges\LocationExtension
+
+menu:
+	admin:
+		location:
+			name: Местоположения
+			links:
+				Страны: [admin_country,[action=list]]
+				Города: [admin_city,[action=list]]
+
+
+migration:
+	orm:
+		Location\Core\Entity\Country:
+			-
+				name: Россия
+				url: russia
+		- Location\Core\Entity\City
+		- Location\Core\Entity\Metro
+
+
+webloader:
+	js:
+		admin:
+			files:
+				- controller/admin_location.js
+
+
+routing:
+	router:
+		Location:
+			Core:
+				options:
+					host: www
+			Store:
+				options:
+					host: www
+			Admin:
+				options:
+					host: admin
+
+
+orm:
+	Shop\Commodity\Entity\Goods:
+		behaviors:
+			goodsBehavior: Location\Store\Behaviors\GoodsBehavior
+	Shop\Commodity\Entity\Collection:
+		behaviors:
+			collectionBehavior: Location\Store\Behaviors\CollectionBehavior
+
+#sitemaps:
+#	\Location\Core\Component\Sitemaps\Controls\CitiesSitemaps:
+#		site: www
+#	\Location\Store\Component\Sitemaps\Controls\CategorySitemaps:
+#		site: www
+#		type_id: 1
+#		default_router: default_shop_category_list
+#		router: shop_category_list
+#	\Location\Store\Component\Sitemaps\Controls\CollectionCategorySitemaps:
+#		site: www
+#		type_id: 1
+#		default_router: default_shop_category_collection
+#		router: shop_category_collection
+
+location:
+	city:
+		phone: ['Телефон','+7 (___) ___-__-__']
+	is_routing: true
+	router:
+		name: 'homepage_city'
+		path: '/{city_url}/'
+		default:
+			_controller: Location:Core:Home:index
+		requirements:
+			city_url: '([0-9a-zA-Z\-]+)'
+		options:
+			host: www
+		host: NULL
+		methods:

@@ -1,0 +1,1 @@
+<?= $video->getEmbedCode($w,$h,$a) ?>

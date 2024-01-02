@@ -1,0 +1,1 @@
+<?DI()->getService('header')->render();?>

@@ -1,0 +1,91 @@
+<?php
+define('DIR_INDEX',__DIR__.'/../');
+include_once DIR_INDEX . '/libs/bootstrap.php';
+
+#/usr/bin/php /home/u13359/site.com/www/cron/migration.php 1> /dev/null  2>&1
+
+$exportPath = __DIR__ . '/../export';
+$importFiles = ['import.xml', 'offers.xml', '.lock'];
+
+function runImport() {
+    global $exportPath, $importFiles;
+    file_put_contents(implode('/', [$exportPath, '.lock']), 1);
+    try {
+        $cron = new \Boat\Store\Cron\Export1cCron('Export1c');
+        echo $cron->Exec();
+    } catch (\Delorius\Exception\Error $e) {
+        logger('[import][script] error: ' . $e->getMessage());
+        echo $e->getMessage();
+        return false;
+    }
+
+    foreach ($importFiles as $file) {
+        copy($exportPath . '/' . $file, __DIR__ . '/../saved/' . $file);
+	unlink($exportPath . '/' . $file);
+    }
+
+    return true;
+}
+
+function rmrf($dirPath) {
+    $cmd = [
+        'rm -rf',
+        $dirPath
+    ];
+
+    exec(implode(' ', $cmd));
+}
+
+$importExists = is_file($exportPath . '/import.xml');
+$offersExists = is_file($exportPath . '/offers.xml');
+
+if (!$importExists || !$offersExists) {
+    logger('[import][script] files not found');
+    return;
+}
+
+$ignoreFiles = ['.', '..', 'import.xml', 'offers.xml', '.lock'];
+$listdir = array_filter(scandir($exportPath), function ($item) use ($ignoreFiles) {
+    return !in_array($item, $ignoreFiles);
+}) ;
+
+logger('[import][script] run import for files');
+if (!runImport()) {return;};
+
+if (count($listdir) == 0) {
+    return;
+}
+
+logger('[import][script] run import for folders');
+
+foreach ($listdir as $dir) {
+    $workDir = $exportPath . '/' . $dir;
+    logger('[import][script] folder: ' . $workDir);
+
+    $importPath = $workDir . '/import.xml';
+    $offersPath = $workDir . '/offers.xml';
+
+    if (!is_file($importPath) || !is_file($offersPath)) {
+        logger('[import][script] files not found');
+        logger('[import][script] delete directory');
+        rmrf($workDir);
+        continue;
+    }
+
+    logger('[import][script] copy files');
+    $success1 = copy($importPath, $exportPath . '/import.xml');
+    $success2 = copy($offersPath, $exportPath . '/offers.xml');
+    if (!$success1 || !$success2) {
+        logger('[import][script] copy error, exit');
+        return;
+    }
+
+    logger('[import][script] create .lock file');
+    file_put_contents($exportPath . '/.lock', '1');
+
+    logger('[import][script] import');
+    if (!runImport()) {return;};
+
+    logger('[import][script] delete directory');
+    rmrf($workDir);
+}
